@@ -1,0 +1,6 @@
+Invoking command in '/root/dev_ava/build/ava_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/dev_ava/src/ava_msgs -DCMAKE_INSTALL_PREFIX=/root/dev_ava/install/ava_msgs
+Invoked command in '/root/dev_ava/build/ava_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/dev_ava/src/ava_msgs -DCMAKE_INSTALL_PREFIX=/root/dev_ava/install/ava_msgs
+Invoking command in '/root/dev_ava/build/ava_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/dev_ava/build/ava_msgs -- -j4 -l4
+Invoked command in '/root/dev_ava/build/ava_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/dev_ava/build/ava_msgs -- -j4 -l4
+Invoking command in '/root/dev_ava/build/ava_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/dev_ava/build/ava_msgs
+Invoked command in '/root/dev_ava/build/ava_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/dev_ava/build/ava_msgs

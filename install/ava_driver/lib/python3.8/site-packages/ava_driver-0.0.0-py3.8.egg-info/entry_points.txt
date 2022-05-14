@@ -1,0 +1,3 @@
+[console_scripts]
+ava_driver = ava_driver.ava_driver:main
+

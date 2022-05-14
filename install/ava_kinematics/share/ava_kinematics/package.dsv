@@ -1,0 +1,3 @@
+source;share/ava_kinematics/hook/pythonpath.ps1
+source;share/ava_kinematics/hook/pythonpath.dsv
+source;share/ava_kinematics/hook/pythonpath.sh

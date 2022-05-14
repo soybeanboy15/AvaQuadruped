@@ -1,0 +1,34 @@
+[3.917s] Invoking command in '/root/dev_ava/src/ava_bringup': PYTHONPATH=/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_bringup build --build-base /root/dev_ava/build/ava_bringup/build install --prefix /root/dev_ava/install/ava_bringup --record /root/dev_ava/build/ava_bringup/install.log --single-version-externally-managed
+[4.739s] running egg_info
+[4.743s] creating ../../build/ava_bringup/ava_bringup.egg-info
+[4.744s] writing ../../build/ava_bringup/ava_bringup.egg-info/PKG-INFO
+[4.746s] writing dependency_links to ../../build/ava_bringup/ava_bringup.egg-info/dependency_links.txt
+[4.748s] writing entry points to ../../build/ava_bringup/ava_bringup.egg-info/entry_points.txt
+[4.749s] writing requirements to ../../build/ava_bringup/ava_bringup.egg-info/requires.txt
+[4.750s] writing top-level names to ../../build/ava_bringup/ava_bringup.egg-info/top_level.txt
+[4.758s] writing manifest file '../../build/ava_bringup/ava_bringup.egg-info/SOURCES.txt'
+[4.942s] reading manifest file '../../build/ava_bringup/ava_bringup.egg-info/SOURCES.txt'
+[4.947s] writing manifest file '../../build/ava_bringup/ava_bringup.egg-info/SOURCES.txt'
+[4.949s] running build
+[4.950s] running build_py
+[4.951s] creating /root/dev_ava/build/ava_bringup/build
+[4.952s] creating /root/dev_ava/build/ava_bringup/build/lib
+[4.956s] creating /root/dev_ava/build/ava_bringup/build/lib/ava_bringup
+[4.958s] copying ava_bringup/__init__.py -> /root/dev_ava/build/ava_bringup/build/lib/ava_bringup
+[4.959s] running install
+[4.960s] running install_lib
+[4.963s] creating /root/dev_ava/install/ava_bringup/lib/python3.8/site-packages/ava_bringup
+[4.963s] copying /root/dev_ava/build/ava_bringup/build/lib/ava_bringup/__init__.py -> /root/dev_ava/install/ava_bringup/lib/python3.8/site-packages/ava_bringup
+[4.971s] byte-compiling /root/dev_ava/install/ava_bringup/lib/python3.8/site-packages/ava_bringup/__init__.py to __init__.cpython-38.pyc
+[4.973s] running install_data
+[4.974s] creating /root/dev_ava/install/ava_bringup/share/ament_index
+[4.975s] creating /root/dev_ava/install/ava_bringup/share/ament_index/resource_index
+[4.975s] creating /root/dev_ava/install/ava_bringup/share/ament_index/resource_index/packages
+[4.976s] copying resource/ava_bringup -> /root/dev_ava/install/ava_bringup/share/ament_index/resource_index/packages
+[4.976s] copying launch/ava.launch.py -> /root/dev_ava/install/ava_bringup/share/ava_bringup
+[4.977s] copying package.xml -> /root/dev_ava/install/ava_bringup/share/ava_bringup
+[4.977s] running install_egg_info
+[4.986s] Copying ../../build/ava_bringup/ava_bringup.egg-info to /root/dev_ava/install/ava_bringup/lib/python3.8/site-packages/ava_bringup-0.0.0-py3.8.egg-info
+[4.987s] running install_scripts
+[5.067s] writing list of installed files to '/root/dev_ava/build/ava_bringup/install.log'
+[5.301s] Invoked command in '/root/dev_ava/src/ava_bringup' returned '0': PYTHONPATH=/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_bringup build --build-base /root/dev_ava/build/ava_bringup/build install --prefix /root/dev_ava/install/ava_bringup --record /root/dev_ava/build/ava_bringup/install.log --single-version-externally-managed

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ava_msgs/msg/LegPosition.msg
+// generated code does not contain a copyright notice
+
+
+module ava_msgs {
+  module msg {
+    struct LegPosition {
+      sequence<float> fl_leg_pos;
+
+      sequence<float> fr_leg_pos;
+
+      sequence<float> br_leg_pos;
+
+      sequence<float> bl_leg_pos;
+    };
+  };
+};

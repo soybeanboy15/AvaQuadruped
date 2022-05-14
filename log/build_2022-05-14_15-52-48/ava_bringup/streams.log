@@ -1,0 +1,21 @@
+[3.456s] Invoking command in '/root/dev_ava/src/ava_bringup': PYTHONPATH=/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_bringup build --build-base /root/dev_ava/build/ava_bringup/build install --prefix /root/dev_ava/install/ava_bringup --record /root/dev_ava/build/ava_bringup/install.log --single-version-externally-managed
+[4.441s] running egg_info
+[4.448s] writing ../../build/ava_bringup/ava_bringup.egg-info/PKG-INFO
+[4.449s] writing dependency_links to ../../build/ava_bringup/ava_bringup.egg-info/dependency_links.txt
+[4.450s] writing entry points to ../../build/ava_bringup/ava_bringup.egg-info/entry_points.txt
+[4.453s] writing requirements to ../../build/ava_bringup/ava_bringup.egg-info/requires.txt
+[4.454s] writing top-level names to ../../build/ava_bringup/ava_bringup.egg-info/top_level.txt
+[4.632s] reading manifest file '../../build/ava_bringup/ava_bringup.egg-info/SOURCES.txt'
+[4.637s] writing manifest file '../../build/ava_bringup/ava_bringup.egg-info/SOURCES.txt'
+[4.638s] running build
+[4.638s] running build_py
+[4.639s] running install
+[4.642s] running install_lib
+[4.648s] running install_data
+[4.650s] copying launch/ava.launch.py -> /root/dev_ava/install/ava_bringup/share/ava_bringup
+[4.651s] running install_egg_info
+[4.659s] removing '/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages/ava_bringup-0.0.0-py3.8.egg-info' (and everything under it)
+[4.661s] Copying ../../build/ava_bringup/ava_bringup.egg-info to /root/dev_ava/install/ava_bringup/lib/python3.8/site-packages/ava_bringup-0.0.0-py3.8.egg-info
+[4.667s] running install_scripts
+[4.761s] writing list of installed files to '/root/dev_ava/build/ava_bringup/install.log'
+[4.871s] Invoked command in '/root/dev_ava/src/ava_bringup' returned '0': PYTHONPATH=/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_bringup build --build-base /root/dev_ava/build/ava_bringup/build install --prefix /root/dev_ava/install/ava_bringup --record /root/dev_ava/build/ava_bringup/install.log --single-version-externally-managed

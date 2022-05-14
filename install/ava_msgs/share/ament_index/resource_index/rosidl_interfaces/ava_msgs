@@ -1,0 +1,10 @@
+msg/AvaCommand.idl
+msg/AvaCommand.msg
+msg/AvaInfo.idl
+msg/AvaInfo.msg
+msg/AvaPose.idl
+msg/AvaPose.msg
+msg/LegPosition.idl
+msg/LegPosition.msg
+msg/Velocity.idl
+msg/Velocity.msg

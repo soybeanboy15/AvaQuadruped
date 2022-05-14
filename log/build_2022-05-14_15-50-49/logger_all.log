@@ -1,0 +1,201 @@
+[0.683s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ava_bringup']
+[0.684s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f79fadfa0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['ava_bringup'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f79fadfa0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f79f375b0>)
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.782s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.784s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.785s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/dev_ava'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extension 'ignore'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extension 'ignore_ament_install'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extensions ['colcon_pkg']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extension 'colcon_pkg'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extensions ['colcon_meta']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extension 'colcon_meta'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extensions ['ros']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extension 'ros'
+[0.861s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ava_bringup' with type 'ros.ament_python' and name 'ava_bringup'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extensions ['ignore', 'ignore_ament_install']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extension 'ignore'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extension 'ignore_ament_install'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extensions ['colcon_pkg']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extension 'colcon_pkg'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extensions ['colcon_meta']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extension 'colcon_meta'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extensions ['ros']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extension 'ros'
+[0.868s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ava_control' with type 'ros.ament_python' and name 'ava_control'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extension 'ignore'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extension 'ignore_ament_install'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extensions ['colcon_pkg']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extension 'colcon_pkg'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extensions ['colcon_meta']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extension 'colcon_meta'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extensions ['ros']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extension 'ros'
+[0.873s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ava_driver' with type 'ros.ament_python' and name 'ava_driver'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'ignore'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'ignore_ament_install'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['colcon_pkg']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'colcon_pkg'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['colcon_meta']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'colcon_meta'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['ros']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'ros'
+[0.878s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/ava_kinematics': Error(s) in package 'src/ava_kinematics/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 10, column 22
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['cmake', 'python']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'cmake'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'python'
+[0.879s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/ava_kinematics' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['python_setup_py']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'python_setup_py'
+[1.694s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ava_kinematics' with type 'python' and name 'ava_kinematics'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extension 'ignore'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extension 'ignore_ament_install'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extensions ['colcon_pkg']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extension 'colcon_pkg'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extensions ['colcon_meta']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extension 'colcon_meta'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extensions ['ros']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extension 'ros'
+[1.701s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ava_msgs' with type 'ros.ament_cmake' and name 'ava_msgs'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[1.707s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros2'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extensions ['ignore', 'ignore_ament_install']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extension 'ignore'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extension 'ignore_ament_install'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extensions ['colcon_pkg']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extension 'colcon_pkg'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extensions ['colcon_meta']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extension 'colcon_meta'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extensions ['ros']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extension 'ros'
+[1.712s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf_transformations-main' with type 'ros.ament_python' and name 'tf_transformations'
+[1.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.796s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ava_kinematics' in 'src/ava_kinematics'
+[1.796s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ava_msgs' in 'src/ava_msgs'
+[1.796s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros2' in 'src/rplidar_ros'
+[1.797s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tf_transformations' in 'src/tf_transformations-main'
+[1.797s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ava_control' in 'src/ava_control'
+[1.797s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ava_driver' in 'src/ava_driver'
+[1.800s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_args' from command line to 'None'
+[1.800s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_target' from command line to 'None'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.801s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.802s] DEBUG:colcon.colcon_core.verb:Building package 'ava_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev_ava/build/ava_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev_ava/install/ava_bringup', 'merge_install': False, 'path': '/root/dev_ava/src/ava_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.803s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.812s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.813s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/dev_ava/src/ava_bringup' with build type 'ament_python'
+[1.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_bringup', 'ament_prefix_path')
+[1.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/ament_prefix_path.ps1'
+[1.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/ament_prefix_path.dsv'
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/ament_prefix_path.sh'
+[1.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.841s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.733s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/dev_ava/src/ava_bringup'
+[2.736s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ava/src/ava_bringup': PYTHONPATH=/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_bringup build --build-base /root/dev_ava/build/ava_bringup/build install --prefix /root/dev_ava/install/ava_bringup --record /root/dev_ava/build/ava_bringup/install.log --single-version-externally-managed
+[5.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ava/src/ava_bringup' returned '0': PYTHONPATH=/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_bringup build --build-base /root/dev_ava/build/ava_bringup/build install --prefix /root/dev_ava/install/ava_bringup --record /root/dev_ava/build/ava_bringup/install.log --single-version-externally-managed
+[5.529s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup' for CMake module files
+[5.532s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup' for CMake config files
+[5.535s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup/lib'
+[5.536s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup/bin'
+[5.537s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup/lib/pkgconfig/ava_bringup.pc'
+[5.538s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages'
+[5.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_bringup', 'pythonpath')
+[5.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/pythonpath.ps1'
+[5.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/pythonpath.dsv'
+[5.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/pythonpath.sh'
+[5.552s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup/bin'
+[5.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ava_bringup)
+[5.556s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_bringup/share/ava_bringup/package.ps1'
+[5.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev_ava/install/ava_bringup/share/ava_bringup/package.dsv'
+[5.563s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_bringup/share/ava_bringup/package.sh'
+[5.567s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_bringup/share/ava_bringup/package.bash'
+[5.571s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_bringup/share/ava_bringup/package.zsh'
+[5.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev_ava/install/ava_bringup/share/colcon-core/packages/ava_bringup)
+[5.575s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.577s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.578s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.608s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.610s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.610s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.611s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[5.611s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.614s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ava/install/local_setup.ps1'
+[5.618s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dev_ava/install/_local_setup_util_ps1.py'
+[5.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ava/install/setup.ps1'
+[5.642s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ava/install/local_setup.sh'
+[5.646s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dev_ava/install/_local_setup_util_sh.py'
+[5.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ava/install/setup.sh'
+[5.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ava/install/local_setup.bash'
+[5.657s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ava/install/setup.bash'
+[5.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ava/install/local_setup.zsh'
+[5.666s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ava/install/setup.zsh'

@@ -1,0 +1,4 @@
+{
+  "ros.distro": "foxy",
+  "cmake.configureOnOpen": false
+}

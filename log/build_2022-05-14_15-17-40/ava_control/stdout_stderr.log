@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/ava_control/ava_control.egg-info
+writing ../../build/ava_control/ava_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/ava_control/ava_control.egg-info/dependency_links.txt
+writing entry points to ../../build/ava_control/ava_control.egg-info/entry_points.txt
+writing requirements to ../../build/ava_control/ava_control.egg-info/requires.txt
+writing top-level names to ../../build/ava_control/ava_control.egg-info/top_level.txt
+writing manifest file '../../build/ava_control/ava_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/ava_control/ava_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/ava_control/ava_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/dev_ava/build/ava_control/build
+creating /root/dev_ava/build/ava_control/build/lib
+creating /root/dev_ava/build/ava_control/build/lib/ava_control
+copying ava_control/ava_control.py -> /root/dev_ava/build/ava_control/build/lib/ava_control
+copying ava_control/__init__.py -> /root/dev_ava/build/ava_control/build/lib/ava_control
+copying ava_control/ava_motion.py -> /root/dev_ava/build/ava_control/build/lib/ava_control
+running install
+running install_lib
+creating /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control
+copying /root/dev_ava/build/ava_control/build/lib/ava_control/ava_control.py -> /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control
+copying /root/dev_ava/build/ava_control/build/lib/ava_control/__init__.py -> /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control
+copying /root/dev_ava/build/ava_control/build/lib/ava_control/ava_motion.py -> /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control
+byte-compiling /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control/ava_control.py to ava_control.cpython-38.pyc
+byte-compiling /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control/ava_motion.py to ava_motion.cpython-38.pyc
+running install_data
+creating /root/dev_ava/install/ava_control/share/ament_index
+creating /root/dev_ava/install/ava_control/share/ament_index/resource_index
+creating /root/dev_ava/install/ava_control/share/ament_index/resource_index/packages
+copying resource/ava_control -> /root/dev_ava/install/ava_control/share/ament_index/resource_index/packages
+copying package.xml -> /root/dev_ava/install/ava_control/share/ava_control
+copying launch/test.launch.py -> /root/dev_ava/install/ava_control/share/ava_control
+creating /root/dev_ava/install/ava_control/share/ava_description
+running install_egg_info
+Copying ../../build/ava_control/ava_control.egg-info to /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ava_control script to /root/dev_ava/install/ava_control/lib/ava_control
+Installing ava_gait script to /root/dev_ava/install/ava_control/lib/ava_control
+Installing ava_motion script to /root/dev_ava/install/ava_control/lib/ava_control
+writing list of installed files to '/root/dev_ava/build/ava_control/install.log'

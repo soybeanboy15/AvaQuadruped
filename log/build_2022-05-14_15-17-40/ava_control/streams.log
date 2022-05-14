@@ -1,0 +1,44 @@
+[3.385s] Invoking command in '/root/dev_ava/src/ava_control': AMENT_PREFIX_PATH=/root/dev_ava/install/tf_transformations:${AMENT_PREFIX_PATH} PYTHONPATH=/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_control build --build-base /root/dev_ava/build/ava_control/build install --prefix /root/dev_ava/install/ava_control --record /root/dev_ava/build/ava_control/install.log --single-version-externally-managed
+[4.170s] running egg_info
+[4.174s] creating ../../build/ava_control/ava_control.egg-info
+[4.175s] writing ../../build/ava_control/ava_control.egg-info/PKG-INFO
+[4.177s] writing dependency_links to ../../build/ava_control/ava_control.egg-info/dependency_links.txt
+[4.179s] writing entry points to ../../build/ava_control/ava_control.egg-info/entry_points.txt
+[4.181s] writing requirements to ../../build/ava_control/ava_control.egg-info/requires.txt
+[4.182s] writing top-level names to ../../build/ava_control/ava_control.egg-info/top_level.txt
+[4.188s] writing manifest file '../../build/ava_control/ava_control.egg-info/SOURCES.txt'
+[4.376s] reading manifest file '../../build/ava_control/ava_control.egg-info/SOURCES.txt'
+[4.380s] writing manifest file '../../build/ava_control/ava_control.egg-info/SOURCES.txt'
+[4.381s] running build
+[4.382s] running build_py
+[4.383s] creating /root/dev_ava/build/ava_control/build
+[4.383s] creating /root/dev_ava/build/ava_control/build/lib
+[4.384s] creating /root/dev_ava/build/ava_control/build/lib/ava_control
+[4.384s] copying ava_control/ava_control.py -> /root/dev_ava/build/ava_control/build/lib/ava_control
+[4.385s] copying ava_control/__init__.py -> /root/dev_ava/build/ava_control/build/lib/ava_control
+[4.385s] copying ava_control/ava_motion.py -> /root/dev_ava/build/ava_control/build/lib/ava_control
+[4.386s] running install
+[4.387s] running install_lib
+[4.392s] creating /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control
+[4.393s] copying /root/dev_ava/build/ava_control/build/lib/ava_control/ava_control.py -> /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control
+[4.394s] copying /root/dev_ava/build/ava_control/build/lib/ava_control/__init__.py -> /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control
+[4.396s] copying /root/dev_ava/build/ava_control/build/lib/ava_control/ava_motion.py -> /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control
+[4.398s] byte-compiling /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control/ava_control.py to ava_control.cpython-38.pyc
+[4.412s] byte-compiling /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control/__init__.py to __init__.cpython-38.pyc
+[4.424s] byte-compiling /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control/ava_motion.py to ava_motion.cpython-38.pyc
+[4.424s] running install_data
+[4.425s] creating /root/dev_ava/install/ava_control/share/ament_index
+[4.425s] creating /root/dev_ava/install/ava_control/share/ament_index/resource_index
+[4.426s] creating /root/dev_ava/install/ava_control/share/ament_index/resource_index/packages
+[4.426s] copying resource/ava_control -> /root/dev_ava/install/ava_control/share/ament_index/resource_index/packages
+[4.426s] copying package.xml -> /root/dev_ava/install/ava_control/share/ava_control
+[4.427s] copying launch/test.launch.py -> /root/dev_ava/install/ava_control/share/ava_control
+[4.427s] creating /root/dev_ava/install/ava_control/share/ava_description
+[4.428s] running install_egg_info
+[4.432s] Copying ../../build/ava_control/ava_control.egg-info to /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control-0.0.0-py3.8.egg-info
+[4.440s] running install_scripts
+[4.518s] Installing ava_control script to /root/dev_ava/install/ava_control/lib/ava_control
+[4.524s] Installing ava_gait script to /root/dev_ava/install/ava_control/lib/ava_control
+[4.525s] Installing ava_motion script to /root/dev_ava/install/ava_control/lib/ava_control
+[4.526s] writing list of installed files to '/root/dev_ava/build/ava_control/install.log'
+[4.660s] Invoked command in '/root/dev_ava/src/ava_control' returned '0': AMENT_PREFIX_PATH=/root/dev_ava/install/tf_transformations:${AMENT_PREFIX_PATH} PYTHONPATH=/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_control build --build-base /root/dev_ava/build/ava_control/build install --prefix /root/dev_ava/install/ava_control --record /root/dev_ava/build/ava_control/install.log --single-version-externally-managed
