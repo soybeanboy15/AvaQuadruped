@@ -1,10 +1,10 @@
 {
   "package_name": "ava_msgs",
   "non_idl_tuples": [
-    "C:/dev_ava/src/ava_msgs:msg/LegPosition.msg",
-    "C:/dev_ava/src/ava_msgs:msg/AvaPose.msg",
-    "C:/dev_ava/src/ava_msgs:msg/AvaCommand.msg",
-    "C:/dev_ava/src/ava_msgs:msg/Velocity.msg",
-    "C:/dev_ava/src/ava_msgs:msg/AvaInfo.msg"
+    "/root/dev_ava/src/ava_msgs:msg/LegPosition.msg",
+    "/root/dev_ava/src/ava_msgs:msg/AvaPose.msg",
+    "/root/dev_ava/src/ava_msgs:msg/AvaCommand.msg",
+    "/root/dev_ava/src/ava_msgs:msg/Velocity.msg",
+    "/root/dev_ava/src/ava_msgs:msg/AvaInfo.msg"
   ]
 }

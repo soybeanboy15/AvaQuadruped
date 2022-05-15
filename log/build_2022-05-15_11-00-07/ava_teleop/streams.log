@@ -1,0 +1,37 @@
+[1.987s] Invoking command in '/root/dev_ava/src/ava_teleop': PYTHONPATH=/root/dev_ava/install/ava_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_teleop build --build-base /root/dev_ava/build/ava_teleop/build install --prefix /root/dev_ava/install/ava_teleop --record /root/dev_ava/build/ava_teleop/install.log --single-version-externally-managed
+[2.411s] running egg_info
+[2.412s] creating ../../build/ava_teleop/ava_teleop.egg-info
+[2.413s] writing ../../build/ava_teleop/ava_teleop.egg-info/PKG-INFO
+[2.413s] writing dependency_links to ../../build/ava_teleop/ava_teleop.egg-info/dependency_links.txt
+[2.414s] writing entry points to ../../build/ava_teleop/ava_teleop.egg-info/entry_points.txt
+[2.415s] writing requirements to ../../build/ava_teleop/ava_teleop.egg-info/requires.txt
+[2.415s] writing top-level names to ../../build/ava_teleop/ava_teleop.egg-info/top_level.txt
+[2.418s] writing manifest file '../../build/ava_teleop/ava_teleop.egg-info/SOURCES.txt'
+[2.527s] reading manifest file '../../build/ava_teleop/ava_teleop.egg-info/SOURCES.txt'
+[2.529s] writing manifest file '../../build/ava_teleop/ava_teleop.egg-info/SOURCES.txt'
+[2.530s] running build
+[2.530s] running build_py
+[2.531s] creating /root/dev_ava/build/ava_teleop/build
+[2.531s] creating /root/dev_ava/build/ava_teleop/build/lib
+[2.532s] creating /root/dev_ava/build/ava_teleop/build/lib/ava_teleop
+[2.532s] copying ava_teleop/ava_teleop_key.py -> /root/dev_ava/build/ava_teleop/build/lib/ava_teleop
+[2.533s] copying ava_teleop/__init__.py -> /root/dev_ava/build/ava_teleop/build/lib/ava_teleop
+[2.534s] running install
+[2.534s] running install_lib
+[2.535s] creating /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop
+[2.536s] copying /root/dev_ava/build/ava_teleop/build/lib/ava_teleop/ava_teleop_key.py -> /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop
+[2.536s] copying /root/dev_ava/build/ava_teleop/build/lib/ava_teleop/__init__.py -> /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop
+[2.537s] byte-compiling /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop/ava_teleop_key.py to ava_teleop_key.cpython-38.pyc
+[2.541s] byte-compiling /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop/__init__.py to __init__.cpython-38.pyc
+[2.541s] running install_data
+[2.542s] creating /root/dev_ava/install/ava_teleop/share/ament_index
+[2.543s] creating /root/dev_ava/install/ava_teleop/share/ament_index/resource_index
+[2.543s] creating /root/dev_ava/install/ava_teleop/share/ament_index/resource_index/packages
+[2.544s] copying resource/ava_teleop -> /root/dev_ava/install/ava_teleop/share/ament_index/resource_index/packages
+[2.544s] copying package.xml -> /root/dev_ava/install/ava_teleop/share/ava_teleop
+[2.545s] running install_egg_info
+[2.547s] Copying ../../build/ava_teleop/ava_teleop.egg-info to /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop-0.0.0-py3.8.egg-info
+[2.551s] running install_scripts
+[2.586s] Installing ava_teleop_key script to /root/dev_ava/install/ava_teleop/lib/ava_teleop
+[2.587s] writing list of installed files to '/root/dev_ava/build/ava_teleop/install.log'
+[2.683s] Invoked command in '/root/dev_ava/src/ava_teleop' returned '0': PYTHONPATH=/root/dev_ava/install/ava_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_teleop build --build-base /root/dev_ava/build/ava_teleop/build install --prefix /root/dev_ava/install/ava_teleop --record /root/dev_ava/build/ava_teleop/install.log --single-version-externally-managed

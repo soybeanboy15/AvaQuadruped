@@ -1,0 +1,19 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_command__type_support.cpp.o"
+  "CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_info__type_support.cpp.o"
+  "CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_pose__type_support.cpp.o"
+  "CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/leg_position__type_support.cpp.o"
+  "CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/velocity__type_support.cpp.o"
+  "libava_msgs__rosidl_typesupport_c.pdb"
+  "libava_msgs__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/ava_msgs/msg/ava_command__type_support.cpp"
+  "rosidl_typesupport_c/ava_msgs/msg/ava_info__type_support.cpp"
+  "rosidl_typesupport_c/ava_msgs/msg/ava_pose__type_support.cpp"
+  "rosidl_typesupport_c/ava_msgs/msg/leg_position__type_support.cpp"
+  "rosidl_typesupport_c/ava_msgs/msg/velocity__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

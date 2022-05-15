@@ -1,5 +1,5 @@
 // generated from rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em
-// with input from ava_msgs:msg\Velocity.idl
+// with input from ava_msgs:msg/Velocity.idl
 // generated code does not contain a copyright notice
 #include "ava_msgs/msg/detail/velocity__rosidl_typesupport_fastrtps_cpp.hpp"
 #include "ava_msgs/msg/detail/velocity__struct.hpp"

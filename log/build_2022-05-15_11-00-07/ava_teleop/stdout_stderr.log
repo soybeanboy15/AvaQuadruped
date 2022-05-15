@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/ava_teleop/ava_teleop.egg-info
+writing ../../build/ava_teleop/ava_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/ava_teleop/ava_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/ava_teleop/ava_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/ava_teleop/ava_teleop.egg-info/requires.txt
+writing top-level names to ../../build/ava_teleop/ava_teleop.egg-info/top_level.txt
+writing manifest file '../../build/ava_teleop/ava_teleop.egg-info/SOURCES.txt'
+reading manifest file '../../build/ava_teleop/ava_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/ava_teleop/ava_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/dev_ava/build/ava_teleop/build
+creating /root/dev_ava/build/ava_teleop/build/lib
+creating /root/dev_ava/build/ava_teleop/build/lib/ava_teleop
+copying ava_teleop/ava_teleop_key.py -> /root/dev_ava/build/ava_teleop/build/lib/ava_teleop
+copying ava_teleop/__init__.py -> /root/dev_ava/build/ava_teleop/build/lib/ava_teleop
+running install
+running install_lib
+creating /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop
+copying /root/dev_ava/build/ava_teleop/build/lib/ava_teleop/ava_teleop_key.py -> /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop
+copying /root/dev_ava/build/ava_teleop/build/lib/ava_teleop/__init__.py -> /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop
+byte-compiling /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop/ava_teleop_key.py to ava_teleop_key.cpython-38.pyc
+byte-compiling /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /root/dev_ava/install/ava_teleop/share/ament_index
+creating /root/dev_ava/install/ava_teleop/share/ament_index/resource_index
+creating /root/dev_ava/install/ava_teleop/share/ament_index/resource_index/packages
+copying resource/ava_teleop -> /root/dev_ava/install/ava_teleop/share/ament_index/resource_index/packages
+copying package.xml -> /root/dev_ava/install/ava_teleop/share/ava_teleop
+running install_egg_info
+Copying ../../build/ava_teleop/ava_teleop.egg-info to /root/dev_ava/install/ava_teleop/lib/python3.8/site-packages/ava_teleop-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ava_teleop_key script to /root/dev_ava/install/ava_teleop/lib/ava_teleop
+writing list of installed files to '/root/dev_ava/build/ava_teleop/install.log'

@@ -1,5 +1,5 @@
 // generated from rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em
-// with input from ava_msgs:msg\AvaInfo.idl
+// with input from ava_msgs:msg/AvaInfo.idl
 // generated code does not contain a copyright notice
 #include "ava_msgs/msg/detail/ava_info__rosidl_typesupport_fastrtps_cpp.hpp"
 #include "ava_msgs/msg/detail/ava_info__struct.hpp"

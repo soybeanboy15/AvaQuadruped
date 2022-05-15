@@ -12,14 +12,14 @@ if ($env:COLCON_PYTHON_EXECUTABLE) {
   $_colcon_python_executable="$env:COLCON_PYTHON_EXECUTABLE"
 } else {
   # use the Python executable known at configure time
-  $_colcon_python_executable="c:\opt\ros\foxy\x64\python.exe"
+  $_colcon_python_executable="/usr/bin/python3"
   # if it doesn't exist try a fall back
   if (!(Test-Path "$_colcon_python_executable" -PathType Leaf)) {
-    if (!(Get-Command "python" -ErrorAction SilentlyContinue)) {
-      echo "error: unable to find python executable"
+    if (!(Get-Command "python3" -ErrorAction SilentlyContinue)) {
+      echo "error: unable to find python3 executable"
       exit 1
     }
-    $_colcon_python_executable="python"
+    $_colcon_python_executable="python3"
   }
 }
 
@@ -41,7 +41,7 @@ function _colcon_prefix_powershell_source_script {
 }
 
 # get all commands in topological order
-$_colcon_ordered_commands = & "$_colcon_python_executable" "$(Split-Path $PSCommandPath -Parent)/_local_setup_util_ps1.py" ps1 --merged-install
+$_colcon_ordered_commands = & "$_colcon_python_executable" "$(Split-Path $PSCommandPath -Parent)/_local_setup_util_ps1.py" ps1
 
 # execute all commands in topological order
 if ($env:COLCON_TRACE) {
@@ -50,4 +50,6 @@ if ($env:COLCON_TRACE) {
   $_colcon_ordered_commands.Split([Environment]::NewLine, [StringSplitOptions]::RemoveEmptyEntries) | Write-Output
   echo ">>>"
 }
-$_colcon_ordered_commands.Split([Environment]::NewLine, [StringSplitOptions]::RemoveEmptyEntries) | Invoke-Expression
+if ($_colcon_ordered_commands) {
+  $_colcon_ordered_commands.Split([Environment]::NewLine, [StringSplitOptions]::RemoveEmptyEntries) | Invoke-Expression
+}

@@ -1,0 +1,34 @@
+[2.014s] Invoking command in '/root/dev_ava/src/hq_bringup': PYTHONPATH=/root/dev_ava/install/hq_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hq_bringup build --build-base /root/dev_ava/build/hq_bringup/build install --prefix /root/dev_ava/install/hq_bringup --record /root/dev_ava/build/hq_bringup/install.log --single-version-externally-managed
+[2.453s] running egg_info
+[2.455s] creating ../../build/hq_bringup/hq_bringup.egg-info
+[2.455s] writing ../../build/hq_bringup/hq_bringup.egg-info/PKG-INFO
+[2.456s] writing dependency_links to ../../build/hq_bringup/hq_bringup.egg-info/dependency_links.txt
+[2.457s] writing entry points to ../../build/hq_bringup/hq_bringup.egg-info/entry_points.txt
+[2.458s] writing requirements to ../../build/hq_bringup/hq_bringup.egg-info/requires.txt
+[2.458s] writing top-level names to ../../build/hq_bringup/hq_bringup.egg-info/top_level.txt
+[2.461s] writing manifest file '../../build/hq_bringup/hq_bringup.egg-info/SOURCES.txt'
+[2.572s] reading manifest file '../../build/hq_bringup/hq_bringup.egg-info/SOURCES.txt'
+[2.575s] writing manifest file '../../build/hq_bringup/hq_bringup.egg-info/SOURCES.txt'
+[2.576s] running build
+[2.577s] running build_py
+[2.578s] creating /root/dev_ava/build/hq_bringup/build
+[2.578s] creating /root/dev_ava/build/hq_bringup/build/lib
+[2.579s] creating /root/dev_ava/build/hq_bringup/build/lib/hq_bringup
+[2.579s] copying hq_bringup/__init__.py -> /root/dev_ava/build/hq_bringup/build/lib/hq_bringup
+[2.580s] running install
+[2.581s] running install_lib
+[2.583s] creating /root/dev_ava/install/hq_bringup/lib/python3.8/site-packages/hq_bringup
+[2.583s] copying /root/dev_ava/build/hq_bringup/build/lib/hq_bringup/__init__.py -> /root/dev_ava/install/hq_bringup/lib/python3.8/site-packages/hq_bringup
+[2.585s] byte-compiling /root/dev_ava/install/hq_bringup/lib/python3.8/site-packages/hq_bringup/__init__.py to __init__.cpython-38.pyc
+[2.588s] running install_data
+[2.589s] creating /root/dev_ava/install/hq_bringup/share/ament_index
+[2.589s] creating /root/dev_ava/install/hq_bringup/share/ament_index/resource_index
+[2.591s] creating /root/dev_ava/install/hq_bringup/share/ament_index/resource_index/packages
+[2.591s] copying resource/hq_bringup -> /root/dev_ava/install/hq_bringup/share/ament_index/resource_index/packages
+[2.592s] copying launch/hq.launch.py -> /root/dev_ava/install/hq_bringup/share/hq_bringup
+[2.593s] copying package.xml -> /root/dev_ava/install/hq_bringup/share/hq_bringup
+[2.593s] running install_egg_info
+[2.596s] Copying ../../build/hq_bringup/hq_bringup.egg-info to /root/dev_ava/install/hq_bringup/lib/python3.8/site-packages/hq_bringup-0.0.0-py3.8.egg-info
+[2.599s] running install_scripts
+[2.638s] writing list of installed files to '/root/dev_ava/build/hq_bringup/install.log'
+[3.111s] Invoked command in '/root/dev_ava/src/hq_bringup' returned '0': PYTHONPATH=/root/dev_ava/install/hq_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hq_bringup build --build-base /root/dev_ava/build/hq_bringup/build install --prefix /root/dev_ava/install/hq_bringup --record /root/dev_ava/build/hq_bringup/install.log --single-version-externally-managed
