@@ -1,0 +1,15 @@
+source;share\slam_toolbox\hook\cmake_prefix_path.ps1
+source;share\slam_toolbox\hook\cmake_prefix_path.bat
+source;share\slam_toolbox\hook\cmake_prefix_path.dsv
+source;share\slam_toolbox\hook\path_dll.ps1
+source;share\slam_toolbox\hook\path_dll.bat
+source;share\slam_toolbox\hook\path_dll.dsv
+source;share\slam_toolbox\hook\path.ps1
+source;share\slam_toolbox\hook\path.bat
+source;share\slam_toolbox\hook\path.dsv
+source;share\slam_toolbox\hook\pythonpath.ps1
+source;share\slam_toolbox\hook\pythonpath.bat
+source;share\slam_toolbox\hook\pythonpath.dsv
+source;share/slam_toolbox/local_setup.bat
+source;share/slam_toolbox/local_setup.dsv
+source;share/slam_toolbox/local_setup.ps1

@@ -1,0 +1,5 @@
+C:/dev_ava/build/slam_toolbox/toolbox_common.dir/Release/slam_toolbox_common.obj
+C:/dev_ava/build/slam_toolbox/toolbox_common.dir/Release/map_saver.obj
+C:/dev_ava/build/slam_toolbox/toolbox_common.dir/Release/loop_closure_assistant.obj
+C:/dev_ava/build/slam_toolbox/toolbox_common.dir/Release/laser_utils.obj
+C:/dev_ava/build/slam_toolbox/toolbox_common.dir/Release/slam_mapper.obj

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\pause__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\clear_queue__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\toggle_interactive__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\clear__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\save_map__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\loop_closure__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\merge_maps__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\add_submap__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\deserialize_pose_graph__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\serialize_pose_graph__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\pause.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\pause__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\pause__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\pause__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\clear_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\clear_queue__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\clear_queue__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\clear_queue__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\toggle_interactive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\toggle_interactive__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\toggle_interactive__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\toggle_interactive__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\clear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\clear__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\clear__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\clear__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\save_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\save_map__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\save_map__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\save_map__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\loop_closure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\loop_closure__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\loop_closure__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\loop_closure__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\merge_maps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\merge_maps__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\merge_maps__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\merge_maps__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\add_submap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\add_submap__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\add_submap__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\add_submap__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\deserialize_pose_graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\deserialize_pose_graph__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\deserialize_pose_graph__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\deserialize_pose_graph__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\serialize_pose_graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\serialize_pose_graph__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\serialize_pose_graph__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\slam_toolbox\rosidl_generator_c\slam_toolbox\srv\detail\serialize_pose_graph__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev_ava\build\slam_toolbox\CMakeFiles\81d1dfc5e8ea3719fa1fbfd6aac7d78b\pause.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev_ava\slam_toolbox\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F9CB62D1-90E6-3782-9618-A9B3FA161801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AED90120-0A45-3824-A576-E995B21C0D35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ED6AB46C-22E9-3EAB-98DA-F3004C0509CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

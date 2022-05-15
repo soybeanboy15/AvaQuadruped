@@ -1,0 +1,34 @@
+{
+  "package_name": "ava_msgs",
+  "output_dir": "C:/dev_ava/build/ava_msgs/rosidl_generator_cpp/ava_msgs",
+  "template_dir": "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs:msg/LegPosition.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs:msg/AvaPose.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs:msg/AvaCommand.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs:msg/Velocity.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs:msg/AvaInfo.idl"
+  ],
+  "target_dependencies": [
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../../../Lib/site-packages/rosidl_generator_cpp/__init__.py",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs/msg/LegPosition.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs/msg/AvaPose.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs/msg/AvaCommand.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs/msg/Velocity.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs/msg/AvaInfo.idl"
+  ]
+}

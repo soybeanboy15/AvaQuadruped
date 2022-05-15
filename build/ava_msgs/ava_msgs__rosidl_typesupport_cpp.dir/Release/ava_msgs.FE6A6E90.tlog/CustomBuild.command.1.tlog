@@ -1,0 +1,20 @@
+^C:\DEV_AVA\BUILD\AVA_MSGS\CMAKEFILES\95787D79C76E11323C9E1B60A1162379\LEG_POSITION__TYPE_SUPPORT.CPP.RULE
+setlocal
+C:\opt\ros\foxy\x64\python.exe C:/opt/ros/foxy/x64/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file C:/dev_ava/build/ava_msgs/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV_AVA\SRC\AVA_MSGS\CMAKELISTS.TXT
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/dev_ava/src/ava_msgs -BC:/dev_ava/build/ava_msgs --check-stamp-file C:/dev_ava/build/ava_msgs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

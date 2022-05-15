@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\lib\karto_sdk\Release\kartoSlamToolbox.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\x64\Release\slam_toolbox__cpp</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_cpp.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_generator_c.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_c.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_fastrtps_cpp.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_fastrtps_c.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_introspection_c.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_introspection_cpp.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\x64\Release\slam_toolbox</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\Release\toolbox_common.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev_ava\build\slam_toolbox\Release\merge_maps_kinematic.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

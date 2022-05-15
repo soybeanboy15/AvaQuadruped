@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{67801B5E-777B-3598-8882-4AB25989BE32}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ava_msgs__py</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev_ava\build\ava_msgs\CMakeFiles\9b5b427cd86308b6c099a2e4f96d6b1d\_ava_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating Python code for ROS interfaces</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\opt\ros\foxy\x64\python.exe C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file C:/dev_ava/build/ava_msgs/rosidl_generator_py__arguments.json --typesupport-impls rosidl_typesupport_fastrtps_c";"rosidl_typesupport_introspection_c";"rosidl_typesupport_c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opt\ros\foxy\x64\Lib\rosidl_generator_py\rosidl_generator_py;C:\opt\ros\foxy\x64\Lib\site-packages\rosidl_generator_py\__init__.py;C:\opt\ros\foxy\x64\Lib\site-packages\rosidl_generator_py\generate_py_impl.py;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_action_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_action.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl_support.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg_support.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_srv_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_srv.py.em;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\LegPosition.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaPose.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaCommand.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\Velocity.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaInfo.idl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_fastrtps_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_introspection_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\__init__.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info_s.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating Python code for ROS interfaces</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\opt\ros\foxy\x64\python.exe C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file C:/dev_ava/build/ava_msgs/rosidl_generator_py__arguments.json --typesupport-impls rosidl_typesupport_fastrtps_c";"rosidl_typesupport_introspection_c";"rosidl_typesupport_c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opt\ros\foxy\x64\Lib\rosidl_generator_py\rosidl_generator_py;C:\opt\ros\foxy\x64\Lib\site-packages\rosidl_generator_py\__init__.py;C:\opt\ros\foxy\x64\Lib\site-packages\rosidl_generator_py\generate_py_impl.py;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_action_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_action.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl_support.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg_support.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_srv_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_srv.py.em;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\LegPosition.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaPose.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaCommand.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\Velocity.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaInfo.idl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_fastrtps_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_introspection_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\__init__.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info_s.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating Python code for ROS interfaces</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\opt\ros\foxy\x64\python.exe C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file C:/dev_ava/build/ava_msgs/rosidl_generator_py__arguments.json --typesupport-impls rosidl_typesupport_fastrtps_c";"rosidl_typesupport_introspection_c";"rosidl_typesupport_c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opt\ros\foxy\x64\Lib\rosidl_generator_py\rosidl_generator_py;C:\opt\ros\foxy\x64\Lib\site-packages\rosidl_generator_py\__init__.py;C:\opt\ros\foxy\x64\Lib\site-packages\rosidl_generator_py\generate_py_impl.py;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_action_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_action.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl_support.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg_support.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_srv_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_srv.py.em;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\LegPosition.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaPose.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaCommand.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\Velocity.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaInfo.idl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_fastrtps_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_introspection_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\__init__.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info_s.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating Python code for ROS interfaces</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\opt\ros\foxy\x64\python.exe C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file C:/dev_ava/build/ava_msgs/rosidl_generator_py__arguments.json --typesupport-impls rosidl_typesupport_fastrtps_c";"rosidl_typesupport_introspection_c";"rosidl_typesupport_c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opt\ros\foxy\x64\Lib\rosidl_generator_py\rosidl_generator_py;C:\opt\ros\foxy\x64\Lib\site-packages\rosidl_generator_py\__init__.py;C:\opt\ros\foxy\x64\Lib\site-packages\rosidl_generator_py\generate_py_impl.py;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_action_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_action.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl_support.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_idl.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg_support.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_msg.py.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_srv_pkg_typesupport_entry_point.c.em;C:\opt\ros\foxy\x64\share\rosidl_generator_py\resource\_srv.py.em;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\LegPosition.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaPose.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaCommand.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\Velocity.idl;C:\dev_ava\build\ava_msgs\rosidl_adapter\ava_msgs\msg\AvaInfo.idl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_fastrtps_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_introspection_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\__init__.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info_s.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev_ava\build\ava_msgs\CMakeFiles\26c9fe98611e5a66f1c953a955852c7e\ava_msgs__py.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_fastrtps_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_introspection_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\__init__.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info_s.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev_ava\build\ava_msgs\ava_msgs__py\CMakeFiles\ava_msgs__py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_fastrtps_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_introspection_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\__init__.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info_s.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev_ava\build\ava_msgs\ava_msgs__py\CMakeFiles\ava_msgs__py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_fastrtps_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_introspection_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\__init__.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info_s.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev_ava\build\ava_msgs\ava_msgs__py\CMakeFiles\ava_msgs__py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_fastrtps_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_introspection_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\_ava_msgs_s.ep.rosidl_typesupport_c.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\__init__.py;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_leg_position_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_pose_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_command_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_velocity_s.c;C:\dev_ava\build\ava_msgs\rosidl_generator_py\ava_msgs\msg\_ava_info_s.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev_ava\build\ava_msgs\ava_msgs__py\CMakeFiles\ava_msgs__py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev_ava\build\ava_msgs\ava_msgs__py\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev_ava/build/ava_msgs/ava_msgs__py/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/dev_ava/src/ava_msgs -BC:/dev_ava/build/ava_msgs --check-stamp-file C:/dev_ava/build/ava_msgs/ava_msgs__py/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\dev_ava\build\ava_msgs\ava_msgs__py\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev_ava/build/ava_msgs/ava_msgs__py/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/dev_ava/src/ava_msgs -BC:/dev_ava/build/ava_msgs --check-stamp-file C:/dev_ava/build/ava_msgs/ava_msgs__py/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\dev_ava\build\ava_msgs\ava_msgs__py\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/dev_ava/build/ava_msgs/ava_msgs__py/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/dev_ava/src/ava_msgs -BC:/dev_ava/build/ava_msgs --check-stamp-file C:/dev_ava/build/ava_msgs/ava_msgs__py/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\dev_ava\build\ava_msgs\ava_msgs__py\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/dev_ava/build/ava_msgs/ava_msgs__py/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/dev_ava/src/ava_msgs -BC:/dev_ava/build/ava_msgs --check-stamp-file C:/dev_ava/build/ava_msgs/ava_msgs__py/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\dev_ava\build\ava_msgs\ava_msgs__py\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev_ava\build\ava_msgs\ava_msgs__py\CMakeFiles\ava_msgs__py">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev_ava\build\ava_msgs\ZERO_CHECK.vcxproj">
+      <Project>{A104D40E-EACD-35E2-81E3-4B1F029BC9D4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev_ava\build\ava_msgs\ava_msgs.vcxproj">
+      <Project>{D47E0EA6-39B9-3EBA-9982-80C4ADD438D3}</Project>
+      <Name>ava_msgs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

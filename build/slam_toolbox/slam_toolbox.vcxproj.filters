@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev_ava\build\slam_toolbox\CMakeFiles\2ee86005e8c981e081f39a805b8f2ec2\slam_toolbox.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev_ava\slam_toolbox\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev_ava\slam_toolbox\srvs\Pause.srv" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\Pause_Request.msg" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\Pause_Response.msg" />
+    <None Include="C:\dev_ava\slam_toolbox\srvs\ClearQueue.srv" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\ClearQueue_Request.msg" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\ClearQueue_Response.msg" />
+    <None Include="C:\dev_ava\slam_toolbox\srvs\ToggleInteractive.srv" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\ToggleInteractive_Request.msg" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\ToggleInteractive_Response.msg" />
+    <None Include="C:\dev_ava\slam_toolbox\srvs\Clear.srv" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\Clear_Request.msg" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\Clear_Response.msg" />
+    <None Include="C:\dev_ava\slam_toolbox\srvs\SaveMap.srv" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\SaveMap_Request.msg" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\SaveMap_Response.msg" />
+    <None Include="C:\dev_ava\slam_toolbox\srvs\LoopClosure.srv" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\LoopClosure_Request.msg" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\LoopClosure_Response.msg" />
+    <None Include="C:\dev_ava\slam_toolbox\srvs\MergeMaps.srv" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\MergeMaps_Request.msg" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\MergeMaps_Response.msg" />
+    <None Include="C:\dev_ava\slam_toolbox\srvs\AddSubmap.srv" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\AddSubmap_Request.msg" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\AddSubmap_Response.msg" />
+    <None Include="C:\dev_ava\slam_toolbox\srvs\DeserializePoseGraph.srv" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\DeserializePoseGraph_Request.msg" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\DeserializePoseGraph_Response.msg" />
+    <None Include="C:\dev_ava\slam_toolbox\srvs\SerializePoseGraph.srv" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\SerializePoseGraph_Request.msg" />
+    <None Include="C:\dev_ava\build\slam_toolbox\rosidl_cmake\srvs\SerializePoseGraph_Response.msg" />
+    <None Include="C:\dev_ava\build\slam_toolbox\CMakeFiles\slam_toolbox" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F9CB62D1-90E6-3782-9618-A9B3FA161801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

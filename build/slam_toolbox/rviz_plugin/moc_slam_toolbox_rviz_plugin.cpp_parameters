@@ -1,0 +1,15 @@
+-IC:/dev_ava/slam_toolbox/include
+-IC:/opt/ros/foxy/x64/include/eigen3
+-IC:/opt/ros/foxy/x64/include/suitesparse
+-IC:/opt/ros/foxy/x64/include
+-IC:/opt/ros/foxy/x64/include
+-IC:/opt/ros/foxy/x64/include/eigen3
+-IC:/dev_ava/slam_toolbox
+-IC:/dev_ava/build/slam_toolbox
+-DQT_NO_KEYWORDS
+-DROS_PACKAGE_NAME="slam_toolbox"
+-DWIN32
+--compiler-flavor=msvc
+-o
+C:/dev_ava/build/slam_toolbox/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp
+C:/dev_ava/slam_toolbox/rviz_plugin/slam_toolbox_rviz_plugin.hpp

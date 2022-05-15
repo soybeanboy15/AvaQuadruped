@@ -1,0 +1,268 @@
+<robot name="ava">
+<!-- Set up materials -->
+    <material name="gray">
+        <color rgba=".5 .5 .5 1" />
+    </material>
+    <material name="red">
+        <color rgba=".7 .5 .5 1" />
+    </material>
+    <material name="green">
+        <color rgba=".5 .7 .5 1" />
+    </material>
+    <material name="blue">
+        <color rgba=".5 .5 .7 1" />
+    </material>
+    <material name="white">
+        <color rgba=".9 .9 .9 1" />
+    </material>
+    <material name="gray2">
+        <color rgba=".6 .6 .6 1" />
+    </material>
+    <material name="gray3">
+        <color rgba=".15 .15 .15 1" />
+    </material>
+<!-- Set up base link, footprint and lidar -->
+    
+    <link name="base_link">
+        <visual>
+            <origin xyz="-0.02 0.0 0.0" rpy="1.5708 0 -1.5708"/>
+            <geometry>
+                <!--<box size="0.234 0.077 0.05"/>-->
+                <mesh filename = "file://C:\dev_ava\install\share\ava_description\Body.stl"/>
+            </geometry>
+            <material name="gray2"/>
+        </visual>
+    </link>
+
+    <link name="base_footprint"/>
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="base_footprint"/>
+        <origin xyz="0.0 0.0 -0.1414"/>
+    </joint>
+
+    <link name="lidar_link">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="0 0 -1.5708"/>
+            <geometry>
+                <mesh filename = "file://C:\dev_ava\install\share\ava_description\Lidar.stl"/>
+            </geometry>
+            <material name="gray3"/>
+        </visual>
+    </link>
+
+    <joint name="lidar_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="lidar_link"/>
+        <origin xyz="0.05 0.0 0.065" rpy="0 0 3.1416"/>
+    </joint>
+
+<!-- Set up the four shoulder links and joints-->
+    <link name="fl_shoulder">
+        <visual>
+            <origin xyz="0 0.025 0"/>
+            <geometry>
+                <box size="0.02 0.05 0.02"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+    </link>
+    <joint name="joint_shoulder_fl" type="revolute">
+        <parent link="base_link"/>
+        <child link="fl_shoulder"/>
+        <origin xyz="0.117 0.0385 0"/>
+        <axis xyz="1 0 0"/>
+        <limit effort="10" lower="-0.548" upper="1.5708" velocity="10"/>
+    </joint>
+
+    <link name="fr_shoulder">
+        <visual>
+            <origin xyz="0 -0.025 0"/>
+            <geometry>
+                <box size="0.02 0.05 0.02"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+    </link>
+    <joint name="joint_shoulder_fr" type="revolute">
+        <parent link="base_link"/>
+        <child link="fr_shoulder"/>
+        <origin xyz="0.117 -0.0385 0"/>
+        <axis xyz="-1 0 0"/>
+        <limit effort="10" lower="-0.548" upper="1.5708" velocity="10"/>
+    </joint>
+
+     <link name="br_shoulder">
+        <visual>
+            <origin xyz="0 -0.025 0"/>
+            <geometry>
+                <box size="0.02 0.05 0.02"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+    </link>
+    <joint name="joint_shoulder_br" type="revolute">
+        <parent link="base_link"/>
+        <child link="br_shoulder"/>
+        <origin xyz="-0.117 -0.0385 0"/>
+        <axis xyz="-1 0 0"/>
+        <limit effort="10" lower="-0.548" upper="1.5708" velocity="10"/>
+    </joint>
+
+     <link name="bl_shoulder">
+        <visual>
+            <origin xyz="0 0.025 0"/>
+            <geometry>
+                <box size="0.02 0.05 0.02"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+    </link>
+    <joint name="joint_shoulder_bl" type="revolute">
+        <parent link="base_link"/>
+        <child link="bl_shoulder"/>
+        <origin xyz="-0.117 0.0385 0"/>
+        <axis xyz="1 0 0"/>
+        <limit effort="10" lower="-0.548" upper="1.5708" velocity="10"/>
+    </joint>
+
+<!-- Set up the four femur links and joints-->   
+    <link name="fl_femur">
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <box size="0.02 0.02 0.1"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+    </link>
+    <joint name="joint_femur_fl" type="revolute">
+        <parent link="fl_shoulder"/>
+        <child link="fl_femur"/>
+        <origin xyz="0 0.05 0" rpy="0 0.785398 0"/>
+        <axis xyz="0 -1 0"/>
+        <limit effort="10" lower="-0.785398" upper="0.785398" velocity="10"/>
+    </joint>
+
+    <link name="fr_femur">
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <box size="0.02 0.02 0.1"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+    </link>
+    <joint name="joint_femur_fr" type="revolute">
+        <parent link="fr_shoulder"/>
+        <child link="fr_femur"/>
+        <origin xyz="0 -0.05 0" rpy="0 0.785398 0"/>
+        <axis xyz="0 -1 0"/>
+        <limit effort="10" lower="-0.785398" upper="0.785398" velocity="10"/>
+    </joint>
+
+    <link name="br_femur">
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <box size="0.02 0.02 0.1"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+    </link>
+    <joint name="joint_femur_br" type="revolute">
+        <parent link="br_shoulder"/>
+        <child link="br_femur"/>
+        <origin xyz="0 -0.05 0" rpy="0 0.785398 0"/>
+        <axis xyz="0 -1 0"/>
+        <limit effort="10" lower="-0.785398" upper="0.785398" velocity="10"/>
+    </joint>
+
+    <link name="bl_femur">
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <box size="0.02 0.02 0.1"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+    </link>
+    <joint name="joint_femur_bl" type="revolute">
+        <parent link="bl_shoulder"/>
+        <child link="bl_femur"/>
+        <origin xyz="0 0.05 0" rpy="0 0.785398 0"/>
+        <axis xyz="0 -1 0"/>
+        <limit effort="10" lower="-0.785398" upper="0.785398" velocity="10"/>
+    </joint>
+
+<!-- Set up the four tibia links and joints-->   
+    <link name="fl_tibia">
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <box size="0.02 0.02 0.1"/>
+            </geometry>
+            <material name="gray"/>
+        </visual>
+    </link>
+    <joint name="joint_tibia_fl" type="revolute">
+        <parent link="fl_femur"/>
+        <child link="fl_tibia"/>
+        <origin xyz="0 0 -0.1" rpy="0 -1.5708 0"/>
+        <axis xyz="0 -1 0"/>
+        <limit effort="10" lower="-0.96" upper="0.96" velocity="10"/>
+    </joint> 
+
+     <link name="fr_tibia">
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <box size="0.02 0.02 0.1"/>
+            </geometry>
+            <material name="gray"/>
+        </visual>
+    </link>
+    <joint name="joint_tibia_fr" type="revolute">
+        <parent link="fr_femur"/>
+        <child link="fr_tibia"/>
+        <origin xyz="0 0 -0.1" rpy="0 -1.5708 0"/>
+        <axis xyz="0 -1 0"/>
+        <limit effort="10" lower="-0.96" upper="0.96" velocity="10"/>
+    </joint>    
+
+    <link name="br_tibia">
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <box size="0.02 0.02 0.1"/>
+            </geometry>
+            <material name="gray"/>
+        </visual>
+    </link>
+    <joint name="joint_tibia_br" type="revolute">
+        <parent link="br_femur"/>
+        <child link="br_tibia"/>
+        <origin xyz="0 0 -0.1" rpy="0 -1.5708 0"/>
+        <axis xyz="0 -1 0"/>
+        <limit effort="10" lower="-0.96" upper="0.96" velocity="10"/>
+    </joint> 
+
+    <link name="bl_tibia">
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <box size="0.02 0.02 0.1"/>
+            </geometry>
+            <material name="gray"/>
+        </visual>
+    </link>
+    <joint name="joint_tibia_bl" type="revolute">
+        <parent link="bl_femur"/>
+        <child link="bl_tibia"/>
+        <origin xyz="0 0 -0.1" rpy="0 -1.5708 0"/>
+        <axis xyz="0 -1 0"/>
+        <limit effort="10" lower="-0.96" upper="0.96" velocity="10"/>
+    </joint>    
+</robot>                      
+                  

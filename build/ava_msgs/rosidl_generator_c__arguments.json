@@ -1,0 +1,32 @@
+{
+  "package_name": "ava_msgs",
+  "output_dir": "C:/dev_ava/build/ava_msgs/rosidl_generator_c/ava_msgs",
+  "template_dir": "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs:msg/LegPosition.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs:msg/AvaPose.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs:msg/AvaCommand.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs:msg/Velocity.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs:msg/AvaInfo.idl"
+  ],
+  "target_dependencies": [
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../../../Lib/site-packages/rosidl_generator_c/__init__.py",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs/msg/LegPosition.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs/msg/AvaPose.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs/msg/AvaCommand.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs/msg/Velocity.idl",
+    "C:/dev_ava/build/ava_msgs/rosidl_adapter/ava_msgs/msg/AvaInfo.idl"
+  ]
+}

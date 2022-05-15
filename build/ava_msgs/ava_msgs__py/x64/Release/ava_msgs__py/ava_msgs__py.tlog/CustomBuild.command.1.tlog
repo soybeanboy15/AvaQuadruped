@@ -1,0 +1,28 @@
+^C:\DEV_AVA\BUILD\AVA_MSGS\CMAKEFILES\9B5B427CD86308B6C099A2E4F96D6B1D\_AVA_MSGS_S.EP.ROSIDL_TYPESUPPORT_FASTRTPS_C.C.RULE
+setlocal
+C:\opt\ros\foxy\x64\python.exe C:/opt/ros/foxy/x64/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file C:/dev_ava/build/ava_msgs/rosidl_generator_py__arguments.json --typesupport-impls rosidl_typesupport_fastrtps_c";"rosidl_typesupport_introspection_c";"rosidl_typesupport_c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV_AVA\BUILD\AVA_MSGS\CMAKEFILES\26C9FE98611E5A66F1C953A955852C7E\AVA_MSGS__PY.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV_AVA\BUILD\AVA_MSGS\AVA_MSGS__PY\CMAKELISTS.TXT
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/dev_ava/src/ava_msgs -BC:/dev_ava/build/ava_msgs --check-stamp-file C:/dev_ava/build/ava_msgs/ava_msgs__py/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

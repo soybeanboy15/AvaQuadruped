@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev_ava\build\ava_msgs\CMakeFiles\f046b9f7e3be92485d2a1e66a2aae1a8\ava_msgs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev_ava\src\ava_msgs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev_ava\src\ava_msgs\msg\LegPosition.msg" />
+    <None Include="C:\dev_ava\src\ava_msgs\msg\AvaPose.msg" />
+    <None Include="C:\dev_ava\src\ava_msgs\msg\AvaCommand.msg" />
+    <None Include="C:\dev_ava\src\ava_msgs\msg\Velocity.msg" />
+    <None Include="C:\dev_ava\src\ava_msgs\msg\AvaInfo.msg" />
+    <None Include="C:\dev_ava\build\ava_msgs\CMakeFiles\ava_msgs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CE6F029D-0A26-38B4-84D3-7A4C00049B57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

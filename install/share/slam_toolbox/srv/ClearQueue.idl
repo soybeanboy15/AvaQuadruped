@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from slam_toolbox/srvs\ClearQueue.srv
+// generated code does not contain a copyright notice
+
+
+module slam_toolbox {
+  module srv {
+    struct ClearQueue_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ClearQueue_Response {
+      boolean status;
+    };
+  };
+};

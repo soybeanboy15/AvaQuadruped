@@ -1,0 +1,27 @@
+[3.031s] Invoking command in 'C:\dev_ava\src\ava_teleop': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\ava_teleop build --build-base C:\dev_ava\build\ava_teleop\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\ava_teleop\install.log --single-version-externally-managed
+[3.984s] running egg_info
+[3.984s] writing C:\dev_ava\build\ava_teleop\ava_teleop.egg-info\PKG-INFO
+[3.984s] writing dependency_links to C:\dev_ava\build\ava_teleop\ava_teleop.egg-info\dependency_links.txt
+[4.000s] writing entry points to C:\dev_ava\build\ava_teleop\ava_teleop.egg-info\entry_points.txt
+[4.000s] writing requirements to C:\dev_ava\build\ava_teleop\ava_teleop.egg-info\requires.txt
+[4.000s] writing top-level names to C:\dev_ava\build\ava_teleop\ava_teleop.egg-info\top_level.txt
+[4.047s] reading manifest file 'C:\dev_ava\build\ava_teleop\ava_teleop.egg-info\SOURCES.txt'
+[4.047s] writing manifest file 'C:\dev_ava\build\ava_teleop\ava_teleop.egg-info\SOURCES.txt'
+[4.047s] running build
+[4.047s] running build_py
+[4.047s] running install
+[4.047s] running install_lib
+[4.063s] writing byte-compilation script 'C:\Users\matth\AppData\Local\Temp\tmpc7v7awks.py'
+[4.063s] c:\opt\ros\foxy\x64\python.exe C:\Users\matth\AppData\Local\Temp\tmpc7v7awks.py
+[4.188s] removing C:\Users\matth\AppData\Local\Temp\tmpc7v7awks.py
+[4.188s] running install_data
+[4.203s] running install_egg_info
+[4.203s] removing 'C:\dev_ava\install\Lib\site-packages\ava_teleop-0.0.0-py3.8.egg-info' (and everything under it)
+[4.203s] Copying C:\dev_ava\build\ava_teleop\ava_teleop.egg-info to C:\dev_ava\install\Lib\site-packages\ava_teleop-0.0.0-py3.8.egg-info
+[4.266s] running install_scripts
+[4.531s] Installing ava_teleop_key-script.py script to C:\dev_ava\install\lib\ava_teleop
+[4.531s] Installing ava_teleop_key.exe script to C:\dev_ava\install\lib\ava_teleop
+[4.547s] writing list of installed files to 'C:\dev_ava\build\ava_teleop\install.log'
+[4.672s] Invoked command in 'C:\dev_ava\src\ava_teleop' returned '0': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\ava_teleop build --build-base C:\dev_ava\build\ava_teleop\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\ava_teleop\install.log --single-version-externally-managed

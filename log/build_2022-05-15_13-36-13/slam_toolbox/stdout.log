@@ -1,0 +1,808 @@
+-- Selecting Windows SDK version 10.0.16299.0 to target Windows 10.0.22000.
+-- The C compiler identification is MSVC 19.29.30133.0
+-- The CXX compiler identification is MSVC 19.29.30133.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+-- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+-- Found message_filters: 3.2.5 (C:/opt/ros/foxy/x64/share/message_filters/cmake)
+-- Found nav_msgs: 2.0.4 (C:/opt/ros/foxy/x64/share/nav_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+-- Found OpenSSL: C:/opt/ros/foxy/x64/Lib/libcrypto.lib (found version "1.1.1g")  
+-- Found FastRTPS: C:/opt/ros/foxy/x64/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.3.1 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 2.0.4 (C:/opt/ros/foxy/x64/share/sensor_msgs/cmake)
+-- Found tf2: 0.13.10 (C:/opt/ros/foxy/x64/share/tf2/cmake)
+-- Found tf2_ros: 0.13.10 (C:/opt/ros/foxy/x64/share/tf2_ros/cmake)
+-- Found visualization_msgs: 2.0.4 (C:/opt/ros/foxy/x64/share/visualization_msgs/cmake)
+-- Found pluginlib: 2.5.3 (C:/opt/ros/foxy/x64/share/pluginlib/cmake)
+-- Found tf2_geometry_msgs: 0.13.10 (C:/opt/ros/foxy/x64/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (C:/opt/ros/foxy/x64/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found tf2_sensor_msgs: 0.13.10 (C:/opt/ros/foxy/x64/share/tf2_sensor_msgs/cmake)
+-- Found std_srvs: 2.0.4 (C:/opt/ros/foxy/x64/share/std_srvs/cmake)
+-- Found rosidl_default_generators: 1.0.1 (C:/opt/ros/foxy/x64/share/rosidl_default_generators/cmake)
+-- Found nav2_map_server: 0.4.5 (C:/opt/ros/foxy/x64/share/nav2_map_server/cmake)
+-- Found rviz_common: 8.2.2 (C:/opt/ros/foxy/x64/share/rviz_common/cmake)
+-- Found OGRE
+--   static     : OFF
+--   components : Bites;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;RenderSystem_Direct3D11;Codec_STBI;Codec_FreeImage;Codec_EXR
+--   media      : C:/opt/ros/foxy/x64/Media
+-- OGRE_LIBRARIES: OgreBites;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: C:/opt/ros/foxy/x64/Lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;RenderSystem_Direct3D11;Codec_STBI;Codec_FreeImage;Codec_EXR
+-- OGRE_PLUGIN_DIR: C:/opt/ros/foxy/x64/bin
+-- Found rviz_default_plugins: 8.2.2 (C:/opt/ros/foxy/x64/share/rviz_default_plugins/cmake)
+-- Found Boost: C:/opt/ros/foxy/x64/include (found version "1.73.0") found components: system serialization filesystem thread chrono date_time atomic 
+-- Found PkgConfig: C:/opt/ros/foxy/x64/bin/pkg-config.exe (found version "0.29.2") 
+-- Could NOT find CSPARSE (missing: CSPARSE_INCLUDE_DIR CSPARSE_LIBRARY) 
+-- Could NOT find CHOLMOD (missing: CHOLMOD_LIBRARIES) 
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- Found BLAS: C:/opt/ros/foxy/x64/Lib/openblas.lib  
+-- Looking for cheev_
+-- Looking for cheev_ - not found
+-- Looking for cheev_
+-- Looking for cheev_ - not found
+-- Looking for cheev_
+-- Looking for cheev_ - found
+-- A library with LAPACK API found.
+-- Found installed version of Eigen: C:/opt/ros/foxy/x64/share/eigen3
+-- Found required Ceres dependency: Eigen version 3.3.7 in C:/opt/ros/foxy/x64/include/eigen3
+-- A library with LAPACK API found.
+-- Ceres version 1.14.0 detected here: C:/opt/ros/foxy/x64 was built with C++11. Ceres target will add C++11 flags to compile options for targets using it.
+-- Found Ceres version: 1.14.0 installed in: C:/opt/ros/foxy/x64 with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, C++11, OpenMP, Multithreading]
+-- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found version "3.8.3") 
+-- Found ament_cmake_ros: 0.9.2 (C:/opt/ros/foxy/x64/share/ament_cmake_ros/cmake)
+-- Found TinyXML2 via Config file: C:/opt/ros/foxy/x64/share/tinyxml2
+-- Found TinyXML2 via Config file: C:/opt/ros/foxy/x64/share/tinyxml2
+-- Found TinyXML2 via Config file: C:/opt/ros/foxy/x64/share/tinyxml2
+-- Found TinyXML2 via Config file: C:/opt/ros/foxy/x64/share/tinyxml2
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (C:/opt/ros/foxy/x64/share/python_cmake_module/cmake)
+-- Found PythonLibs: C:/opt/ros/foxy/x64/Lib/python38.lib (found suitable version "3.8.3", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+-- Using PYTHON_INCLUDE_DIRS: C:/opt/ros/foxy/x64/include/python3.8
+-- Using PYTHON_LIBRARIES: C:/opt/ros/foxy/x64/Lib/python38.lib
+-- Found PythonExtra: .pyd  
+-- Using numpy include directory: C:\opt\ros\foxy\x64\lib\site-packages\numpy\core\include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/dev_ava/build/slam_toolbox
+Microsoft (R) Build Engine version 16.11.0+0538acc04 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking Build System
+  Generating C++ code for ROS interfaces
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  Generating C code for ROS interfaces
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  pause__functions.c
+  clear_queue__functions.c
+  toggle_interactive__functions.c
+  clear__functions.c
+  save_map__functions.c
+  loop_closure__functions.c
+  merge_maps__functions.c
+  add_submap__functions.c
+  deserialize_pose_graph__functions.c
+  serialize_pose_graph__functions.c
+     Creating library C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_generator_c.lib and object C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_generator_c.exp
+  slam_toolbox__rosidl_generator_c.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_generator_c.dll
+  Generating C type support dispatch for ROS interfaces
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  pause__type_support.cpp
+  clear_queue__type_support.cpp
+  toggle_interactive__type_support.cpp
+  clear__type_support.cpp
+  save_map__type_support.cpp
+  loop_closure__type_support.cpp
+  merge_maps__type_support.cpp
+  add_submap__type_support.cpp
+  deserialize_pose_graph__type_support.cpp
+  serialize_pose_graph__type_support.cpp
+     Creating library C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_c.lib and object C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_c.exp
+  slam_toolbox__rosidl_typesupport_c.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_c.dll
+  Generating C++ type support dispatch for ROS interfaces
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  pause__type_support.cpp
+  clear_queue__type_support.cpp
+  toggle_interactive__type_support.cpp
+  clear__type_support.cpp
+  save_map__type_support.cpp
+  loop_closure__type_support.cpp
+  merge_maps__type_support.cpp
+  add_submap__type_support.cpp
+  deserialize_pose_graph__type_support.cpp
+  serialize_pose_graph__type_support.cpp
+     Creating library C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_cpp.lib and object C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_cpp.exp
+  slam_toolbox__rosidl_typesupport_cpp.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_cpp.dll
+  Generating C++ type support for eProsima Fast-RTPS
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  pause__type_support.cpp
+  clear_queue__type_support.cpp
+  toggle_interactive__type_support.cpp
+  clear__type_support.cpp
+  save_map__type_support.cpp
+  loop_closure__type_support.cpp
+  merge_maps__type_support.cpp
+  add_submap__type_support.cpp
+  deserialize_pose_graph__type_support.cpp
+  serialize_pose_graph__type_support.cpp
+     Creating library C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_fastrtps_cpp.lib and object C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_fastrtps_cpp.exp
+  slam_toolbox__rosidl_typesupport_fastrtps_cpp.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_fastrtps_cpp.dll
+  Generating C type support for eProsima Fast-RTPS
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  pause__type_support_c.cpp
+  clear_queue__type_support_c.cpp
+  toggle_interactive__type_support_c.cpp
+  clear__type_support_c.cpp
+  save_map__type_support_c.cpp
+  loop_closure__type_support_c.cpp
+  merge_maps__type_support_c.cpp
+  add_submap__type_support_c.cpp
+  deserialize_pose_graph__type_support_c.cpp
+  serialize_pose_graph__type_support_c.cpp
+     Creating library C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_fastrtps_c.lib and object C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_fastrtps_c.exp
+  slam_toolbox__rosidl_typesupport_fastrtps_c.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_fastrtps_c.dll
+  Generating C introspection for ROS interfaces
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  pause__type_support.c
+  clear_queue__type_support.c
+  toggle_interactive__type_support.c
+  clear__type_support.c
+  save_map__type_support.c
+  loop_closure__type_support.c
+  merge_maps__type_support.c
+  add_submap__type_support.c
+  deserialize_pose_graph__type_support.c
+  serialize_pose_graph__type_support.c
+     Creating library C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_introspection_c.lib and object C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_introspection_c.exp
+  slam_toolbox__rosidl_typesupport_introspection_c.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_introspection_c.dll
+  Generating C++ introspection for ROS interfaces
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  pause__type_support.cpp
+  clear_queue__type_support.cpp
+  toggle_interactive__type_support.cpp
+  clear__type_support.cpp
+  save_map__type_support.cpp
+  loop_closure__type_support.cpp
+  merge_maps__type_support.cpp
+  add_submap__type_support.cpp
+  deserialize_pose_graph__type_support.cpp
+  serialize_pose_graph__type_support.cpp
+     Creating library C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_introspection_cpp.lib and object C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__rosidl_typesupport_introspection_cpp.exp
+  slam_toolbox__rosidl_typesupport_introspection_cpp.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\slam_toolbox__rosidl_typesupport_introspection_cpp.dll
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  Generating rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  slam_toolbox_rviz_plugin.cpp
+  moc_slam_toolbox_rviz_plugin.cpp
+C:\dev_ava\slam_toolbox\rviz_plugin\slam_toolbox_rviz_plugin.cpp(314,41): warning C4101: 'ia': unreferenced local variable [C:\dev_ava\build\slam_toolbox\SlamToolboxPlugin.vcxproj]
+C:\dev_ava\slam_toolbox\rviz_plugin\slam_toolbox_rviz_plugin.cpp(327,41): warning C4101: 'ia': unreferenced local variable [C:\dev_ava\build\slam_toolbox\SlamToolboxPlugin.vcxproj]
+  SlamToolboxPlugin.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\SlamToolboxPlugin.dll
+  Building Custom Rule C:/dev_ava/slam_toolbox/lib/karto_sdk/CMakeLists.txt
+  Karto.cpp
+  Mapper.cpp
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk/Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable (compiling source file C:\dev_ava\slam_toolbox\lib\karto_sdk\src\Karto.cpp) [C:\dev_ava\build\slam_toolbox\lib\karto_sdk\kartoSlamToolbox.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable (compiling source file C:\dev_ava\slam_toolbox\lib\karto_sdk\src\Mapper.cpp) [C:\dev_ava\build\slam_toolbox\lib\karto_sdk\kartoSlamToolbox.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\src\Mapper.cpp(419,67): warning C4244: 'argument': conversion from 'kt_double' to 'const kt_int32u', possible loss of data [C:\dev_ava\build\slam_toolbox\lib\karto_sdk\kartoSlamToolbox.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\src\Mapper.cpp(645,20): warning C4244: 'initializing': conversion from '__int64' to 'kt_int32u', possible loss of data [C:\dev_ava\build\slam_toolbox\lib\karto_sdk\kartoSlamToolbox.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\src\Mapper.cpp(647,43): warning C4267: 'initializing': conversion from 'size_t' to 'kt_int32u', possible loss of data [C:\dev_ava\build\slam_toolbox\lib\karto_sdk\kartoSlamToolbox.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\src\Mapper.cpp(647,43): warning C4267: 'initializing': conversion from 'size_t' to 'const kt_int32u', possible loss of data [C:\dev_ava\build\slam_toolbox\lib\karto_sdk\kartoSlamToolbox.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\src\Mapper.cpp(655,27): warning C4244: '=': conversion from '__int64' to 'kt_int32u', possible loss of data [C:\dev_ava\build\slam_toolbox\lib\karto_sdk\kartoSlamToolbox.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\src\Mapper.cpp(2978,21): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data [C:\dev_ava\build\slam_toolbox\lib\karto_sdk\kartoSlamToolbox.vcxproj]
+     Creating library C:/dev_ava/build/slam_toolbox/lib/karto_sdk/Release/kartoSlamToolbox.lib and object C:/dev_ava/build/slam_toolbox/lib/karto_sdk/Release/kartoSlamToolbox.exp
+  kartoSlamToolbox.vcxproj -> C:\dev_ava\build\slam_toolbox\lib\karto_sdk\Release\kartoSlamToolbox.dll
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  slam_toolbox_common.cpp
+  map_saver.cpp
+  loop_closure_assistant.cpp
+  laser_utils.cpp
+  slam_mapper.cpp
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable (compiling source file C:\dev_ava\slam_toolbox\src\slam_mapper.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable (compiling source file C:\dev_ava\slam_toolbox\src\laser_utils.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(66,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_z_type' to 'const float', possible loss of data (compiling source file C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,124): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_y_type' to 'const float', possible loss of data (compiling source file C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_x_type' to 'const float', possible loss of data (compiling source file C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_z_type' to 'const float', possible loss of data (compiling source file C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_y_type' to 'const float', possible loss of data (compiling source file C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_x_type' to 'const float', possible loss of data (compiling source file C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_w_type' to 'const float', possible loss of data (compiling source file C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable (compiling source file C:\dev_ava\slam_toolbox\src\loop_closure_assistant.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\src\laser_utils.cpp(60,3): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(53,38): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data (compiling source file C:\dev_ava\slam_toolbox\src\loop_closure_assistant.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(71,22): warning C4244: '=': conversion from 'const double' to 'visualization_msgs::msg::InteractiveMarker_<std::allocator<void>>::_scale_type', possible loss of data (compiling source file C:\dev_ava\slam_toolbox\src\loop_closure_assistant.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable (compiling source file C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/get_pose_helper.hpp(51,40): warning C4101: 'e': unreferenced local variable (compiling source file C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(53,38): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data (compiling source file C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(71,22): warning C4244: '=': conversion from 'const double' to 'visualization_msgs::msg::InteractiveMarker_<std::allocator<void>>::_scale_type', possible loss of data (compiling source file C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp) [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp(42,43): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp(43,26): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp(145,44): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp(153,49): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp(155,53): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp(245,24): warning C4244: '=': conversion from 'double' to 'nav_msgs::msg::MapMetaData_<std::allocator<void>>::_resolution_type', possible loss of data [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+C:\dev_ava\slam_toolbox\src\slam_toolbox_common.cpp(475,53): warning C4244: 'argument': conversion from 'double' to 'int64_t', possible loss of data [C:\dev_ava\build\slam_toolbox\toolbox_common.vcxproj]
+  Auto build dll exports
+     Creating library C:/dev_ava/build/slam_toolbox/Release/toolbox_common.lib and object C:/dev_ava/build/slam_toolbox/Release/toolbox_common.exp
+  toolbox_common.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\toolbox_common.dll
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  slam_toolbox_async.cpp
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(66,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,124): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_w_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable [C:\dev_ava\build\slam_toolbox\async_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/get_pose_helper.hpp(51,40): warning C4101: 'e': unreferenced local variable [C:\dev_ava\build\slam_toolbox\async_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(53,38): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(71,22): warning C4244: '=': conversion from 'const double' to 'visualization_msgs::msg::InteractiveMarker_<std::allocator<void>>::_scale_type', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox.vcxproj]
+  Auto build dll exports
+     Creating library C:/dev_ava/build/slam_toolbox/Release/async_slam_toolbox.lib and object C:/dev_ava/build/slam_toolbox/Release/async_slam_toolbox.exp
+  async_slam_toolbox.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\async_slam_toolbox.dll
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  slam_toolbox_async_node.cpp
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(66,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,124): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_w_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable [C:\dev_ava\build\slam_toolbox\async_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/get_pose_helper.hpp(51,40): warning C4101: 'e': unreferenced local variable [C:\dev_ava\build\slam_toolbox\async_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(53,38): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(71,22): warning C4244: '=': conversion from 'const double' to 'visualization_msgs::msg::InteractiveMarker_<std::allocator<void>>::_scale_type', possible loss of data [C:\dev_ava\build\slam_toolbox\async_slam_toolbox_node.vcxproj]
+     Creating library C:/dev_ava/build/slam_toolbox/Release/async_slam_toolbox_node.lib and object C:/dev_ava/build/slam_toolbox/Release/async_slam_toolbox_node.exp
+  async_slam_toolbox_node.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\async_slam_toolbox_node.exe
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  ceres_solver.cpp
+C:\opt\ros\foxy\x64\include\ceres/gradient_problem.h(108,44): warning C4251: 'ceres::GradientProblem::function_': class 'ceres::internal::scoped_ptr<ceres::FirstOrderFunction>' needs to have dll-interface to be used by clients of class 'ceres::GradientProblem' [C:\dev_ava\build\slam_toolbox\ceres_solver_plugin.vcxproj]
+C:\opt\ros\foxy\x64\include\ceres/gradient_problem.h(108): message : see declaration of 'ceres::internal::scoped_ptr<ceres::FirstOrderFunction>' [C:\dev_ava\build\slam_toolbox\ceres_solver_plugin.vcxproj]
+C:\opt\ros\foxy\x64\include\ceres/gradient_problem.h(109,47): warning C4251: 'ceres::GradientProblem::parameterization_': class 'ceres::internal::scoped_ptr<ceres::LocalParameterization>' needs to have dll-interface to be used by clients of class 'ceres::GradientProblem' [C:\dev_ava\build\slam_toolbox\ceres_solver_plugin.vcxproj]
+C:\opt\ros\foxy\x64\include\ceres/gradient_problem.h(109): message : see declaration of 'ceres::internal::scoped_ptr<ceres::LocalParameterization>' [C:\dev_ava\build\slam_toolbox\ceres_solver_plugin.vcxproj]
+C:\opt\ros\foxy\x64\include\ceres/gradient_problem.h(110,34): warning C4251: 'ceres::GradientProblem::scratch_': class 'ceres::internal::scoped_array<double>' needs to have dll-interface to be used by clients of class 'ceres::GradientProblem' [C:\dev_ava\build\slam_toolbox\ceres_solver_plugin.vcxproj]
+C:\opt\ros\foxy\x64\include\ceres/gradient_problem.h(110): message : see declaration of 'ceres::internal::scoped_array<double>' [C:\dev_ava\build\slam_toolbox\ceres_solver_plugin.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable [C:\dev_ava\build\slam_toolbox\ceres_solver_plugin.vcxproj]
+     Creating library C:/dev_ava/build/slam_toolbox/Release/ceres_solver_plugin.lib and object C:/dev_ava/build/slam_toolbox/Release/ceres_solver_plugin.exp
+  ceres_solver_plugin.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\ceres_solver_plugin.dll
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  slam_toolbox_lifelong.cpp
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(66,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,124): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_w_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/get_pose_helper.hpp(51,40): warning C4101: 'e': unreferenced local variable [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(53,38): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(71,22): warning C4244: '=': conversion from 'const double' to 'visualization_msgs::msg::InteractiveMarker_<std::allocator<void>>::_scale_type', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\src\experimental\slam_toolbox_lifelong.cpp(231,53): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\src\experimental\slam_toolbox_lifelong.cpp(288,58): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\src\experimental\slam_toolbox_lifelong.cpp(424,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\src\experimental\slam_toolbox_lifelong.cpp(424,33): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox.vcxproj]
+  Auto build dll exports
+     Creating library C:/dev_ava/build/slam_toolbox/Release/lifelong_slam_toolbox.lib and object C:/dev_ava/build/slam_toolbox/Release/lifelong_slam_toolbox.exp
+  lifelong_slam_toolbox.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\lifelong_slam_toolbox.dll
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  slam_toolbox_lifelong_node.cpp
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(66,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,124): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_w_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/get_pose_helper.hpp(51,40): warning C4101: 'e': unreferenced local variable [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(53,38): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(71,22): warning C4244: '=': conversion from 'const double' to 'visualization_msgs::msg::InteractiveMarker_<std::allocator<void>>::_scale_type', possible loss of data [C:\dev_ava\build\slam_toolbox\lifelong_slam_toolbox_node.vcxproj]
+     Creating library C:/dev_ava/build/slam_toolbox/Release/lifelong_slam_toolbox_node.lib and object C:/dev_ava/build/slam_toolbox/Release/lifelong_slam_toolbox_node.exp
+  lifelong_slam_toolbox_node.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\lifelong_slam_toolbox_node.exe
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  slam_toolbox_localization.cpp
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(66,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,124): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_w_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/get_pose_helper.hpp(51,40): warning C4101: 'e': unreferenced local variable [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(53,38): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(71,22): warning C4244: '=': conversion from 'const double' to 'visualization_msgs::msg::InteractiveMarker_<std::allocator<void>>::_scale_type', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox.vcxproj]
+  Auto build dll exports
+     Creating library C:/dev_ava/build/slam_toolbox/Release/localization_slam_toolbox.lib and object C:/dev_ava/build/slam_toolbox/Release/localization_slam_toolbox.exp
+  localization_slam_toolbox.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\localization_slam_toolbox.dll
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  slam_toolbox_localization_node.cpp
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(66,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,124): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_w_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/get_pose_helper.hpp(51,40): warning C4101: 'e': unreferenced local variable [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(53,38): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(71,22): warning C4244: '=': conversion from 'const double' to 'visualization_msgs::msg::InteractiveMarker_<std::allocator<void>>::_scale_type', possible loss of data [C:\dev_ava\build\slam_toolbox\localization_slam_toolbox_node.vcxproj]
+     Creating library C:/dev_ava/build/slam_toolbox/Release/localization_slam_toolbox_node.lib and object C:/dev_ava/build/slam_toolbox/Release/localization_slam_toolbox_node.exp
+  localization_slam_toolbox_node.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\localization_slam_toolbox_node.exe
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  merge_maps_kinematic.cpp
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable [C:\dev_ava\build\slam_toolbox\merge_maps_kinematic.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(53,38): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\merge_maps_kinematic.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(71,22): warning C4244: '=': conversion from 'const double' to 'visualization_msgs::msg::InteractiveMarker_<std::allocator<void>>::_scale_type', possible loss of data [C:\dev_ava\build\slam_toolbox\merge_maps_kinematic.vcxproj]
+C:\dev_ava\slam_toolbox\src\merge_maps_kinematic.cpp(302,31): warning C4244: '=': conversion from 'double' to 'nav_msgs::msg::MapMetaData_<std::allocator<void>>::_resolution_type', possible loss of data [C:\dev_ava\build\slam_toolbox\merge_maps_kinematic.vcxproj]
+     Creating library C:/dev_ava/build/slam_toolbox/Release/merge_maps_kinematic.lib and object C:/dev_ava/build/slam_toolbox/Release/merge_maps_kinematic.exp
+  merge_maps_kinematic.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\merge_maps_kinematic.exe
+  Generating Python code for ROS interfaces
+  Building Custom Rule C:/dev_ava/build/slam_toolbox/slam_toolbox__py/CMakeLists.txt
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  _pause_s.c
+  _clear_queue_s.c
+  _toggle_interactive_s.c
+  _clear_s.c
+  _save_map_s.c
+  _loop_closure_s.c
+  _merge_maps_s.c
+  _add_submap_s.c
+  _deserialize_pose_graph_s.c
+  _serialize_pose_graph_s.c
+     Creating library C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__python.lib and object C:/dev_ava/build/slam_toolbox/Release/slam_toolbox__python.exp
+  slam_toolbox__python.vcxproj -> C:\dev_ava\build\slam_toolbox\rosidl_generator_py\slam_toolbox\slam_toolbox__python.dll
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  _slam_toolbox_s.ep.rosidl_typesupport_c.c
+     Creating library C:/dev_ava/build/slam_toolbox/Release/slam_toolbox_s__rosidl_typesupport_c.lib and object C:/dev_ava/build/slam_toolbox/Release/slam_toolbox_s__rosidl_typesupport_c.exp
+  slam_toolbox__rosidl_typesupport_c__pyext.vcxproj -> C:\dev_ava\build\slam_toolbox\rosidl_generator_py\slam_toolbox\slam_toolbox_s__rosidl_typesupport_c.pyd
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  _slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c
+     Creating library C:/dev_ava/build/slam_toolbox/Release/slam_toolbox_s__rosidl_typesupport_fastrtps_c.lib and object C:/dev_ava/build/slam_toolbox/Release/slam_toolbox_s__rosidl_typesupport_fastrtps_c.exp
+  slam_toolbox__rosidl_typesupport_fastrtps_c__pyext.vcxproj -> C:\dev_ava\build\slam_toolbox\rosidl_generator_py\slam_toolbox\slam_toolbox_s__rosidl_typesupport_fastrtps_c.pyd
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  _slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c
+     Creating library C:/dev_ava/build/slam_toolbox/Release/slam_toolbox_s__rosidl_typesupport_introspection_c.lib and object C:/dev_ava/build/slam_toolbox/Release/slam_toolbox_s__rosidl_typesupport_introspection_c.exp
+  slam_toolbox__rosidl_typesupport_introspection_c__pyext.vcxproj -> C:\dev_ava\build\slam_toolbox\rosidl_generator_py\slam_toolbox\slam_toolbox_s__rosidl_typesupport_introspection_c.pyd
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  slam_toolbox_sync.cpp
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(66,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,124): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_w_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/get_pose_helper.hpp(51,40): warning C4101: 'e': unreferenced local variable [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(53,38): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(71,22): warning C4244: '=': conversion from 'const double' to 'visualization_msgs::msg::InteractiveMarker_<std::allocator<void>>::_scale_type', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox.vcxproj]
+  Auto build dll exports
+     Creating library C:/dev_ava/build/slam_toolbox/Release/sync_slam_toolbox.lib and object C:/dev_ava/build/slam_toolbox/Release/sync_slam_toolbox.exp
+  sync_slam_toolbox.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\sync_slam_toolbox.dll
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+  slam_toolbox_sync_node.cpp
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(66,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,124): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(65,94): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Vector3_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_z_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(68,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_y_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,120): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_x_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox_node.vcxproj]
+C:\opt\ros\foxy\x64\include\tf2_sensor_msgs/tf2_sensor_msgs.h(67,93): warning C4244: 'argument': conversion from 'const geometry_msgs::msg::Quaternion_<std::allocator<void>>::_w_type' to 'const float', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\lib\karto_sdk\include\karto_sdk\Karto.h(2798,37): warning C4101: 'ex': unreferenced local variable [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/get_pose_helper.hpp(51,40): warning C4101: 'e': unreferenced local variable [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(53,38): warning C4244: 'argument': conversion from 'double' to 'rcl_duration_value_t', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox_node.vcxproj]
+C:\dev_ava\slam_toolbox\include\slam_toolbox/visualization_utils.hpp(71,22): warning C4244: '=': conversion from 'const double' to 'visualization_msgs::msg::InteractiveMarker_<std::allocator<void>>::_scale_type', possible loss of data [C:\dev_ava\build\slam_toolbox\sync_slam_toolbox_node.vcxproj]
+     Creating library C:/dev_ava/build/slam_toolbox/Release/sync_slam_toolbox_node.lib and object C:/dev_ava/build/slam_toolbox/Release/sync_slam_toolbox_node.exp
+  sync_slam_toolbox_node.vcxproj -> C:\dev_ava\build\slam_toolbox\Release\sync_slam_toolbox_node.exe
+  Building Custom Rule C:/dev_ava/slam_toolbox/CMakeLists.txt
+-- Installing: C:/dev_ava/install/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox
+-- Installing: C:/dev_ava/install/include/slam_toolbox
+-- Installing: C:/dev_ava/install/include/slam_toolbox/msg
+-- Installing: C:/dev_ava/install/include/slam_toolbox/msg/rosidl_generator_c__visibility_control.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/add_submap.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/clear.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/clear_queue.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/deserialize_pose_graph.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__functions.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__functions.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__struct.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__type_support.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__functions.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__functions.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__struct.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__type_support.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__functions.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__functions.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__struct.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__type_support.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__functions.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__functions.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__struct.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__type_support.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__functions.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__functions.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__struct.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__type_support.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__functions.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__functions.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__struct.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__type_support.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__functions.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__functions.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__struct.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__type_support.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__functions.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__functions.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__functions.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__functions.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__struct.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__type_support.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/loop_closure.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/merge_maps.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/pause.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/save_map.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/serialize_pose_graph.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/toggle_interactive.h
+-- Installing: C:/dev_ava/install/lib/slam_toolbox__rosidl_generator_c.lib
+-- Installing: C:/dev_ava/install/bin/slam_toolbox__rosidl_generator_c.dll
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/msg
+-- Installing: C:/dev_ava/install/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/srv
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/srv/detail
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/dev_ava/install/lib/slam_toolbox__rosidl_typesupport_fastrtps_c.lib
+-- Installing: C:/dev_ava/install/bin/slam_toolbox__rosidl_typesupport_fastrtps_c.dll
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/msg
+-- Installing: C:/dev_ava/install/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/srv
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/srv/detail
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/dds_fastrtps
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/dev_ava/install/lib/slam_toolbox__rosidl_typesupport_fastrtps_cpp.lib
+-- Installing: C:/dev_ava/install/bin/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dll
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/msg
+-- Installing: C:/dev_ava/install/include/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/srv
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/srv/detail
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__type_support.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__type_support.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__type_support.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__type_support.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__type_support.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__type_support.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__type_support.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__type_support.c
+-- Installing: C:/dev_ava/install/lib/slam_toolbox__rosidl_typesupport_introspection_c.lib
+-- Installing: C:/dev_ava/install/bin/slam_toolbox__rosidl_typesupport_introspection_c.dll
+-- Installing: C:/dev_ava/install/lib/slam_toolbox__rosidl_typesupport_c.lib
+-- Installing: C:/dev_ava/install/bin/slam_toolbox__rosidl_typesupport_c.dll
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/srv
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/add_submap.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/clear.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/clear_queue.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/deserialize_pose_graph.hpp
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/srv/detail
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__builder.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__struct.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__traits.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__builder.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__struct.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__traits.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__builder.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__struct.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__traits.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__builder.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__struct.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__traits.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__builder.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__struct.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__traits.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__builder.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__struct.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__traits.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__builder.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__struct.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__traits.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__builder.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__struct.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__traits.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/loop_closure.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/merge_maps.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/pause.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/save_map.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/serialize_pose_graph.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/toggle_interactive.hpp
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/srv
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox/srv/detail
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/add_submap__type_support.cpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear_queue__type_support.cpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/clear__type_support.cpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/loop_closure__type_support.cpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/merge_maps__type_support.cpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/pause__type_support.cpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/save_map__type_support.cpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp
+-- Installing: C:/dev_ava/install/lib/slam_toolbox__rosidl_typesupport_introspection_cpp.lib
+-- Installing: C:/dev_ava/install/bin/slam_toolbox__rosidl_typesupport_introspection_cpp.dll
+-- Installing: C:/dev_ava/install/lib/slam_toolbox__rosidl_typesupport_cpp.lib
+-- Installing: C:/dev_ava/install/bin/slam_toolbox__rosidl_typesupport_cpp.dll
+-- Installing: C:/dev_ava/install/share/slam_toolbox/environment/pythonpath.bat
+-- Installing: C:/dev_ava/install/share/slam_toolbox/environment/pythonpath.dsv
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/__init__.py
+Compiling 'C:/dev_ava/install/Lib/site-packages/slam_toolbox/__init__.py'...
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_add_submap.py
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_add_submap_s.c
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_clear.py
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_clear_queue.py
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_clear_queue_s.c
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_clear_s.c
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_deserialize_pose_graph.py
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_loop_closure.py
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_loop_closure_s.c
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_merge_maps.py
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_merge_maps_s.c
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_pause.py
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_pause_s.c
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_save_map.py
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_save_map_s.c
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_serialize_pose_graph.py
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_serialize_pose_graph_s.c
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_toggle_interactive.py
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/_toggle_interactive_s.c
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/srv/__init__.py
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.lib
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.pyd
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.lib
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.pyd
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.lib
+-- Installing: C:/dev_ava/install/Lib/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.pyd
+-- Installing: C:/dev_ava/install/lib/slam_toolbox__python.lib
+-- Installing: C:/dev_ava/install/bin/slam_toolbox__python.dll
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srv/Pause.idl
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srv/ClearQueue.idl
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srv/ToggleInteractive.idl
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srv/Clear.idl
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srv/SaveMap.idl
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srv/LoopClosure.idl
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srv/MergeMaps.idl
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srv/AddSubmap.idl
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srv/DeserializePoseGraph.idl
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srv/SerializePoseGraph.idl
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/Pause.srv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/Pause_Request.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/Pause_Response.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/ClearQueue.srv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/ClearQueue_Request.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/ClearQueue_Response.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/ToggleInteractive.srv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/ToggleInteractive_Request.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/ToggleInteractive_Response.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/Clear.srv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/Clear_Request.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/Clear_Response.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/SaveMap.srv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/SaveMap_Request.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/SaveMap_Response.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/LoopClosure.srv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/LoopClosure_Request.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/LoopClosure_Response.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/MergeMaps.srv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/MergeMaps_Request.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/MergeMaps_Response.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/AddSubmap.srv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/AddSubmap_Request.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/AddSubmap_Response.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/DeserializePoseGraph.srv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/SerializePoseGraph.srv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg
+-- Installing: C:/dev_ava/install/share/slam_toolbox/rviz_plugins.xml
+-- Installing: C:/dev_ava/install/share/slam_toolbox/solver_plugins.xml
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/async_slam_toolbox_node.exe
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/sync_slam_toolbox_node.exe
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/localization_slam_toolbox_node.exe
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/lifelong_slam_toolbox_node.exe
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/merge_maps_kinematic.exe
+-- Installing: C:/dev_ava/install/lib/toolbox_common.lib
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/toolbox_common.dll
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/SlamToolboxPlugin.dll
+-- Installing: C:/dev_ava/install/lib/ceres_solver_plugin.lib
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/ceres_solver_plugin.dll
+-- Installing: C:/dev_ava/install/lib/async_slam_toolbox.lib
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/async_slam_toolbox.dll
+-- Installing: C:/dev_ava/install/lib/sync_slam_toolbox.lib
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/sync_slam_toolbox.dll
+-- Installing: C:/dev_ava/install/lib/localization_slam_toolbox.lib
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/localization_slam_toolbox.dll
+-- Installing: C:/dev_ava/install/lib/lifelong_slam_toolbox.lib
+-- Installing: C:/dev_ava/install/lib/slam_toolbox/lifelong_slam_toolbox.dll
+-- Installing: C:/dev_ava/install/bin/SlamToolboxPlugin.dll
+-- Up-to-date: C:/dev_ava/install/include
+-- Up-to-date: C:/dev_ava/install/include/slam_toolbox
+-- Installing: C:/dev_ava/install/include/slam_toolbox/experimental
+-- Installing: C:/dev_ava/install/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/get_pose_helper.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/laser_utils.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/loop_closure_assistant.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/map_saver.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/merge_maps_kinematic.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/serialization.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/slam_mapper.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/slam_toolbox_async.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/slam_toolbox_common.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/slam_toolbox_localization.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/slam_toolbox_sync.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/snap_utils.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/toolbox_msgs.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/toolbox_types.hpp
+-- Installing: C:/dev_ava/install/include/slam_toolbox/visualization_utils.hpp
+-- Installing: C:/dev_ava/install/share/slam_toolbox/launch
+-- Installing: C:/dev_ava/install/share/slam_toolbox/launch/lifelong_launch.py
+-- Installing: C:/dev_ava/install/share/slam_toolbox/launch/localization_launch.py
+-- Installing: C:/dev_ava/install/share/slam_toolbox/launch/merge_maps_kinematic_launch.py
+-- Installing: C:/dev_ava/install/share/slam_toolbox/launch/offline_launch.py
+-- Installing: C:/dev_ava/install/share/slam_toolbox/launch/online_async_launch.py
+-- Installing: C:/dev_ava/install/share/slam_toolbox/launch/online_sync_launch.py
+-- Installing: C:/dev_ava/install/share/slam_toolbox/config
+-- Installing: C:/dev_ava/install/share/slam_toolbox/config/mapper_params_lifelong.yaml
+-- Installing: C:/dev_ava/install/share/slam_toolbox/config/mapper_params_localization.yaml
+-- Installing: C:/dev_ava/install/share/slam_toolbox/config/mapper_params_offline.yaml
+-- Installing: C:/dev_ava/install/share/slam_toolbox/config/mapper_params_online_async.yaml
+-- Installing: C:/dev_ava/install/share/slam_toolbox/config/mapper_params_online_sync.yaml
+-- Installing: C:/dev_ava/install/share/solver_plugins.xml
+-- Installing: C:/dev_ava/install/share/rviz_plugins.xml
+-- Installing: C:/dev_ava/install/share/ament_index/resource_index/package_run_dependencies/slam_toolbox
+-- Installing: C:/dev_ava/install/share/ament_index/resource_index/parent_prefix_path/slam_toolbox
+-- Installing: C:/dev_ava/install/share/slam_toolbox/environment/ament_prefix_path.bat
+-- Installing: C:/dev_ava/install/share/slam_toolbox/environment/ament_prefix_path.dsv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/environment/path.bat
+-- Installing: C:/dev_ava/install/share/slam_toolbox/environment/path.dsv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/local_setup.bat
+-- Installing: C:/dev_ava/install/share/slam_toolbox/local_setup.dsv
+-- Installing: C:/dev_ava/install/share/slam_toolbox/package.dsv
+-- Installing: C:/dev_ava/install/share/ament_index/resource_index/packages/slam_toolbox
+-- Installing: C:/dev_ava/install/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox
+-- Installing: C:/dev_ava/install/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport-release.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cppExport.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolboxConfig.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake
+-- Installing: C:/dev_ava/install/share/slam_toolbox/package.xml
+-- Up-to-date: C:/dev_ava/install/include/
+-- Installing: C:/dev_ava/install/include//karto_sdk
+-- Installing: C:/dev_ava/install/include//karto_sdk/Karto.h
+-- Installing: C:/dev_ava/install/include//karto_sdk/Macros.h
+-- Installing: C:/dev_ava/install/include//karto_sdk/Mapper.h
+-- Installing: C:/dev_ava/install/include//karto_sdk/Math.h
+-- Installing: C:/dev_ava/install/include//karto_sdk/nanoflann.hpp
+-- Installing: C:/dev_ava/install/include//karto_sdk/nanoflann_adaptors.h
+-- Installing: C:/dev_ava/install/include//karto_sdk/Types.h
+-- Installing: C:/dev_ava/install/lib/kartoSlamToolbox.lib
+-- Installing: C:/dev_ava/install/lib/karto_sdk/kartoSlamToolbox.dll
+-- Installing: C:/dev_ava/install/share/ament_index/resource_index/package_run_dependencies/karto_sdk
+-- Installing: C:/dev_ava/install/share/ament_index/resource_index/parent_prefix_path/karto_sdk
+-- Installing: C:/dev_ava/install/share/karto_sdk/environment/ament_prefix_path.bat
+-- Installing: C:/dev_ava/install/share/karto_sdk/environment/ament_prefix_path.dsv
+-- Installing: C:/dev_ava/install/share/karto_sdk/environment/path.bat
+-- Installing: C:/dev_ava/install/share/karto_sdk/environment/path.dsv
+-- Installing: C:/dev_ava/install/share/karto_sdk/local_setup.bat
+-- Installing: C:/dev_ava/install/share/karto_sdk/local_setup.dsv
+-- Installing: C:/dev_ava/install/share/karto_sdk/package.dsv
+-- Installing: C:/dev_ava/install/share/ament_index/resource_index/packages/karto_sdk
+-- Installing: C:/dev_ava/install/share/karto_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: C:/dev_ava/install/share/karto_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: C:/dev_ava/install/share/karto_sdk/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: C:/dev_ava/install/share/karto_sdk/cmake/karto_sdkConfig.cmake
+-- Installing: C:/dev_ava/install/share/karto_sdk/cmake/karto_sdkConfig-version.cmake
+-- Installing: C:/dev_ava/install/share/karto_sdk/package.xml

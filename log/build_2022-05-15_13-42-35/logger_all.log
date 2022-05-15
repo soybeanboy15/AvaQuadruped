@@ -1,0 +1,503 @@
+[1.200s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['C:\\opt\\ros\\foxy\\x64\\Scripts\\colcon', 'build', '--merge-install'][0m
+[1.200s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x000001A2DA747100>>, merge_install=True, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x000001A2DA747100>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x000001A2DA7475B0>)[0m
+[1.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[1.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[1.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[1.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[1.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[1.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[1.297s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'C:\dev_ava'
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[1.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extensions ['ignore', 'ignore_ament_install']
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extension 'ignore'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extension 'ignore_ament_install'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extensions ['colcon_pkg']
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extension 'colcon_pkg'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extensions ['colcon_meta']
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extension 'colcon_meta'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extensions ['ros']
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extension 'ros'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extensions ['cmake', 'python']
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extension 'cmake'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extension 'python'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extensions ['python_setup_py']
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(assets) by extension 'python_setup_py'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[1.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slam_toolbox) by extension 'ignore'
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slam_toolbox) by extension 'ignore_ament_install'
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slam_toolbox) by extensions ['colcon_pkg']
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slam_toolbox) by extension 'colcon_pkg'
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slam_toolbox) by extensions ['colcon_meta']
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slam_toolbox) by extension 'colcon_meta'
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slam_toolbox) by extensions ['ros']
+[1.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(slam_toolbox) by extension 'ros'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'slam_toolbox' with type 'ros.ament_cmake' and name 'slam_toolbox'[0m
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_description) by extensions ['ignore', 'ignore_ament_install']
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_description) by extension 'ignore'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_description) by extension 'ignore_ament_install'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_description) by extensions ['colcon_pkg']
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_description) by extension 'colcon_pkg'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_description) by extensions ['colcon_meta']
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_description) by extension 'colcon_meta'
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_description) by extensions ['ros']
+[1.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_description) by extension 'ros'
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\ava_description' with type 'ros.ament_python' and name 'ava_description'[0m
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_msgs) by extension 'ignore'
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_msgs) by extension 'ignore_ament_install'
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_msgs) by extensions ['colcon_pkg']
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_msgs) by extension 'colcon_pkg'
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_msgs) by extensions ['colcon_meta']
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_msgs) by extension 'colcon_meta'
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_msgs) by extensions ['ros']
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_msgs) by extension 'ros'
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\ava_msgs' with type 'ros.ament_cmake' and name 'ava_msgs'[0m
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_teleop) by extension 'ignore'
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_teleop) by extension 'ignore_ament_install'
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_teleop) by extensions ['colcon_pkg']
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_teleop) by extension 'colcon_pkg'
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_teleop) by extensions ['colcon_meta']
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_teleop) by extension 'colcon_meta'
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_teleop) by extensions ['ros']
+[1.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ava_teleop) by extension 'ros'
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\ava_teleop' with type 'ros.ament_python' and name 'ava_teleop'[0m
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\hq_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\hq_bringup) by extension 'ignore'
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\hq_bringup) by extension 'ignore_ament_install'
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\hq_bringup) by extensions ['colcon_pkg']
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\hq_bringup) by extension 'colcon_pkg'
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\hq_bringup) by extensions ['colcon_meta']
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\hq_bringup) by extension 'colcon_meta'
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\hq_bringup) by extensions ['ros']
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\hq_bringup) by extension 'ros'
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\hq_bringup' with type 'ros.ament_python' and name 'hq_bringup'[0m
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\tf_transformations-main) by extensions ['ignore', 'ignore_ament_install']
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\tf_transformations-main) by extension 'ignore'
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\tf_transformations-main) by extension 'ignore_ament_install'
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\tf_transformations-main) by extensions ['colcon_pkg']
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\tf_transformations-main) by extension 'colcon_pkg'
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\tf_transformations-main) by extensions ['colcon_meta']
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\tf_transformations-main) by extension 'colcon_meta'
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\tf_transformations-main) by extensions ['ros']
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\tf_transformations-main) by extension 'ros'
+[1.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\tf_transformations-main' with type 'ros.ament_python' and name 'tf_transformations'[0m
+[1.361s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[1.361s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[1.369s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[1.369s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[1.369s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[1.425s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_msgs' build argument 'cmake_args' from command line to 'None'
+[1.425s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_msgs' build argument 'cmake_target' from command line to 'None'
+[1.425s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.425s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.425s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.425s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.425s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.425s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.425s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.425s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ava_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev_ava\\build\\ava_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev_ava\\install', 'merge_install': True, 'path': 'C:\\dev_ava\\src\\ava_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[1.441s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_teleop' build argument 'cmake_args' from command line to 'None'
+[1.441s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_teleop' build argument 'cmake_target' from command line to 'None'
+[1.441s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.441s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.441s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.441s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.441s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.441s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.441s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.441s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ava_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev_ava\\build\\ava_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev_ava\\install', 'merge_install': True, 'path': 'C:\\dev_ava\\src\\ava_teleop', 'symlink_install': False, 'test_result_base': None}[0m
+[1.465s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hq_bringup' build argument 'cmake_args' from command line to 'None'
+[1.465s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hq_bringup' build argument 'cmake_target' from command line to 'None'
+[1.465s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hq_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.465s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hq_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.465s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hq_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.465s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hq_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.465s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hq_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.465s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hq_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.465s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hq_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.465s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'hq_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev_ava\\build\\hq_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev_ava\\install', 'merge_install': True, 'path': 'C:\\dev_ava\\src\\hq_bringup', 'symlink_install': False, 'test_result_base': None}[0m
+[1.481s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[1.481s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[1.481s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.481s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[1.481s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[1.481s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[1.481s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[1.481s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[1.481s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.481s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev_ava\\build\\slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev_ava\\install', 'merge_install': True, 'path': 'C:\\dev_ava\\slam_toolbox', 'symlink_install': False, 'test_result_base': None}[0m
+[1.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tf_transformations' build argument 'cmake_args' from command line to 'None'
+[1.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tf_transformations' build argument 'cmake_target' from command line to 'None'
+[1.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tf_transformations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tf_transformations' build argument 'cmake_clean_cache' from command line to 'False'
+[1.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tf_transformations' build argument 'cmake_clean_first' from command line to 'False'
+[1.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tf_transformations' build argument 'cmake_force_configure' from command line to 'False'
+[1.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tf_transformations' build argument 'ament_cmake_args' from command line to 'None'
+[1.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tf_transformations' build argument 'catkin_cmake_args' from command line to 'None'
+[1.505s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tf_transformations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.505s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'tf_transformations' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev_ava\\build\\tf_transformations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev_ava\\install', 'merge_install': True, 'path': 'C:\\dev_ava\\src\\tf_transformations-main', 'symlink_install': False, 'test_result_base': None}[0m
+[1.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_description' build argument 'cmake_args' from command line to 'None'
+[1.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_description' build argument 'cmake_target' from command line to 'None'
+[1.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.521s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ava_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.521s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ava_description' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev_ava\\build\\ava_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev_ava\\install', 'merge_install': True, 'path': 'C:\\dev_ava\\src\\ava_description', 'symlink_install': False, 'test_result_base': None}[0m
+[1.529s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.561s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.569s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev_ava\src\tf_transformations-main' with build type 'ament_python'
+[1.569s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tf_transformations', 'ament_prefix_path')
+[1.577s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[1.577s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\tf_transformations\hook\ament_prefix_path.ps1'
+[1.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\tf_transformations\hook\ament_prefix_path.bat'
+[1.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\tf_transformations\hook\ament_prefix_path.dsv'
+[1.593s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.673s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev_ava\src\ava_msgs' with build type 'ament_cmake'
+[1.673s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\dev_ava\src\ava_msgs'
+[1.689s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.753s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev_ava\src\ava_teleop' with build type 'ament_python'
+[1.753s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_teleop', 'ament_prefix_path')
+[1.769s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_teleop\hook\ament_prefix_path.ps1'
+[1.769s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_teleop\hook\ament_prefix_path.bat'
+[1.769s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_teleop\hook\ament_prefix_path.dsv'
+[1.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.856s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev_ava\src\hq_bringup' with build type 'ament_python'
+[1.856s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hq_bringup', 'ament_prefix_path')
+[1.865s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\hq_bringup\hook\ament_prefix_path.ps1'
+[1.865s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\hq_bringup\hook\ament_prefix_path.bat'
+[1.865s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\hq_bringup\hook\ament_prefix_path.dsv'
+[1.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.945s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev_ava\slam_toolbox' with build type 'ament_cmake'
+[1.945s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\dev_ava\slam_toolbox'
+[1.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.857s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\dev_ava\src\tf_transformations-main'
+[2.865s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.949s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev_ava\build\ava_msgs': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev_ava\src\ava_msgs -DCMAKE_INSTALL_PREFIX=C:\dev_ava\install[0m
+[3.777s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\dev_ava\src\ava_teleop'
+[3.793s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.705s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\dev_ava\src\hq_bringup'
+[4.713s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.793s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev_ava\src\ava_teleop': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\ava_teleop build --build-base C:\dev_ava\build\ava_teleop\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\ava_teleop\install.log --single-version-externally-managed[0m
+[4.809s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev_ava\src\tf_transformations-main': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\tf_transformations build --build-base C:\dev_ava\build\tf_transformations\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\tf_transformations\install.log --single-version-externally-managed[0m
+[4.817s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev_ava\build\slam_toolbox': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev_ava\slam_toolbox -DCMAKE_INSTALL_PREFIX=C:\dev_ava\install[0m
+[4.833s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev_ava\src\hq_bringup': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\hq_bringup build --build-base C:\dev_ava\build\hq_bringup\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\hq_bringup\install.log --single-version-externally-managed[0m
+[6.097s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\dev_ava\src\ava_teleop' returned '0': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\ava_teleop build --build-base C:\dev_ava\build\ava_teleop\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\ava_teleop\install.log --single-version-externally-managed[0m
+[6.129s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake module files
+[6.129s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake config files
+[6.137s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_teleop', 'cmake_prefix_path')
+[6.153s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_teleop\hook\cmake_prefix_path.ps1'
+[6.153s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_teleop\hook\cmake_prefix_path.bat'
+[6.153s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_teleop\hook\cmake_prefix_path.dsv'
+[6.161s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[6.161s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_teleop', 'path_dll')
+[6.169s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_teleop\hook\path_dll.ps1'
+[6.169s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_teleop\hook\path_dll.bat'
+[6.169s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_teleop\hook\path_dll.dsv'
+[6.177s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[6.177s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_teleop', 'path')
+[6.185s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_teleop\hook\path.ps1'
+[6.185s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_teleop\hook\path.bat'
+[6.185s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_teleop\hook\path.dsv'
+[6.185s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Scripts'
+[6.185s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\lib\pkgconfig\ava_teleop.pc'
+[6.185s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Lib\site-packages'
+[6.185s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_teleop', 'pythonpath')
+[6.201s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_teleop\hook\pythonpath.ps1'
+[6.201s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_teleop\hook\pythonpath.bat'
+[6.201s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_teleop\hook\pythonpath.dsv'
+[6.201s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ava_teleop)
+[6.209s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\ava_teleop\package.ps1'
+[6.217s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\ava_teleop\package.bat'
+[6.217s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\dev_ava\install\share\ava_teleop\package.dsv'
+[6.217s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\dev_ava\install\share\colcon-core\packages\ava_teleop)
+[6.233s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake module files
+[6.241s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake config files
+[6.241s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\dev_ava\src\tf_transformations-main' returned '0': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\tf_transformations build --build-base C:\dev_ava\build\tf_transformations\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\tf_transformations\install.log --single-version-externally-managed[0m
+[6.249s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tf_transformations', 'cmake_prefix_path')
+[6.265s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\tf_transformations\hook\cmake_prefix_path.ps1'
+[6.265s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\tf_transformations\hook\cmake_prefix_path.bat'
+[6.265s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\tf_transformations\hook\cmake_prefix_path.dsv'
+[6.265s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[6.265s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tf_transformations', 'path_dll')
+[6.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\tf_transformations\hook\path_dll.ps1'
+[6.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\tf_transformations\hook\path_dll.bat'
+[6.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\tf_transformations\hook\path_dll.dsv'
+[6.281s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[6.281s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tf_transformations', 'path')
+[6.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\tf_transformations\hook\path.ps1'
+[6.297s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\tf_transformations\hook\path.bat'
+[6.297s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\tf_transformations\hook\path.dsv'
+[6.297s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Scripts'
+[6.297s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\lib\pkgconfig\tf_transformations.pc'
+[6.297s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Lib\site-packages'
+[6.297s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tf_transformations', 'pythonpath')
+[6.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\tf_transformations\hook\pythonpath.ps1'
+[6.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\tf_transformations\hook\pythonpath.bat'
+[6.313s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\tf_transformations\hook\pythonpath.dsv'
+[6.313s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(tf_transformations)
+[6.321s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\tf_transformations\package.ps1'
+[6.321s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\tf_transformations\package.bat'
+[6.329s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\dev_ava\install\share\tf_transformations\package.dsv'
+[6.329s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\dev_ava\install\share\colcon-core\packages\tf_transformations)
+[6.345s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake module files
+[6.345s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\dev_ava\src\hq_bringup' returned '0': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\hq_bringup build --build-base C:\dev_ava\build\hq_bringup\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\hq_bringup\install.log --single-version-externally-managed[0m
+[6.345s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake config files
+[6.361s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hq_bringup', 'cmake_prefix_path')
+[6.369s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\hq_bringup\hook\cmake_prefix_path.ps1'
+[6.369s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\hq_bringup\hook\cmake_prefix_path.bat'
+[6.369s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\hq_bringup\hook\cmake_prefix_path.dsv'
+[6.369s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[6.377s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hq_bringup', 'path_dll')
+[6.385s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\hq_bringup\hook\path_dll.ps1'
+[6.385s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\hq_bringup\hook\path_dll.bat'
+[6.385s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\hq_bringup\hook\path_dll.dsv'
+[6.385s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[6.385s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hq_bringup', 'path')
+[6.401s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\hq_bringup\hook\path.ps1'
+[6.401s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\hq_bringup\hook\path.bat'
+[6.401s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\hq_bringup\hook\path.dsv'
+[6.401s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Scripts'
+[6.401s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\lib\pkgconfig\hq_bringup.pc'
+[6.401s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Lib\site-packages'
+[6.401s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hq_bringup', 'pythonpath')
+[6.409s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\hq_bringup\hook\pythonpath.ps1'
+[6.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\hq_bringup\hook\pythonpath.bat'
+[6.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\hq_bringup\hook\pythonpath.dsv'
+[6.417s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(hq_bringup)
+[6.425s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\hq_bringup\package.ps1'
+[6.425s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\hq_bringup\package.bat'
+[6.433s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\dev_ava\install\share\hq_bringup\package.dsv'
+[6.433s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\dev_ava\install\share\colcon-core\packages\hq_bringup)
+[6.433s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev_ava\src\ava_description' with build type 'ament_python'
+[6.433s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_description', 'ament_prefix_path')
+[6.441s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_description\hook\ament_prefix_path.ps1'
+[6.449s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_description\hook\ament_prefix_path.bat'
+[6.449s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_description\hook\ament_prefix_path.dsv'
+[6.457s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.649s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\dev_ava\src\ava_description'
+[7.657s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.901s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev_ava\src\ava_description': CMAKE_PREFIX_PATH=C:\dev_ava\install;C:\opt\ros\foxy\x64\tools\vcpkg\installed\x64-windows;C:\opt\ros\foxy\x64 PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% Path=C:\dev_ava\install\bin;c:\opt\ros\foxy\x64\;C:\opt\ros\foxy\x64\tools\vcpkg\installed\x64-windows\bin;C:\opt\ros\foxy\x64\tools\vcpkg;C:\opt\ros\foxy\x64\Scripts;C:\opt\ros\foxy\x64\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\devinit;C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2022a\bin;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\AVRDUDE;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\matth\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\matth\AppData\Local\Programs\Python\Python310\;C:\Users\matth\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin;C:\Users\matth\AppData\Local\GitHubDesktop\bin;C:\Users\matth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\matth\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\ c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\ava_description build --build-base C:\dev_ava\build\ava_description\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\ava_description\install.log --single-version-externally-managed[0m
+[9.105s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake module files
+[9.105s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\dev_ava\src\ava_description' returned '0': CMAKE_PREFIX_PATH=C:\dev_ava\install;C:\opt\ros\foxy\x64\tools\vcpkg\installed\x64-windows;C:\opt\ros\foxy\x64 PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% Path=C:\dev_ava\install\bin;c:\opt\ros\foxy\x64\;C:\opt\ros\foxy\x64\tools\vcpkg\installed\x64-windows\bin;C:\opt\ros\foxy\x64\tools\vcpkg;C:\opt\ros\foxy\x64\Scripts;C:\opt\ros\foxy\x64\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\devinit;C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2022a\bin;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\AVRDUDE;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\matth\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\matth\AppData\Local\Programs\Python\Python310\;C:\Users\matth\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin;C:\Users\matth\AppData\Local\GitHubDesktop\bin;C:\Users\matth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\matth\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\ c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\ava_description build --build-base C:\dev_ava\build\ava_description\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\ava_description\install.log --single-version-externally-managed[0m
+[9.113s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake config files
+[9.121s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_description', 'cmake_prefix_path')
+[9.129s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_description\hook\cmake_prefix_path.ps1'
+[9.129s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_description\hook\cmake_prefix_path.bat'
+[9.129s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_description\hook\cmake_prefix_path.dsv'
+[9.137s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[9.137s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_description', 'path_dll')
+[9.145s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_description\hook\path_dll.ps1'
+[9.145s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_description\hook\path_dll.bat'
+[9.145s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_description\hook\path_dll.dsv'
+[9.145s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[9.145s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_description', 'path')
+[9.161s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_description\hook\path.ps1'
+[9.161s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_description\hook\path.bat'
+[9.161s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_description\hook\path.dsv'
+[9.161s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Scripts'
+[9.161s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\lib\pkgconfig\ava_description.pc'
+[9.161s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Lib\site-packages'
+[9.161s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_description', 'pythonpath')
+[9.177s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_description\hook\pythonpath.ps1'
+[9.177s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_description\hook\pythonpath.bat'
+[9.177s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_description\hook\pythonpath.dsv'
+[9.177s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ava_description)
+[9.185s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\ava_description\package.ps1'
+[9.193s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\ava_description\package.bat'
+[9.193s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\dev_ava\install\share\ava_description\package.dsv'
+[9.193s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\dev_ava\install\share\colcon-core\packages\ava_description)
+[9.289s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\dev_ava\build\ava_msgs' returned '0': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev_ava\src\ava_msgs -DCMAKE_INSTALL_PREFIX=C:\dev_ava\install[0m
+[9.308s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev_ava\build\ava_msgs': CL=/MP PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\dev_ava\build\ava_msgs --config Release[0m
+[14.426s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\dev_ava\build\ava_msgs' returned '0': CL=/MP PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\dev_ava\build\ava_msgs --config Release[0m
+[14.618s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev_ava\build\ava_msgs': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\dev_ava\build\ava_msgs --config Release[0m
+[15.643s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ava_msgs)
+[15.659s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake module files
+[15.659s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\dev_ava\build\ava_msgs' returned '0': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\dev_ava\build\ava_msgs --config Release[0m
+[15.659s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake config files
+[15.667s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_msgs', 'cmake_prefix_path')
+[15.683s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\cmake_prefix_path.ps1'
+[15.683s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\cmake_prefix_path.bat'
+[15.683s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_msgs\hook\cmake_prefix_path.dsv'
+[15.683s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[15.683s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_msgs', 'path_dll')
+[15.691s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\path_dll.ps1'
+[15.699s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\path_dll.bat'
+[15.699s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_msgs\hook\path_dll.dsv'
+[15.699s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[15.699s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_msgs', 'path')
+[15.707s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\path.ps1'
+[15.707s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\path.bat'
+[15.715s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_msgs\hook\path.dsv'
+[15.715s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Scripts'
+[15.715s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\lib\pkgconfig\ava_msgs.pc'
+[15.715s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Lib\site-packages'
+[15.715s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_msgs', 'pythonpath')
+[15.723s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\pythonpath.ps1'
+[15.723s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\pythonpath.bat'
+[15.723s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_msgs\hook\pythonpath.dsv'
+[15.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\ava_msgs\package.ps1'
+[15.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\ava_msgs\package.bat'
+[15.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\dev_ava\install\share\ava_msgs\package.dsv'
+[15.739s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\dev_ava\install\share\colcon-core\packages\ava_msgs)
+[15.755s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ava_msgs)
+[15.771s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake module files
+[15.771s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake config files
+[15.779s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_msgs', 'cmake_prefix_path')
+[15.795s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\cmake_prefix_path.ps1'
+[15.795s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\cmake_prefix_path.bat'
+[15.795s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_msgs\hook\cmake_prefix_path.dsv'
+[15.795s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[15.795s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_msgs', 'path_dll')
+[15.803s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\path_dll.ps1'
+[15.803s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\path_dll.bat'
+[15.811s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_msgs\hook\path_dll.dsv'
+[15.811s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[15.811s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_msgs', 'path')
+[15.819s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\path.ps1'
+[15.819s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\path.bat'
+[15.819s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_msgs\hook\path.dsv'
+[15.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Scripts'
+[15.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\lib\pkgconfig\ava_msgs.pc'
+[15.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Lib\site-packages'
+[15.827s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ava_msgs', 'pythonpath')
+[15.835s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\pythonpath.ps1'
+[15.835s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\ava_msgs\hook\pythonpath.bat'
+[15.835s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\ava_msgs\hook\pythonpath.dsv'
+[15.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\ava_msgs\package.ps1'
+[15.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\ava_msgs\package.bat'
+[15.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\dev_ava\install\share\ava_msgs\package.dsv'
+[15.851s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\dev_ava\install\share\colcon-core\packages\ava_msgs)
+[25.483s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\dev_ava\build\slam_toolbox' returned '0': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev_ava\slam_toolbox -DCMAKE_INSTALL_PREFIX=C:\dev_ava\install[0m
+[25.491s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev_ava\build\slam_toolbox': CL=/MP PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\dev_ava\build\slam_toolbox --config Release[0m
+[37.613s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\dev_ava\build\slam_toolbox' returned '0': CL=/MP PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\dev_ava\build\slam_toolbox --config Release[0m
+[37.621s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev_ava\build\slam_toolbox': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\dev_ava\build\slam_toolbox --config Release[0m
+[39.533s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(slam_toolbox)
+[39.549s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake module files
+[39.557s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\dev_ava\build\slam_toolbox' returned '0': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\dev_ava\build\slam_toolbox --config Release[0m
+[39.557s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake config files
+[39.573s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[39.581s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\cmake_prefix_path.ps1'
+[39.581s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\cmake_prefix_path.bat'
+[39.581s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\slam_toolbox\hook\cmake_prefix_path.dsv'
+[39.581s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[39.581s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'path_dll')
+[39.597s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\path_dll.ps1'
+[39.597s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\path_dll.bat'
+[39.597s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\slam_toolbox\hook\path_dll.dsv'
+[39.597s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[39.597s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'path')
+[39.605s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\path.ps1'
+[39.605s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\path.bat'
+[39.613s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\slam_toolbox\hook\path.dsv'
+[39.613s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Scripts'
+[39.613s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\lib\pkgconfig\slam_toolbox.pc'
+[39.613s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Lib\site-packages'
+[39.613s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'pythonpath')
+[39.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\pythonpath.ps1'
+[39.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\pythonpath.bat'
+[39.629s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\slam_toolbox\hook\pythonpath.dsv'
+[39.637s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\slam_toolbox\package.ps1'
+[39.637s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\slam_toolbox\package.bat'
+[39.637s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\dev_ava\install\share\slam_toolbox\package.dsv'
+[39.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\dev_ava\install\share\colcon-core\packages\slam_toolbox)
+[39.653s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(slam_toolbox)
+[39.669s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake module files
+[39.669s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install' for CMake config files
+[39.685s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[39.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\cmake_prefix_path.ps1'
+[39.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\cmake_prefix_path.bat'
+[39.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\slam_toolbox\hook\cmake_prefix_path.dsv'
+[39.693s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[39.693s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'path_dll')
+[39.701s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\path_dll.ps1'
+[39.709s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\path_dll.bat'
+[39.709s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\slam_toolbox\hook\path_dll.dsv'
+[39.709s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\bin'
+[39.709s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'path')
+[39.717s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\path.ps1'
+[39.717s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\path.bat'
+[39.725s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\slam_toolbox\hook\path.dsv'
+[39.725s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Scripts'
+[39.725s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\lib\pkgconfig\slam_toolbox.pc'
+[39.725s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\dev_ava\install\Lib\site-packages'
+[39.725s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'pythonpath')
+[39.733s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\pythonpath.ps1'
+[39.733s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev_ava\install\share\slam_toolbox\hook\pythonpath.bat'
+[39.733s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev_ava\install\share\slam_toolbox\hook\pythonpath.dsv'
+[39.749s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\slam_toolbox\package.ps1'
+[39.749s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\dev_ava\install\share\slam_toolbox\package.bat'
+[39.749s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\dev_ava\install\share\slam_toolbox\package.dsv'
+[39.749s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\dev_ava\install\share\colcon-core\packages\slam_toolbox)
+[39.749s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[39.749s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[39.773s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[39.773s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[39.773s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[39.773s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'win32'
+[44.857s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[44.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\dev_ava\install\local_setup.ps1'
+[44.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\dev_ava\install\_local_setup_util_ps1.py'
+[44.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\dev_ava\install\setup.ps1'
+[44.889s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\dev_ava\install\local_setup.bat'
+[44.889s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\dev_ava\install\_local_setup_util_bat.py'
+[44.889s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\dev_ava\install\setup.bat'
