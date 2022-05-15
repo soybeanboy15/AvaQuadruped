@@ -1,0 +1,69 @@
+[0.045s] Invoking command in '/root/dev_ava/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_bringup:/opt/ros/foxy /usr/bin/cmake /root/dev_ava/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/root/dev_ava/install/slam_toolbox
+[0.248s] -- The C compiler identification is GNU 9.4.0
+[0.442s] -- The CXX compiler identification is GNU 9.4.0
+[0.459s] -- Check for working C compiler: /usr/bin/cc
+[0.699s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.702s] -- Detecting C compiler ABI info
+[0.948s] -- Detecting C compiler ABI info - done
+[0.993s] -- Detecting C compile features
+[0.994s] -- Detecting C compile features - done
+[1.004s] -- Check for working CXX compiler: /usr/bin/c++
+[1.286s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.291s] -- Detecting CXX compiler ABI info
+[1.586s] -- Detecting CXX compiler ABI info - done
+[1.633s] -- Detecting CXX compile features
+[1.635s] -- Detecting CXX compile features - done
+[1.647s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.727s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.728s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.485s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[2.518s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.709s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.755s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.051s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.129s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.267s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.520s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.530s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.536s] -- Looking for pthread.h
+[4.809s] -- Looking for pthread.h - found
+[4.810s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.077s] -- Looking for pthread_create in pthreads
+[5.281s] -- Looking for pthread_create in pthreads - not found
+[5.282s] -- Looking for pthread_create in pthread
+[5.523s] -- Looking for pthread_create in pthread - found
+[5.527s] -- Found Threads: TRUE  
+[6.219s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.562s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[6.625s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[8.187s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[8.522s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[8.601s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[8.649s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[8.668s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[8.791s] -- Found tf2_sensor_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[8.875s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[8.930s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[9.016s] CMake Error at CMakeLists.txt:28 (find_package):
+[9.016s]   By not providing "Findnav2_map_server.cmake" in CMAKE_MODULE_PATH this
+[9.017s]   project has asked CMake to find a package configuration file provided by
+[9.017s]   "nav2_map_server", but CMake did not find one.
+[9.017s] 
+[9.018s]   Could not find a package configuration file provided by "nav2_map_server"
+[9.018s]   with any of the following names:
+[9.018s] 
+[9.019s]     nav2_map_serverConfig.cmake
+[9.019s]     nav2_map_server-config.cmake
+[9.020s] 
+[9.020s]   Add the installation prefix of "nav2_map_server" to CMAKE_PREFIX_PATH or
+[9.021s]   set "nav2_map_server_DIR" to a directory containing one of the above files.
+[9.021s]   If "nav2_map_server" provides a separate development package or SDK, be
+[9.022s]   sure it has been installed.
+[9.022s] 
+[9.022s] 
+[9.030s] -- Configuring incomplete, errors occurred!
+[9.030s] See also "/root/dev_ava/build/slam_toolbox/CMakeFiles/CMakeOutput.log".
+[9.031s] See also "/root/dev_ava/build/slam_toolbox/CMakeFiles/CMakeError.log".
+[9.059s] Invoked command in '/root/dev_ava/build/slam_toolbox' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_bringup:/opt/ros/foxy /usr/bin/cmake /root/dev_ava/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/root/dev_ava/install/slam_toolbox
