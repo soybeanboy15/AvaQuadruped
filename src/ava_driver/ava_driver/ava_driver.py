@@ -22,8 +22,9 @@ class AvaDriver(Node):
         self.nodeName = self.get_name()
         self.get_logger().info("{0} started".format(self.nodeName))
         self.servos = ava_servo.Servos()
+        self.servos.CalibrateServo()
         self.joints = [0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0, 0, 0, 0]
-        self.timer_servo = self.create_timer(0.005, self.timer_ava_servo_callback)
+        self.timer_servo = self.create_timer(0.02, self.timer_ava_servo_callback)
         print("Servos Initialized!")
 
 

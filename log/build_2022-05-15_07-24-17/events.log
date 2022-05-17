@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.001746] (-) JobUnselected: {'identifier': 'ava_bringup'}
+[0.001956] (-) JobUnselected: {'identifier': 'ava_control'}
+[0.002096] (-) JobUnselected: {'identifier': 'ava_kinematics'}
+[0.003373] (-) JobUnselected: {'identifier': 'ava_msgs'}
+[0.004153] (-) JobUnselected: {'identifier': 'rplidar_ros2'}
+[0.005066] (-) JobUnselected: {'identifier': 'tf_transformations'}
+[0.005291] (ava_driver) JobQueued: {'identifier': 'ava_driver', 'dependencies': OrderedDict([('tf_transformations', '/root/dev_ava/install/tf_transformations')])}
+[0.005430] (ava_driver) JobStarted: {'identifier': 'ava_driver'}
+[0.098954] (-) TimerEvent: {}
+[0.199873] (-) TimerEvent: {}
+[0.300609] (-) TimerEvent: {}
+[0.401275] (-) TimerEvent: {}
+[0.502812] (-) TimerEvent: {}
+[0.603575] (-) TimerEvent: {}
+[0.706158] (-) TimerEvent: {}
+[0.808464] (-) TimerEvent: {}
+[0.910223] (-) TimerEvent: {}
+[1.014435] (-) TimerEvent: {}
+[1.122604] (-) TimerEvent: {}
+[1.223484] (-) TimerEvent: {}
+[1.324171] (-) TimerEvent: {}
+[1.424892] (-) TimerEvent: {}
+[1.525644] (-) TimerEvent: {}
+[1.626299] (-) TimerEvent: {}
+[1.727774] (-) TimerEvent: {}
+[1.828525] (-) TimerEvent: {}
+[1.930730] (-) TimerEvent: {}
+[2.031601] (-) TimerEvent: {}
+[2.132364] (-) TimerEvent: {}
+[2.233037] (-) TimerEvent: {}
+[2.333724] (-) TimerEvent: {}
+[2.434390] (-) TimerEvent: {}
+[2.496294] (ava_driver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ava_driver', 'build', '--build-base', '/root/dev_ava/build/ava_driver/build', 'install', '--prefix', '/root/dev_ava/install/ava_driver', '--record', '/root/dev_ava/build/ava_driver/install.log', '--single-version-externally-managed'], 'cwd': '/root/dev_ava/src/ava_driver', 'env': {'HOSTNAME': 'matthew-desktop', 'GIT_ASKPASS': '/root/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/dev_ava/install/ava_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/root/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.67.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-c66ce5e5-14cc-4ffc-bcfd-077137db9e97.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/root/dev_ava/install', 'ROS_DISTRO': 'foxy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-bf2f26daa579b8b40831f495e35adab061450885.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/root/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-bf2f26daa579b8b40831f495e35adab061450885.sock","/root/.gnupg/S.gpg-agent"]', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-bfca940612.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-bf2f26daa579b8b40831f495e35adab061450885.sock', 'AMENT_PREFIX_PATH': '/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/rplidar_ros2:/root/dev_ava/install/ava_msgs:/root/dev_ava/install/ava_bringup:/opt/ros/foxy', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/dev_ava/build/ava_driver', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/ava_msgs/lib/python3.8/site-packages:/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/dev_ava/install/rplidar_ros2:/root/dev_ava/install/ava_msgs'}, 'shell': False}
+[2.534704] (-) TimerEvent: {}
+[2.636272] (-) TimerEvent: {}
+[2.737704] (-) TimerEvent: {}
+[2.838442] (-) TimerEvent: {}
+[2.940513] (-) TimerEvent: {}
+[3.042774] (-) TimerEvent: {}
+[3.143478] (-) TimerEvent: {}
+[3.244307] (-) TimerEvent: {}
+[3.346957] (-) TimerEvent: {}
+[3.376254] (ava_driver) StdoutLine: {'line': b'running egg_info\n'}
+[3.379550] (ava_driver) StdoutLine: {'line': b'writing ../../build/ava_driver/ava_driver.egg-info/PKG-INFO\n'}
+[3.381822] (ava_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/ava_driver/ava_driver.egg-info/dependency_links.txt\n'}
+[3.383571] (ava_driver) StdoutLine: {'line': b'writing entry points to ../../build/ava_driver/ava_driver.egg-info/entry_points.txt\n'}
+[3.384231] (ava_driver) StdoutLine: {'line': b'writing requirements to ../../build/ava_driver/ava_driver.egg-info/requires.txt\n'}
+[3.384796] (ava_driver) StdoutLine: {'line': b'writing top-level names to ../../build/ava_driver/ava_driver.egg-info/top_level.txt\n'}
+[3.447169] (-) TimerEvent: {}
+[3.548585] (-) TimerEvent: {}
+[3.573515] (ava_driver) StdoutLine: {'line': b"reading manifest file '../../build/ava_driver/ava_driver.egg-info/SOURCES.txt'\n"}
+[3.577850] (ava_driver) StdoutLine: {'line': b"writing manifest file '../../build/ava_driver/ava_driver.egg-info/SOURCES.txt'\n"}
+[3.578807] (ava_driver) StdoutLine: {'line': b'running build\n'}
+[3.579526] (ava_driver) StdoutLine: {'line': b'running build_py\n'}
+[3.581220] (ava_driver) StdoutLine: {'line': b'copying ava_driver/ava_servo.py -> /root/dev_ava/build/ava_driver/build/lib/ava_driver\n'}
+[3.583366] (ava_driver) StdoutLine: {'line': b'running install\n'}
+[3.587649] (ava_driver) StdoutLine: {'line': b'running install_lib\n'}
+[3.592341] (ava_driver) StdoutLine: {'line': b'copying /root/dev_ava/build/ava_driver/build/lib/ava_driver/ava_servo.py -> /root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver\n'}
+[3.599225] (ava_driver) StdoutLine: {'line': b'byte-compiling /root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver/ava_servo.py to ava_servo.cpython-38.pyc\n'}
+[3.604711] (ava_driver) StdoutLine: {'line': b'running install_data\n'}
+[3.607611] (ava_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.615220] (ava_driver) StdoutLine: {'line': b"removing '/root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.616717] (ava_driver) StdoutLine: {'line': b'Copying ../../build/ava_driver/ava_driver.egg-info to /root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver-0.0.0-py3.8.egg-info\n'}
+[3.622753] (ava_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[3.648752] (-) TimerEvent: {}
+[3.703059] (ava_driver) StdoutLine: {'line': b'Installing ava_driver script to /root/dev_ava/install/ava_driver/lib/ava_driver\n'}
+[3.706940] (ava_driver) StdoutLine: {'line': b"writing list of installed files to '/root/dev_ava/build/ava_driver/install.log'\n"}
+[3.749746] (-) TimerEvent: {}
+[3.814335] (ava_driver) CommandEnded: {'returncode': 0}
+[3.850194] (-) TimerEvent: {}
+[3.890316] (ava_driver) JobEnded: {'identifier': 'ava_driver', 'rc': 0}
+[3.893807] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/ava_driver/ava_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/ava_driver/ava_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/ava_driver/ava_driver.egg-info/entry_points.txt
+writing requirements to ../../build/ava_driver/ava_driver.egg-info/requires.txt
+writing top-level names to ../../build/ava_driver/ava_driver.egg-info/top_level.txt
+reading manifest file '../../build/ava_driver/ava_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/ava_driver/ava_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ava_driver/ava_servo.py -> /root/dev_ava/build/ava_driver/build/lib/ava_driver
+running install
+running install_lib
+copying /root/dev_ava/build/ava_driver/build/lib/ava_driver/ava_servo.py -> /root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver
+byte-compiling /root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver/ava_servo.py to ava_servo.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/ava_driver/ava_driver.egg-info to /root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ava_driver script to /root/dev_ava/install/ava_driver/lib/ava_driver
+writing list of installed files to '/root/dev_ava/build/ava_driver/install.log'

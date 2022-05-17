@@ -13,7 +13,12 @@ from ava_msgs.msg import AvaCommand, LegPosition, AvaPose, AvaInfo
 
 # ----- Constants -----
 degree = pi/180.0
-x_offset = 0.025
+
+# ---- Gait Parameters ----
+x_offset = 0.015
+step_height = 0.017
+gait_freq = 0.028
+
 # --- Neutral leg position and pose ---
 ava_leg_position_neutral = LegPosition()
 ava_leg_position_neutral.fl_leg_pos = [0.117, 0.0885, -sqrt(2)*0.1, 1.0]
@@ -51,13 +56,13 @@ class AvaControl(Node):
             AvaInfo, 'ava_info', qos_profile)
 
         # Timer for routines for sleep and start state
-        timer_routine_period = 0.04  # seconds
+        timer_routine_period = 0.01  # seconds
         self.timer_ava_routines = self.create_timer(
             timer_routine_period, self.timer_ava_routines_callback)
 
         # Timer for gait
         self.gait_cycle_time = 1.0
-        timer_gait_period = self.gait_cycle_time/40
+        timer_gait_period = gait_freq
         self.timer_ava_gait = self.create_timer(
             timer_gait_period, self.timer_ava_gait_callback)
 
@@ -98,24 +103,24 @@ class AvaControl(Node):
                     if self.ava_pose.z <= -0.075 and self.ava_pose.z >= -0.085:
                         self.ava_pose.z = -0.08
                     elif self.ava_pose.z < -0.08:
-                        self.ava_pose.z += 0.002
+                        self.ava_pose.z += 0.0007
                     elif self.ava_pose.z > -0.08:
-                        self.ava_pose.z -= 0.002
+                        self.ava_pose.z -= 0.0007
             else:
                 for i in range(len(pose_arr)):
                     if pose_arr[i] <= 0.005 and pose_arr[i] >= -0.005:
                         pose_arr[i] = 0.
                     elif pose_arr[i] < 0:
-                        pose_arr[i] += 0.004
+                        pose_arr[i] += 0.005
                     elif pose_arr[i] > 0:
-                        pose_arr[i] -= 0.004
+                        pose_arr[i] -= 0.005
                 if self.ava_pose.x != x_offset:
                     if self.ava_pose.x <= (x_offset+0.005) and self.ava_pose.x >= (x_offset-0.005):
                         self.ava_pose.x = x_offset
                     elif self.ava_pose.x < x_offset:
-                        self.ava_pose.x += 0.002
+                        self.ava_pose.x += 0.005
                     elif self.ava_pose.x > -x_offset:
-                        self.ava_pose.x -= 0.002
+                        self.ava_pose.x -= 0.005
 
                 self.ava_pose.y = pose_arr[0]
                 self.ava_pose.roll = pose_arr[1]
@@ -132,7 +137,7 @@ class AvaControl(Node):
                 if self.ava_pose.z <= 0.005 and self.ava_pose.z >= -0.005:
                     self.ava_pose.z = 0.
                 else:
-                    self.ava_pose.z += 0.002
+                    self.ava_pose.z += 0.0007
             self.publisher_legs.publish(ava_leg_position_neutral)
             self.publisher_pose.publish(self.ava_pose)
 
@@ -155,9 +160,9 @@ class AvaControl(Node):
                         if self.ava_pose.x <= (x_offset+0.005) and self.ava_pose.x >= (x_offset-0.005):
                             self.ava_pose.x = x_offset
                         elif self.ava_pose.x < x_offset:
-                            self.ava_pose.x += 0.002
+                            self.ava_pose.x += 0.004
                         elif self.ava_pose.x > -x_offset:
-                            self.ava_pose.x -= 0.002
+                            self.ava_pose.x -= 0.004
 
                     self.ava_pose.y = pose_arr[0]
                     self.ava_pose.z = pose_arr[1]
@@ -177,13 +182,13 @@ class AvaControl(Node):
                 if (np.round(self.linear_velocity[0], 2) != 0) or (np.round(self.linear_velocity[1], 2) != 0) or (np.round(self.angular_velocity[2], 2) != 0):
                     ava_leg_position_msg = LegPosition()
                     fl_traj = trajectory(
-                        step_x, step_y + step_angle, 0.02, 0, self.i)
+                        step_x, step_y + step_angle, step_height, 0, self.i)
                     fr_traj = trajectory(
-                        step_x, step_y + step_angle, 0.02, 11, self.i)
+                        step_x, step_y + step_angle, step_height, 11, self.i)
                     br_traj = trajectory(
-                        step_x, step_y - step_angle, 0.02, 0, self.i)
+                        step_x, step_y - step_angle, step_height, 0, self.i)
                     bl_traj = trajectory(
-                        step_x, step_y - step_angle, 0.02, 11, self.i)
+                        step_x, step_y - step_angle, step_height, 11, self.i)
 
                     ava_leg_position_msg.fl_leg_pos = [
                         0.117 + fl_traj[0], 0.0885 + fl_traj[1], -sqrt(2)*0.1 + fl_traj[2], 1.0]

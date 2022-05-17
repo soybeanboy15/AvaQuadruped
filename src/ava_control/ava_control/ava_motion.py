@@ -32,7 +32,7 @@ class MotionPublisher(Node):
         self.rot = 0
 
         self.gait_cycle_time = 1.0
-        self.timer_gait_period = self.gait_cycle_time/40  # seconds
+        self.timer_gait_period = 0.028  # seconds
         self.timer_ava_motion = self.create_timer(
             self.timer_gait_period, self.timer_ava_motion_callback)
 

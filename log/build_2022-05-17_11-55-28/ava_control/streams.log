@@ -1,0 +1,26 @@
+[2.555s] Invoking command in '/root/dev_ava/src/ava_control': AMENT_PREFIX_PATH=/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/rplidar_ros2:/root/dev_ava/install/ava_msgs:/root/dev_ava/install/ava_bringup:/opt/ros/foxy PYTHONPATH=/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/ava_msgs/lib/python3.8/site-packages:/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_control build --build-base /root/dev_ava/build/ava_control/build install --prefix /root/dev_ava/install/ava_control --record /root/dev_ava/build/ava_control/install.log --single-version-externally-managed
+[3.440s] running egg_info
+[3.442s] writing ../../build/ava_control/ava_control.egg-info/PKG-INFO
+[3.445s] writing dependency_links to ../../build/ava_control/ava_control.egg-info/dependency_links.txt
+[3.446s] writing entry points to ../../build/ava_control/ava_control.egg-info/entry_points.txt
+[3.446s] writing requirements to ../../build/ava_control/ava_control.egg-info/requires.txt
+[3.447s] writing top-level names to ../../build/ava_control/ava_control.egg-info/top_level.txt
+[3.629s] reading manifest file '../../build/ava_control/ava_control.egg-info/SOURCES.txt'
+[3.634s] writing manifest file '../../build/ava_control/ava_control.egg-info/SOURCES.txt'
+[3.635s] running build
+[3.635s] running build_py
+[3.636s] copying ava_control/ava_control.py -> /root/dev_ava/build/ava_control/build/lib/ava_control
+[3.637s] running install
+[3.640s] running install_lib
+[3.645s] copying /root/dev_ava/build/ava_control/build/lib/ava_control/ava_control.py -> /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control
+[3.650s] byte-compiling /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control/ava_control.py to ava_control.cpython-38.pyc
+[3.664s] running install_data
+[3.665s] running install_egg_info
+[3.672s] removing '/root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control-0.0.0-py3.8.egg-info' (and everything under it)
+[3.674s] Copying ../../build/ava_control/ava_control.egg-info to /root/dev_ava/install/ava_control/lib/python3.8/site-packages/ava_control-0.0.0-py3.8.egg-info
+[3.679s] running install_scripts
+[3.763s] Installing ava_control script to /root/dev_ava/install/ava_control/lib/ava_control
+[3.764s] Installing ava_gait script to /root/dev_ava/install/ava_control/lib/ava_control
+[3.765s] Installing ava_motion script to /root/dev_ava/install/ava_control/lib/ava_control
+[3.767s] writing list of installed files to '/root/dev_ava/build/ava_control/install.log'
+[3.876s] Invoked command in '/root/dev_ava/src/ava_control' returned '0': AMENT_PREFIX_PATH=/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/rplidar_ros2:/root/dev_ava/install/ava_msgs:/root/dev_ava/install/ava_bringup:/opt/ros/foxy PYTHONPATH=/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/ava_msgs/lib/python3.8/site-packages:/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_control build --build-base /root/dev_ava/build/ava_control/build install --prefix /root/dev_ava/install/ava_control --record /root/dev_ava/build/ava_control/install.log --single-version-externally-managed

@@ -1,0 +1,24 @@
+[3.495s] Invoking command in '/root/dev_ava/src/ava_driver': AMENT_PREFIX_PATH=/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/rplidar_ros2:/root/dev_ava/install/ava_msgs:/root/dev_ava/install/ava_bringup:/opt/ros/foxy PYTHONPATH=/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/ava_msgs/lib/python3.8/site-packages:/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_driver build --build-base /root/dev_ava/build/ava_driver/build install --prefix /root/dev_ava/install/ava_driver --record /root/dev_ava/build/ava_driver/install.log --single-version-externally-managed
+[4.340s] running egg_info
+[4.342s] writing ../../build/ava_driver/ava_driver.egg-info/PKG-INFO
+[4.343s] writing dependency_links to ../../build/ava_driver/ava_driver.egg-info/dependency_links.txt
+[4.344s] writing entry points to ../../build/ava_driver/ava_driver.egg-info/entry_points.txt
+[4.345s] writing requirements to ../../build/ava_driver/ava_driver.egg-info/requires.txt
+[4.346s] writing top-level names to ../../build/ava_driver/ava_driver.egg-info/top_level.txt
+[4.524s] reading manifest file '../../build/ava_driver/ava_driver.egg-info/SOURCES.txt'
+[4.528s] writing manifest file '../../build/ava_driver/ava_driver.egg-info/SOURCES.txt'
+[4.530s] running build
+[4.531s] running build_py
+[4.532s] copying ava_driver/ava_driver.py -> /root/dev_ava/build/ava_driver/build/lib/ava_driver
+[4.533s] running install
+[4.534s] running install_lib
+[4.539s] copying /root/dev_ava/build/ava_driver/build/lib/ava_driver/ava_driver.py -> /root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver
+[4.542s] byte-compiling /root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver/ava_driver.py to ava_driver.cpython-38.pyc
+[4.549s] running install_data
+[4.551s] running install_egg_info
+[4.558s] removing '/root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver-0.0.0-py3.8.egg-info' (and everything under it)
+[4.560s] Copying ../../build/ava_driver/ava_driver.egg-info to /root/dev_ava/install/ava_driver/lib/python3.8/site-packages/ava_driver-0.0.0-py3.8.egg-info
+[4.563s] running install_scripts
+[4.643s] Installing ava_driver script to /root/dev_ava/install/ava_driver/lib/ava_driver
+[4.645s] writing list of installed files to '/root/dev_ava/build/ava_driver/install.log'
+[4.761s] Invoked command in '/root/dev_ava/src/ava_driver' returned '0': AMENT_PREFIX_PATH=/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/rplidar_ros2:/root/dev_ava/install/ava_msgs:/root/dev_ava/install/ava_bringup:/opt/ros/foxy PYTHONPATH=/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/ava_msgs/lib/python3.8/site-packages:/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_driver build --build-base /root/dev_ava/build/ava_driver/build install --prefix /root/dev_ava/install/ava_driver --record /root/dev_ava/build/ava_driver/install.log --single-version-externally-managed
