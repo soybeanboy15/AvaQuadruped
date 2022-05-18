@@ -1,0 +1,486 @@
+[0.808s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.809s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8b286be0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8b286be0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f8b2901f0>)
+[0.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.944s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.947s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.948s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/dev_ava'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ignore', 'ignore_ament_install']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore_ament_install'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_pkg']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_pkg'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_meta']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_meta'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ros']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ros'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['cmake', 'python']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'cmake'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['python_setup_py']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python_setup_py'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extension 'ignore'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extension 'ignore_ament_install'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extensions ['colcon_pkg']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extension 'colcon_pkg'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extensions ['colcon_meta']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extension 'colcon_meta'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extensions ['ros']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_bringup) by extension 'ros'
+[1.037s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ava_bringup' with type 'ros.ament_python' and name 'ava_bringup'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extensions ['ignore', 'ignore_ament_install']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extension 'ignore'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extension 'ignore_ament_install'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extensions ['colcon_pkg']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extension 'colcon_pkg'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extensions ['colcon_meta']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extension 'colcon_meta'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extensions ['ros']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_control) by extension 'ros'
+[1.043s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ava_control' with type 'ros.ament_python' and name 'ava_control'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extension 'ignore'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extension 'ignore_ament_install'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extensions ['colcon_pkg']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extension 'colcon_pkg'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extensions ['colcon_meta']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extension 'colcon_meta'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extensions ['ros']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_driver) by extension 'ros'
+[1.048s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ava_driver' with type 'ros.ament_python' and name 'ava_driver'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'ignore'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'ignore_ament_install'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['colcon_pkg']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'colcon_pkg'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['colcon_meta']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'colcon_meta'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['ros']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'ros'
+[1.052s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/ava_kinematics': Error(s) in package 'src/ava_kinematics/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 10, column 22
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['cmake', 'python']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'cmake'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'python'
+[1.053s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/ava_kinematics' passes arguments to the setup() function which requires a different identification extension than 'python'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extensions ['python_setup_py']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_kinematics) by extension 'python_setup_py'
+[1.827s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ava_kinematics' with type 'python' and name 'ava_kinematics'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extension 'ignore'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extension 'ignore_ament_install'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extensions ['colcon_pkg']
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extension 'colcon_pkg'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extensions ['colcon_meta']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extension 'colcon_meta'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extensions ['ros']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/ava_msgs) by extension 'ros'
+[1.833s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ava_msgs' with type 'ros.ament_cmake' and name 'ava_msgs'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[1.839s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros2'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extensions ['ignore', 'ignore_ament_install']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extension 'ignore'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extension 'ignore_ament_install'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extensions ['colcon_pkg']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extension 'colcon_pkg'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extensions ['colcon_meta']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extension 'colcon_meta'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extensions ['ros']
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_transformations-main) by extension 'ros'
+[1.846s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf_transformations-main' with type 'ros.ament_python' and name 'tf_transformations'
+[1.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.944s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_args' from command line to 'None'
+[1.945s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_target' from command line to 'None'
+[1.945s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.945s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.945s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.945s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.945s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.946s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.946s] Level 5:colcon.colcon_core.verb:set package 'ava_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.946s] DEBUG:colcon.colcon_core.verb:Building package 'ava_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev_ava/build/ava_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev_ava/install/ava_bringup', 'merge_install': False, 'path': '/root/dev_ava/src/ava_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.949s] Level 5:colcon.colcon_core.verb:set package 'ava_kinematics' build argument 'cmake_args' from command line to 'None'
+[1.949s] Level 5:colcon.colcon_core.verb:set package 'ava_kinematics' build argument 'cmake_target' from command line to 'None'
+[1.949s] Level 5:colcon.colcon_core.verb:set package 'ava_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.950s] Level 5:colcon.colcon_core.verb:set package 'ava_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[1.950s] Level 5:colcon.colcon_core.verb:set package 'ava_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[1.950s] Level 5:colcon.colcon_core.verb:set package 'ava_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[1.950s] Level 5:colcon.colcon_core.verb:set package 'ava_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[1.950s] Level 5:colcon.colcon_core.verb:set package 'ava_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[1.950s] Level 5:colcon.colcon_core.verb:set package 'ava_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.951s] DEBUG:colcon.colcon_core.verb:Building package 'ava_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev_ava/build/ava_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev_ava/install/ava_kinematics', 'merge_install': False, 'path': '/root/dev_ava/src/ava_kinematics', 'symlink_install': False, 'test_result_base': None}
+[1.953s] Level 5:colcon.colcon_core.verb:set package 'ava_msgs' build argument 'cmake_args' from command line to 'None'
+[1.954s] Level 5:colcon.colcon_core.verb:set package 'ava_msgs' build argument 'cmake_target' from command line to 'None'
+[1.954s] Level 5:colcon.colcon_core.verb:set package 'ava_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.954s] Level 5:colcon.colcon_core.verb:set package 'ava_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.954s] Level 5:colcon.colcon_core.verb:set package 'ava_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.954s] Level 5:colcon.colcon_core.verb:set package 'ava_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.954s] Level 5:colcon.colcon_core.verb:set package 'ava_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.955s] Level 5:colcon.colcon_core.verb:set package 'ava_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.955s] Level 5:colcon.colcon_core.verb:set package 'ava_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.955s] DEBUG:colcon.colcon_core.verb:Building package 'ava_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev_ava/build/ava_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev_ava/install/ava_msgs', 'merge_install': False, 'path': '/root/dev_ava/src/ava_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.958s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_args' from command line to 'None'
+[1.958s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_target' from command line to 'None'
+[1.958s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.958s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.958s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.959s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev_ava/build/rplidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev_ava/install/rplidar_ros2', 'merge_install': False, 'path': '/root/dev_ava/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_args' from command line to 'None'
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_target' from command line to 'None'
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_clean_cache' from command line to 'False'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_clean_first' from command line to 'False'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'cmake_force_configure' from command line to 'False'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'ament_cmake_args' from command line to 'None'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'catkin_cmake_args' from command line to 'None'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'tf_transformations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.963s] DEBUG:colcon.colcon_core.verb:Building package 'tf_transformations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev_ava/build/tf_transformations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev_ava/install/tf_transformations', 'merge_install': False, 'path': '/root/dev_ava/src/tf_transformations-main', 'symlink_install': False, 'test_result_base': None}
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'ava_control' build argument 'cmake_args' from command line to 'None'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'ava_control' build argument 'cmake_target' from command line to 'None'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'ava_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'ava_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'ava_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'ava_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'ava_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'ava_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'ava_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.967s] DEBUG:colcon.colcon_core.verb:Building package 'ava_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev_ava/build/ava_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev_ava/install/ava_control', 'merge_install': False, 'path': '/root/dev_ava/src/ava_control', 'symlink_install': False, 'test_result_base': None}
+[1.971s] Level 5:colcon.colcon_core.verb:set package 'ava_driver' build argument 'cmake_args' from command line to 'None'
+[1.971s] Level 5:colcon.colcon_core.verb:set package 'ava_driver' build argument 'cmake_target' from command line to 'None'
+[1.971s] Level 5:colcon.colcon_core.verb:set package 'ava_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.971s] Level 5:colcon.colcon_core.verb:set package 'ava_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'ava_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'ava_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'ava_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'ava_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'ava_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.972s] DEBUG:colcon.colcon_core.verb:Building package 'ava_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev_ava/build/ava_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev_ava/install/ava_driver', 'merge_install': False, 'path': '/root/dev_ava/src/ava_driver', 'symlink_install': False, 'test_result_base': None}
+[1.974s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.983s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.984s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/dev_ava/src/tf_transformations-main' with build type 'ament_python'
+[1.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_transformations', 'ament_prefix_path')
+[2.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/tf_transformations/share/tf_transformations/hook/ament_prefix_path.ps1'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/tf_transformations/share/tf_transformations/hook/ament_prefix_path.dsv'
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/tf_transformations/share/tf_transformations/hook/ament_prefix_path.sh'
+[2.021s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.021s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.050s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/dev_ava/src/ava_bringup' with build type 'ament_python'
+[2.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_bringup', 'ament_prefix_path')
+[2.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/ament_prefix_path.ps1'
+[2.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/ament_prefix_path.dsv'
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/ament_prefix_path.sh'
+[2.063s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.083s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/dev_ava/src/ava_kinematics'
+[2.086s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.110s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dev_ava/src/ava_msgs' with build type 'ament_cmake'
+[2.111s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dev_ava/src/ava_msgs'
+[2.114s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.994s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/dev_ava/src/tf_transformations-main'
+[2.997s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.997s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.893s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/dev_ava/src/ava_bringup'
+[3.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ava/build/ava_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_bringup:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ava/build/ava_msgs -- -j4 -l4
+[7.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ava/src/tf_transformations-main': PYTHONPATH=/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /root/dev_ava/build/tf_transformations/build install --prefix /root/dev_ava/install/tf_transformations --record /root/dev_ava/build/tf_transformations/install.log --single-version-externally-managed
+[7.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ava/src/ava_kinematics': PYTHONPATH=/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_kinematics build --build-base /root/dev_ava/build/ava_kinematics/build install --prefix /root/dev_ava/install/ava_kinematics --record /root/dev_ava/build/ava_kinematics/install.log --single-version-externally-managed
+[7.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ava/src/ava_bringup': PYTHONPATH=/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_bringup build --build-base /root/dev_ava/build/ava_bringup/build install --prefix /root/dev_ava/install/ava_bringup --record /root/dev_ava/build/ava_bringup/install.log --single-version-externally-managed
+[8.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ava/src/ava_bringup' returned '0': PYTHONPATH=/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_bringup build --build-base /root/dev_ava/build/ava_bringup/build install --prefix /root/dev_ava/install/ava_bringup --record /root/dev_ava/build/ava_bringup/install.log --single-version-externally-managed
+[8.657s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup' for CMake module files
+[8.659s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup' for CMake config files
+[8.673s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup/lib'
+[8.676s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup/bin'
+[8.676s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup/lib/pkgconfig/ava_bringup.pc'
+[8.677s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages'
+[8.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_bringup', 'pythonpath')
+[8.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/pythonpath.ps1'
+[8.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/pythonpath.dsv'
+[8.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_bringup/share/ava_bringup/hook/pythonpath.sh'
+[8.700s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_bringup/bin'
+[8.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ava_bringup)
+[8.704s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_bringup/share/ava_bringup/package.ps1'
+[8.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev_ava/install/ava_bringup/share/ava_bringup/package.dsv'
+[8.728s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_bringup/share/ava_bringup/package.sh'
+[8.733s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_bringup/share/ava_bringup/package.bash'
+[8.738s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_bringup/share/ava_bringup/package.zsh'
+[8.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev_ava/install/ava_bringup/share/colcon-core/packages/ava_bringup)
+[8.747s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dev_ava/src/rplidar_ros' with build type 'ament_cmake'
+[8.750s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dev_ava/src/rplidar_ros'
+[8.752s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.753s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.799s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/tf_transformations' for CMake module files
+[8.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ava/src/tf_transformations-main' returned '0': PYTHONPATH=/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /root/dev_ava/build/tf_transformations/build install --prefix /root/dev_ava/install/tf_transformations --record /root/dev_ava/build/tf_transformations/install.log --single-version-externally-managed
+[8.805s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/tf_transformations' for CMake config files
+[8.808s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/tf_transformations/lib'
+[8.808s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/tf_transformations/bin'
+[8.809s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/tf_transformations/lib/pkgconfig/tf_transformations.pc'
+[8.810s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages'
+[8.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_transformations', 'pythonpath')
+[8.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/tf_transformations/share/tf_transformations/hook/pythonpath.ps1'
+[8.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/tf_transformations/share/tf_transformations/hook/pythonpath.dsv'
+[8.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/tf_transformations/share/tf_transformations/hook/pythonpath.sh'
+[8.820s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/tf_transformations/bin'
+[8.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf_transformations)
+[8.823s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/tf_transformations/share/tf_transformations/package.ps1'
+[8.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev_ava/install/tf_transformations/share/tf_transformations/package.dsv'
+[8.828s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/tf_transformations/share/tf_transformations/package.sh'
+[8.831s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/tf_transformations/share/tf_transformations/package.bash'
+[8.832s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/tf_transformations/share/tf_transformations/package.zsh'
+[8.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev_ava/install/tf_transformations/share/colcon-core/packages/tf_transformations)
+[8.841s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/dev_ava/src/ava_control' with build type 'ament_python'
+[8.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_control', 'ament_prefix_path')
+[8.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_control/share/ava_control/hook/ament_prefix_path.ps1'
+[8.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_control/share/ava_control/hook/ament_prefix_path.dsv'
+[8.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_control/share/ava_control/hook/ament_prefix_path.sh'
+[8.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ava/build/rplidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_bringup:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ava/build/rplidar_ros2 -- -j4 -l4
+[8.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ava/src/ava_kinematics' returned '0': PYTHONPATH=/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_kinematics build --build-base /root/dev_ava/build/ava_kinematics/build install --prefix /root/dev_ava/install/ava_kinematics --record /root/dev_ava/build/ava_kinematics/install.log --single-version-externally-managed
+[8.931s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_kinematics' for CMake module files
+[8.945s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_kinematics' for CMake config files
+[8.953s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_kinematics/lib'
+[8.953s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_kinematics/bin'
+[8.954s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_kinematics/lib/pkgconfig/ava_kinematics.pc'
+[8.955s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages'
+[8.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_kinematics', 'pythonpath')
+[8.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_kinematics/share/ava_kinematics/hook/pythonpath.ps1'
+[8.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_kinematics/share/ava_kinematics/hook/pythonpath.dsv'
+[8.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_kinematics/share/ava_kinematics/hook/pythonpath.sh'
+[8.971s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_kinematics/bin'
+[8.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ava_kinematics)
+[8.974s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_kinematics/share/ava_kinematics/package.ps1'
+[8.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev_ava/install/ava_kinematics/share/ava_kinematics/package.dsv'
+[8.979s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_kinematics/share/ava_kinematics/package.sh'
+[8.982s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_kinematics/share/ava_kinematics/package.bash'
+[8.984s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_kinematics/share/ava_kinematics/package.zsh'
+[8.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev_ava/install/ava_kinematics/share/colcon-core/packages/ava_kinematics)
+[8.989s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/dev_ava/src/ava_driver' with build type 'ament_python'
+[8.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_driver', 'ament_prefix_path')
+[8.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_driver/share/ava_driver/hook/ament_prefix_path.ps1'
+[8.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_driver/share/ava_driver/hook/ament_prefix_path.dsv'
+[8.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_driver/share/ava_driver/hook/ament_prefix_path.sh'
+[9.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.012s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/dev_ava/src/ava_control'
+[10.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.016s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.120s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/dev_ava/src/ava_driver'
+[11.123s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.125s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ava/src/ava_driver': AMENT_PREFIX_PATH=/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/rplidar_ros2:/root/dev_ava/install/ava_msgs:/root/dev_ava/install/ava_bringup:/opt/ros/foxy PYTHONPATH=/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/ava_msgs/lib/python3.8/site-packages:/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_driver build --build-base /root/dev_ava/build/ava_driver/build install --prefix /root/dev_ava/install/ava_driver --record /root/dev_ava/build/ava_driver/install.log --single-version-externally-managed
+[13.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ava/src/ava_control': AMENT_PREFIX_PATH=/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/rplidar_ros2:/root/dev_ava/install/ava_msgs:/root/dev_ava/install/ava_bringup:/opt/ros/foxy PYTHONPATH=/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/ava_msgs/lib/python3.8/site-packages:/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_control build --build-base /root/dev_ava/build/ava_control/build install --prefix /root/dev_ava/install/ava_control --record /root/dev_ava/build/ava_control/install.log --single-version-externally-managed
+[15.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ava/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_bringup:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ava/build/rplidar_ros2 -- -j4 -l4
+[15.596s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_control' for CMake module files
+[15.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ava/src/ava_control' returned '0': AMENT_PREFIX_PATH=/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/rplidar_ros2:/root/dev_ava/install/ava_msgs:/root/dev_ava/install/ava_bringup:/opt/ros/foxy PYTHONPATH=/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/ava_msgs/lib/python3.8/site-packages:/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_control build --build-base /root/dev_ava/build/ava_control/build install --prefix /root/dev_ava/install/ava_control --record /root/dev_ava/build/ava_control/install.log --single-version-externally-managed
+[15.601s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_control' for CMake config files
+[15.605s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_control/lib'
+[15.605s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_control/bin'
+[15.605s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_control/lib/pkgconfig/ava_control.pc'
+[15.627s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_control/lib/python3.8/site-packages'
+[15.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_control', 'pythonpath')
+[15.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_control/share/ava_control/hook/pythonpath.ps1'
+[15.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_control/share/ava_control/hook/pythonpath.dsv'
+[15.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_control/share/ava_control/hook/pythonpath.sh'
+[15.652s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_control/bin'
+[15.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ava_control)
+[15.657s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_control/share/ava_control/package.ps1'
+[15.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev_ava/install/ava_control/share/ava_control/package.dsv'
+[15.662s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_control/share/ava_control/package.sh'
+[15.666s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_control/share/ava_control/package.bash'
+[15.668s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_control/share/ava_control/package.zsh'
+[15.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev_ava/install/ava_control/share/colcon-core/packages/ava_control)
+[16.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ava/build/rplidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_bringup:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ava/build/rplidar_ros2
+[16.033s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_driver' for CMake module files
+[16.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ava/src/ava_driver' returned '0': AMENT_PREFIX_PATH=/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/rplidar_ros2:/root/dev_ava/install/ava_msgs:/root/dev_ava/install/ava_bringup:/opt/ros/foxy PYTHONPATH=/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:/root/dev_ava/install/ava_driver/lib/python3.8/site-packages:/root/dev_ava/install/ava_control/lib/python3.8/site-packages:/root/dev_ava/install/ava_msgs/lib/python3.8/site-packages:/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:/root/dev_ava/install/ava_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_driver build --build-base /root/dev_ava/build/ava_driver/build install --prefix /root/dev_ava/install/ava_driver --record /root/dev_ava/build/ava_driver/install.log --single-version-externally-managed
+[16.038s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_driver' for CMake config files
+[16.041s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_driver/lib'
+[16.041s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_driver/bin'
+[16.042s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_driver/lib/pkgconfig/ava_driver.pc'
+[16.043s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_driver/lib/python3.8/site-packages'
+[16.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_driver', 'pythonpath')
+[16.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_driver/share/ava_driver/hook/pythonpath.ps1'
+[16.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_driver/share/ava_driver/hook/pythonpath.dsv'
+[16.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_driver/share/ava_driver/hook/pythonpath.sh'
+[16.068s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_driver/bin'
+[16.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ava_driver)
+[16.071s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_driver/share/ava_driver/package.ps1'
+[16.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev_ava/install/ava_driver/share/ava_driver/package.dsv'
+[16.087s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_driver/share/ava_driver/package.sh'
+[16.090s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_driver/share/ava_driver/package.bash'
+[16.092s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_driver/share/ava_driver/package.zsh'
+[16.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev_ava/install/ava_driver/share/colcon-core/packages/ava_driver)
+[16.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros2)
+[16.191s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2' for CMake module files
+[16.194s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2' for CMake config files
+[16.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ava/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_bringup:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ava/build/rplidar_ros2
+[16.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros2', 'cmake_prefix_path')
+[16.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.ps1'
+[16.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.dsv'
+[16.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.sh'
+[16.223s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2/lib'
+[16.223s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2/bin'
+[16.224s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2/lib/pkgconfig/rplidar_ros2.pc'
+[16.224s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2/lib/python3.8/site-packages'
+[16.225s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2/bin'
+[16.228s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/package.ps1'
+[16.230s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/package.dsv'
+[16.233s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/package.sh'
+[16.235s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/package.bash'
+[16.237s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/package.zsh'
+[16.245s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev_ava/install/rplidar_ros2/share/colcon-core/packages/rplidar_ros2)
+[16.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros2)
+[16.940s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2' for CMake module files
+[16.943s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2' for CMake config files
+[16.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros2', 'cmake_prefix_path')
+[16.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.ps1'
+[16.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.dsv'
+[16.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.sh'
+[16.976s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2/lib'
+[16.977s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2/bin'
+[16.978s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2/lib/pkgconfig/rplidar_ros2.pc'
+[16.979s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2/lib/python3.8/site-packages'
+[16.980s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/rplidar_ros2/bin'
+[16.983s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/package.ps1'
+[16.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/package.dsv'
+[17.000s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/package.sh'
+[17.003s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/package.bash'
+[17.005s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/rplidar_ros2/share/rplidar_ros2/package.zsh'
+[17.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev_ava/install/rplidar_ros2/share/colcon-core/packages/rplidar_ros2)
+[41.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ava/build/ava_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_bringup:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ava/build/ava_msgs -- -j4 -l4
+[42.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev_ava/build/ava_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_bringup:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ava/build/ava_msgs
+[42.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ava_msgs)
+[42.434s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs' for CMake module files
+[42.440s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs' for CMake config files
+[42.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_msgs', 'cmake_prefix_path')
+[42.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/cmake_prefix_path.ps1'
+[42.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/cmake_prefix_path.dsv'
+[42.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/cmake_prefix_path.sh'
+[42.450s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs/lib'
+[42.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_msgs', 'ld_library_path_lib')
+[42.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/ld_library_path_lib.ps1'
+[42.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev_ava/build/ava_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/tf_transformations:/root/dev_ava/install/ava_bringup:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ava/build/ava_msgs
+[42.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/ld_library_path_lib.dsv'
+[42.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/ld_library_path_lib.sh'
+[42.459s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs/bin'
+[42.460s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs/lib/pkgconfig/ava_msgs.pc'
+[42.461s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs/lib/python3.8/site-packages'
+[42.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_msgs', 'pythonpath')
+[42.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/pythonpath.ps1'
+[42.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/pythonpath.dsv'
+[42.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/pythonpath.sh'
+[42.467s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs/bin'
+[42.469s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_msgs/share/ava_msgs/package.ps1'
+[42.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev_ava/install/ava_msgs/share/ava_msgs/package.dsv'
+[42.474s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_msgs/share/ava_msgs/package.sh'
+[42.476s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_msgs/share/ava_msgs/package.bash'
+[42.522s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_msgs/share/ava_msgs/package.zsh'
+[42.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev_ava/install/ava_msgs/share/colcon-core/packages/ava_msgs)
+[42.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ava_msgs)
+[42.884s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs' for CMake module files
+[42.887s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs' for CMake config files
+[42.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_msgs', 'cmake_prefix_path')
+[42.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/cmake_prefix_path.ps1'
+[42.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/cmake_prefix_path.dsv'
+[42.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/cmake_prefix_path.sh'
+[42.897s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs/lib'
+[42.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_msgs', 'ld_library_path_lib')
+[42.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/ld_library_path_lib.ps1'
+[42.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/ld_library_path_lib.dsv'
+[42.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/ld_library_path_lib.sh'
+[42.903s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs/bin'
+[42.903s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs/lib/pkgconfig/ava_msgs.pc'
+[42.904s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs/lib/python3.8/site-packages'
+[42.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('ava_msgs', 'pythonpath')
+[42.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/pythonpath.ps1'
+[42.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/pythonpath.dsv'
+[42.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ava/install/ava_msgs/share/ava_msgs/hook/pythonpath.sh'
+[42.910s] Level 1:colcon.colcon_core.environment:checking '/root/dev_ava/install/ava_msgs/bin'
+[42.913s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_msgs/share/ava_msgs/package.ps1'
+[42.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev_ava/install/ava_msgs/share/ava_msgs/package.dsv'
+[42.917s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_msgs/share/ava_msgs/package.sh'
+[42.919s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_msgs/share/ava_msgs/package.bash'
+[42.920s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev_ava/install/ava_msgs/share/ava_msgs/package.zsh'
+[42.922s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev_ava/install/ava_msgs/share/colcon-core/packages/ava_msgs)
+[42.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[42.925s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[42.926s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[42.927s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[42.983s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[42.984s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[42.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[42.985s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[42.985s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[42.985s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[42.987s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ava/install/local_setup.ps1'
+[42.992s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dev_ava/install/_local_setup_util_ps1.py'
+[42.998s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ava/install/setup.ps1'
+[43.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ava/install/local_setup.sh'
+[43.008s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dev_ava/install/_local_setup_util_sh.py'
+[43.010s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ava/install/setup.sh'
+[43.015s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ava/install/local_setup.bash'
+[43.018s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ava/install/setup.bash'
+[43.023s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ava/install/local_setup.zsh'
+[43.026s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ava/install/setup.zsh'

@@ -21,6 +21,8 @@
 
 bool ava_msgs__msg__velocity__convert_from_py(PyObject * _pymsg, void * _ros_message);
 PyObject * ava_msgs__msg__velocity__convert_to_py(void * raw_ros_message);
+bool ava_msgs__msg__ava_pose__convert_from_py(PyObject * _pymsg, void * _ros_message);
+PyObject * ava_msgs__msg__ava_pose__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool ava_msgs__msg__ava_info__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -81,6 +83,17 @@ bool ava_msgs__msg__ava_info__convert_from_py(PyObject * _pymsg, void * _ros_mes
     }
     Py_DECREF(field);
   }
+  {  // pose
+    PyObject * field = PyObject_GetAttrString(_pymsg, "pose");
+    if (!field) {
+      return false;
+    }
+    if (!ava_msgs__msg__ava_pose__convert_from_py(field, &ros_message->pose)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -128,6 +141,20 @@ PyObject * ava_msgs__msg__ava_info__convert_to_py(void * raw_ros_message)
     }
     {
       int rc = PyObject_SetAttrString(_pymessage, "velocity", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // pose
+    PyObject * field = NULL;
+    field = ava_msgs__msg__ava_pose__convert_to_py(&ros_message->pose);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "pose", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

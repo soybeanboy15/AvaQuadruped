@@ -9,6 +9,10 @@ CMakeFiles/ava_msgs__rosidl_generator_c.dir/rosidl_generator_c/ava_msgs/msg/deta
  /root/dev_ava/build/ava_msgs/rosidl_generator_c/ava_msgs/msg/detail/ava_command__functions.c
  rosidl_generator_c/ava_msgs/msg/detail/ava_command__functions.h
  rosidl_generator_c/ava_msgs/msg/detail/ava_command__struct.h
+ rosidl_generator_c/ava_msgs/msg/detail/ava_pose__functions.h
+ rosidl_generator_c/ava_msgs/msg/detail/ava_pose__struct.h
+ rosidl_generator_c/ava_msgs/msg/detail/velocity__functions.h
+ rosidl_generator_c/ava_msgs/msg/detail/velocity__struct.h
  rosidl_generator_c/ava_msgs/msg/rosidl_generator_c__visibility_control.h
 CMakeFiles/ava_msgs__rosidl_generator_c.dir/rosidl_generator_c/ava_msgs/msg/detail/ava_info__functions.c.o
  /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
@@ -18,6 +22,8 @@ CMakeFiles/ava_msgs__rosidl_generator_c.dir/rosidl_generator_c/ava_msgs/msg/deta
  /root/dev_ava/build/ava_msgs/rosidl_generator_c/ava_msgs/msg/detail/ava_info__functions.c
  rosidl_generator_c/ava_msgs/msg/detail/ava_info__functions.h
  rosidl_generator_c/ava_msgs/msg/detail/ava_info__struct.h
+ rosidl_generator_c/ava_msgs/msg/detail/ava_pose__functions.h
+ rosidl_generator_c/ava_msgs/msg/detail/ava_pose__struct.h
  rosidl_generator_c/ava_msgs/msg/detail/velocity__functions.h
  rosidl_generator_c/ava_msgs/msg/detail/velocity__struct.h
  rosidl_generator_c/ava_msgs/msg/rosidl_generator_c__visibility_control.h

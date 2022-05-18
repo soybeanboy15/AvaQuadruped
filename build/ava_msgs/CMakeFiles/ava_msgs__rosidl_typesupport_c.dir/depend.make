@@ -12,6 +12,8 @@ CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/
 CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_command__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_command__type_support.cpp.o: rosidl_typesupport_c/ava_msgs/msg/ava_command__type_support.cpp
 CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_command__type_support.cpp.o: rosidl_generator_c/ava_msgs/msg/detail/ava_command__struct.h
+CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_command__type_support.cpp.o: rosidl_generator_c/ava_msgs/msg/detail/ava_pose__struct.h
+CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_command__type_support.cpp.o: rosidl_generator_c/ava_msgs/msg/detail/velocity__struct.h
 CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_command__type_support.cpp.o: rosidl_typesupport_c/ava_msgs/msg/rosidl_typesupport_c__visibility_control.h
 
 CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_info__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
@@ -25,6 +27,7 @@ CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/
 CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_info__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_info__type_support.cpp.o: rosidl_typesupport_c/ava_msgs/msg/ava_info__type_support.cpp
 CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_info__type_support.cpp.o: rosidl_generator_c/ava_msgs/msg/detail/ava_info__struct.h
+CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_info__type_support.cpp.o: rosidl_generator_c/ava_msgs/msg/detail/ava_pose__struct.h
 CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_info__type_support.cpp.o: rosidl_generator_c/ava_msgs/msg/detail/velocity__struct.h
 CMakeFiles/ava_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ava_msgs/msg/ava_info__type_support.cpp.o: rosidl_typesupport_c/ava_msgs/msg/rosidl_typesupport_c__visibility_control.h
 

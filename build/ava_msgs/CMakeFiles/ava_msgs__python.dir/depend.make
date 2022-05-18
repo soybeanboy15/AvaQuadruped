@@ -107,6 +107,8 @@ CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_command_s.
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_command_s.c.o: /usr/include/python3.8/weakrefobject.h
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_command_s.c.o: rosidl_generator_c/ava_msgs/msg/detail/ava_command__functions.h
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_command_s.c.o: rosidl_generator_c/ava_msgs/msg/detail/ava_command__struct.h
+CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_command_s.c.o: rosidl_generator_c/ava_msgs/msg/detail/ava_pose__struct.h
+CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_command_s.c.o: rosidl_generator_c/ava_msgs/msg/detail/velocity__struct.h
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_command_s.c.o: rosidl_generator_c/ava_msgs/msg/rosidl_generator_c__visibility_control.h
 
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_info_s.c.o: /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
@@ -215,6 +217,7 @@ CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_info_s.c.o
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_info_s.c.o: /usr/include/python3.8/weakrefobject.h
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_info_s.c.o: rosidl_generator_c/ava_msgs/msg/detail/ava_info__functions.h
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_info_s.c.o: rosidl_generator_c/ava_msgs/msg/detail/ava_info__struct.h
+CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_info_s.c.o: rosidl_generator_c/ava_msgs/msg/detail/ava_pose__struct.h
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_info_s.c.o: rosidl_generator_c/ava_msgs/msg/detail/velocity__struct.h
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_info_s.c.o: rosidl_generator_c/ava_msgs/msg/rosidl_generator_c__visibility_control.h
 

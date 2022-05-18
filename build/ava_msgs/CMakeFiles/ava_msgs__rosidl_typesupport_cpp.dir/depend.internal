@@ -15,6 +15,8 @@ CMakeFiles/ava_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ava_msgs/
  /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
  /root/dev_ava/build/ava_msgs/rosidl_typesupport_cpp/ava_msgs/msg/ava_command__type_support.cpp
  rosidl_generator_cpp/ava_msgs/msg/detail/ava_command__struct.hpp
+ rosidl_generator_cpp/ava_msgs/msg/detail/ava_pose__struct.hpp
+ rosidl_generator_cpp/ava_msgs/msg/detail/velocity__struct.hpp
 CMakeFiles/ava_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ava_msgs/msg/ava_info__type_support.cpp.o
  /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
  /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
@@ -29,6 +31,7 @@ CMakeFiles/ava_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ava_msgs/
  /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
  /root/dev_ava/build/ava_msgs/rosidl_typesupport_cpp/ava_msgs/msg/ava_info__type_support.cpp
  rosidl_generator_cpp/ava_msgs/msg/detail/ava_info__struct.hpp
+ rosidl_generator_cpp/ava_msgs/msg/detail/ava_pose__struct.hpp
  rosidl_generator_cpp/ava_msgs/msg/detail/velocity__struct.hpp
 CMakeFiles/ava_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ava_msgs/msg/ava_pose__type_support.cpp.o
  /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h

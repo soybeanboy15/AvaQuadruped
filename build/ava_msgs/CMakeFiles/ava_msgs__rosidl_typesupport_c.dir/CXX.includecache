@@ -155,6 +155,10 @@ stdint.h
 -
 rosidl_runtime_c/string.h
 rosidl_generator_c/ava_msgs/msg/detail/rosidl_runtime_c/string.h
+ava_msgs/msg/detail/velocity__struct.h
+rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/velocity__struct.h
+ava_msgs/msg/detail/ava_pose__struct.h
+rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/ava_pose__struct.h
 
 rosidl_generator_c/ava_msgs/msg/detail/ava_info__struct.h
 stdbool.h
@@ -167,6 +171,8 @@ rosidl_runtime_c/string.h
 rosidl_generator_c/ava_msgs/msg/detail/rosidl_runtime_c/string.h
 ava_msgs/msg/detail/velocity__struct.h
 rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/velocity__struct.h
+ava_msgs/msg/detail/ava_pose__struct.h
+rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/ava_pose__struct.h
 
 rosidl_generator_c/ava_msgs/msg/detail/ava_pose__struct.h
 stdbool.h

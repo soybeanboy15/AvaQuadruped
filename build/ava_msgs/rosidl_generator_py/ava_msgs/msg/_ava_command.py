@@ -40,6 +40,14 @@ class Metaclass_AvaCommand(type):
             cls._TYPE_SUPPORT = module.type_support_msg__msg__ava_command
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__msg__ava_command
 
+            from ava_msgs.msg import AvaPose
+            if AvaPose.__class__._TYPE_SUPPORT is None:
+                AvaPose.__class__.__import_type_support__()
+
+            from ava_msgs.msg import Velocity
+            if Velocity.__class__._TYPE_SUPPORT is None:
+                Velocity.__class__.__import_type_support__()
+
     @classmethod
     def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
@@ -54,20 +62,23 @@ class AvaCommand(metaclass=Metaclass_AvaCommand):
 
     __slots__ = [
         '_state_msg',
-        '_teleop',
-        '_keyhit',
+        '_teleop_mode',
+        '_velocity',
+        '_pose',
     ]
 
     _fields_and_field_types = {
         'state_msg': 'string',
-        'teleop': 'string',
-        'keyhit': 'string',
+        'teleop_mode': 'string',
+        'velocity': 'ava_msgs/Velocity',
+        'pose': 'ava_msgs/AvaPose',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
-        rosidl_parser.definition.UnboundedString(),  # noqa: E501
+        rosidl_parser.definition.NamespacedType(['ava_msgs', 'msg'], 'Velocity'),  # noqa: E501
+        rosidl_parser.definition.NamespacedType(['ava_msgs', 'msg'], 'AvaPose'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -75,8 +86,11 @@ class AvaCommand(metaclass=Metaclass_AvaCommand):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.state_msg = kwargs.get('state_msg', str())
-        self.teleop = kwargs.get('teleop', str())
-        self.keyhit = kwargs.get('keyhit', str())
+        self.teleop_mode = kwargs.get('teleop_mode', str())
+        from ava_msgs.msg import Velocity
+        self.velocity = kwargs.get('velocity', Velocity())
+        from ava_msgs.msg import AvaPose
+        self.pose = kwargs.get('pose', AvaPose())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -109,9 +123,11 @@ class AvaCommand(metaclass=Metaclass_AvaCommand):
             return False
         if self.state_msg != other.state_msg:
             return False
-        if self.teleop != other.teleop:
+        if self.teleop_mode != other.teleop_mode:
             return False
-        if self.keyhit != other.keyhit:
+        if self.velocity != other.velocity:
+            return False
+        if self.pose != other.pose:
             return False
         return True
 
@@ -134,27 +150,42 @@ class AvaCommand(metaclass=Metaclass_AvaCommand):
         self._state_msg = value
 
     @property
-    def teleop(self):
-        """Message field 'teleop'."""
-        return self._teleop
+    def teleop_mode(self):
+        """Message field 'teleop_mode'."""
+        return self._teleop_mode
 
-    @teleop.setter
-    def teleop(self, value):
+    @teleop_mode.setter
+    def teleop_mode(self, value):
         if __debug__:
             assert \
                 isinstance(value, str), \
-                "The 'teleop' field must be of type 'str'"
-        self._teleop = value
+                "The 'teleop_mode' field must be of type 'str'"
+        self._teleop_mode = value
 
     @property
-    def keyhit(self):
-        """Message field 'keyhit'."""
-        return self._keyhit
+    def velocity(self):
+        """Message field 'velocity'."""
+        return self._velocity
 
-    @keyhit.setter
-    def keyhit(self, value):
+    @velocity.setter
+    def velocity(self, value):
         if __debug__:
+            from ava_msgs.msg import Velocity
             assert \
-                isinstance(value, str), \
-                "The 'keyhit' field must be of type 'str'"
-        self._keyhit = value
+                isinstance(value, Velocity), \
+                "The 'velocity' field must be a sub message of type 'Velocity'"
+        self._velocity = value
+
+    @property
+    def pose(self):
+        """Message field 'pose'."""
+        return self._pose
+
+    @pose.setter
+    def pose(self, value):
+        if __debug__:
+            from ava_msgs.msg import AvaPose
+            assert \
+                isinstance(value, AvaPose), \
+                "The 'pose' field must be a sub message of type 'AvaPose'"
+        self._pose = value

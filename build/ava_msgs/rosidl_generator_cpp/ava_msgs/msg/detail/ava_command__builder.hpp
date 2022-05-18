@@ -20,15 +20,15 @@ namespace msg
 namespace builder
 {
 
-class Init_AvaCommand_keyhit
+class Init_AvaCommand_pose
 {
 public:
-  explicit Init_AvaCommand_keyhit(::ava_msgs::msg::AvaCommand & msg)
+  explicit Init_AvaCommand_pose(::ava_msgs::msg::AvaCommand & msg)
   : msg_(msg)
   {}
-  ::ava_msgs::msg::AvaCommand keyhit(::ava_msgs::msg::AvaCommand::_keyhit_type arg)
+  ::ava_msgs::msg::AvaCommand pose(::ava_msgs::msg::AvaCommand::_pose_type arg)
   {
-    msg_.keyhit = std::move(arg);
+    msg_.pose = std::move(arg);
     return std::move(msg_);
   }
 
@@ -36,16 +36,32 @@ private:
   ::ava_msgs::msg::AvaCommand msg_;
 };
 
-class Init_AvaCommand_teleop
+class Init_AvaCommand_velocity
 {
 public:
-  explicit Init_AvaCommand_teleop(::ava_msgs::msg::AvaCommand & msg)
+  explicit Init_AvaCommand_velocity(::ava_msgs::msg::AvaCommand & msg)
   : msg_(msg)
   {}
-  Init_AvaCommand_keyhit teleop(::ava_msgs::msg::AvaCommand::_teleop_type arg)
+  Init_AvaCommand_pose velocity(::ava_msgs::msg::AvaCommand::_velocity_type arg)
   {
-    msg_.teleop = std::move(arg);
-    return Init_AvaCommand_keyhit(msg_);
+    msg_.velocity = std::move(arg);
+    return Init_AvaCommand_pose(msg_);
+  }
+
+private:
+  ::ava_msgs::msg::AvaCommand msg_;
+};
+
+class Init_AvaCommand_teleop_mode
+{
+public:
+  explicit Init_AvaCommand_teleop_mode(::ava_msgs::msg::AvaCommand & msg)
+  : msg_(msg)
+  {}
+  Init_AvaCommand_velocity teleop_mode(::ava_msgs::msg::AvaCommand::_teleop_mode_type arg)
+  {
+    msg_.teleop_mode = std::move(arg);
+    return Init_AvaCommand_velocity(msg_);
   }
 
 private:
@@ -58,10 +74,10 @@ public:
   Init_AvaCommand_state_msg()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_AvaCommand_teleop state_msg(::ava_msgs::msg::AvaCommand::_state_msg_type arg)
+  Init_AvaCommand_teleop_mode state_msg(::ava_msgs::msg::AvaCommand::_state_msg_type arg)
   {
     msg_.state_msg = std::move(arg);
-    return Init_AvaCommand_teleop(msg_);
+    return Init_AvaCommand_teleop_mode(msg_);
   }
 
 private:

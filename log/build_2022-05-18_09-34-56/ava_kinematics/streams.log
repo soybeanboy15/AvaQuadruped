@@ -1,0 +1,20 @@
+[4.975s] Invoking command in '/root/dev_ava/src/ava_kinematics': PYTHONPATH=/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_kinematics build --build-base /root/dev_ava/build/ava_kinematics/build install --prefix /root/dev_ava/install/ava_kinematics --record /root/dev_ava/build/ava_kinematics/install.log --single-version-externally-managed
+[6.250s] running egg_info
+[6.254s] writing ../../build/ava_kinematics/ava_kinematics.egg-info/PKG-INFO
+[6.256s] writing dependency_links to ../../build/ava_kinematics/ava_kinematics.egg-info/dependency_links.txt
+[6.257s] writing entry points to ../../build/ava_kinematics/ava_kinematics.egg-info/entry_points.txt
+[6.257s] writing requirements to ../../build/ava_kinematics/ava_kinematics.egg-info/requires.txt
+[6.257s] writing top-level names to ../../build/ava_kinematics/ava_kinematics.egg-info/top_level.txt
+[6.510s] reading manifest file '../../build/ava_kinematics/ava_kinematics.egg-info/SOURCES.txt'
+[6.517s] writing manifest file '../../build/ava_kinematics/ava_kinematics.egg-info/SOURCES.txt'
+[6.518s] running build
+[6.518s] running build_py
+[6.519s] running install
+[6.542s] running install_lib
+[6.551s] running install_data
+[6.553s] running install_egg_info
+[6.563s] removing '/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages/ava_kinematics-0.0.0-py3.8.egg-info' (and everything under it)
+[6.564s] Copying ../../build/ava_kinematics/ava_kinematics.egg-info to /root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages/ava_kinematics-0.0.0-py3.8.egg-info
+[6.588s] running install_scripts
+[6.672s] writing list of installed files to '/root/dev_ava/build/ava_kinematics/install.log'
+[6.849s] Invoked command in '/root/dev_ava/src/ava_kinematics' returned '0': PYTHONPATH=/root/dev_ava/install/ava_kinematics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ava_kinematics build --build-base /root/dev_ava/build/ava_kinematics/build install --prefix /root/dev_ava/install/ava_kinematics --record /root/dev_ava/build/ava_kinematics/install.log --single-version-externally-managed

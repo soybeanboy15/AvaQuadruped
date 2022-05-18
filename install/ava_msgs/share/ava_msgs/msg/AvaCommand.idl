@@ -2,15 +2,19 @@
 // with input from ava_msgs/msg/AvaCommand.msg
 // generated code does not contain a copyright notice
 
+#include "ava_msgs/msg/AvaPose.idl"
+#include "ava_msgs/msg/Velocity.idl"
 
 module ava_msgs {
   module msg {
     struct AvaCommand {
       string state_msg;
 
-      string teleop;
+      string teleop_mode;
 
-      string keyhit;
+      ava_msgs::msg::Velocity velocity;
+
+      ava_msgs::msg::AvaPose pose;
     };
   };
 };

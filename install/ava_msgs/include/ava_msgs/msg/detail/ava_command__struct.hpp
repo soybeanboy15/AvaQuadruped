@@ -14,6 +14,12 @@
 #include <vector>
 
 
+// Include directives for member types
+// Member 'velocity'
+#include "ava_msgs/msg/detail/velocity__struct.hpp"
+// Member 'pose'
+#include "ava_msgs/msg/detail/ava_pose__struct.hpp"
+
 #ifndef _WIN32
 # define DEPRECATED__ava_msgs__msg__AvaCommand __attribute__((deprecated))
 #else
@@ -33,27 +39,28 @@ struct AvaCommand_
   using Type = AvaCommand_<ContainerAllocator>;
 
   explicit AvaCommand_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : velocity(_init),
+    pose(_init)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->state_msg = "";
-      this->teleop = "";
-      this->keyhit = "";
+      this->teleop_mode = "";
     }
   }
 
   explicit AvaCommand_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   : state_msg(_alloc),
-    teleop(_alloc),
-    keyhit(_alloc)
+    teleop_mode(_alloc),
+    velocity(_alloc, _init),
+    pose(_alloc, _init)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->state_msg = "";
-      this->teleop = "";
-      this->keyhit = "";
+      this->teleop_mode = "";
     }
   }
 
@@ -61,12 +68,15 @@ struct AvaCommand_
   using _state_msg_type =
     std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
   _state_msg_type state_msg;
-  using _teleop_type =
+  using _teleop_mode_type =
     std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
-  _teleop_type teleop;
-  using _keyhit_type =
-    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
-  _keyhit_type keyhit;
+  _teleop_mode_type teleop_mode;
+  using _velocity_type =
+    ava_msgs::msg::Velocity_<ContainerAllocator>;
+  _velocity_type velocity;
+  using _pose_type =
+    ava_msgs::msg::AvaPose_<ContainerAllocator>;
+  _pose_type pose;
 
   // setters for named parameter idiom
   Type & set__state_msg(
@@ -75,16 +85,22 @@ struct AvaCommand_
     this->state_msg = _arg;
     return *this;
   }
-  Type & set__teleop(
+  Type & set__teleop_mode(
     const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
-    this->teleop = _arg;
+    this->teleop_mode = _arg;
     return *this;
   }
-  Type & set__keyhit(
-    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
+  Type & set__velocity(
+    const ava_msgs::msg::Velocity_<ContainerAllocator> & _arg)
   {
-    this->keyhit = _arg;
+    this->velocity = _arg;
+    return *this;
+  }
+  Type & set__pose(
+    const ava_msgs::msg::AvaPose_<ContainerAllocator> & _arg)
+  {
+    this->pose = _arg;
     return *this;
   }
 
@@ -133,10 +149,13 @@ struct AvaCommand_
     if (this->state_msg != other.state_msg) {
       return false;
     }
-    if (this->teleop != other.teleop) {
+    if (this->teleop_mode != other.teleop_mode) {
       return false;
     }
-    if (this->keyhit != other.keyhit) {
+    if (this->velocity != other.velocity) {
+      return false;
+    }
+    if (this->pose != other.pose) {
       return false;
     }
     return true;

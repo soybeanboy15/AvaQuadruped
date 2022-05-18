@@ -10,6 +10,12 @@
 #include <stdint.h>
 #include <type_traits>
 
+// Include directives for member types
+// Member 'velocity'
+#include "ava_msgs/msg/detail/velocity__traits.hpp"
+// Member 'pose'
+#include "ava_msgs/msg/detail/ava_pose__traits.hpp"
+
 namespace rosidl_generator_traits
 {
 

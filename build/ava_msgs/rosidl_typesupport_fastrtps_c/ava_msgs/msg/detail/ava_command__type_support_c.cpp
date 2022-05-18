@@ -34,10 +34,32 @@ extern "C"
 {
 #endif
 
-#include "rosidl_runtime_c/string.h"  // keyhit, state_msg, teleop
-#include "rosidl_runtime_c/string_functions.h"  // keyhit, state_msg, teleop
+#include "ava_msgs/msg/detail/ava_pose__functions.h"  // pose
+#include "ava_msgs/msg/detail/velocity__functions.h"  // velocity
+#include "rosidl_runtime_c/string.h"  // state_msg, teleop_mode
+#include "rosidl_runtime_c/string_functions.h"  // state_msg, teleop_mode
 
 // forward declare type support functions
+size_t get_serialized_size_ava_msgs__msg__AvaPose(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+size_t max_serialized_size_ava_msgs__msg__AvaPose(
+  bool & full_bounded,
+  size_t current_alignment);
+
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, ava_msgs, msg, AvaPose)();
+size_t get_serialized_size_ava_msgs__msg__Velocity(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+size_t max_serialized_size_ava_msgs__msg__Velocity(
+  bool & full_bounded,
+  size_t current_alignment);
+
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, ava_msgs, msg, Velocity)();
 
 
 using _AvaCommand__ros_msg_type = ava_msgs__msg__AvaCommand;
@@ -65,9 +87,9 @@ static bool _AvaCommand__cdr_serialize(
     cdr << str->data;
   }
 
-  // Field name: teleop
+  // Field name: teleop_mode
   {
-    const rosidl_runtime_c__String * str = &ros_message->teleop;
+    const rosidl_runtime_c__String * str = &ros_message->teleop_mode;
     if (str->capacity == 0 || str->capacity <= str->size) {
       fprintf(stderr, "string capacity not greater than size\n");
       return false;
@@ -79,18 +101,32 @@ static bool _AvaCommand__cdr_serialize(
     cdr << str->data;
   }
 
-  // Field name: keyhit
+  // Field name: velocity
   {
-    const rosidl_runtime_c__String * str = &ros_message->keyhit;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, ava_msgs, msg, Velocity
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->velocity, cdr))
+    {
       return false;
     }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
+  }
+
+  // Field name: pose
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, ava_msgs, msg, AvaPose
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->pose, cdr))
+    {
       return false;
     }
-    cdr << str->data;
   }
 
   return true;
@@ -121,34 +157,46 @@ static bool _AvaCommand__cdr_deserialize(
     }
   }
 
-  // Field name: teleop
+  // Field name: teleop_mode
   {
     std::string tmp;
     cdr >> tmp;
-    if (!ros_message->teleop.data) {
-      rosidl_runtime_c__String__init(&ros_message->teleop);
+    if (!ros_message->teleop_mode.data) {
+      rosidl_runtime_c__String__init(&ros_message->teleop_mode);
     }
     bool succeeded = rosidl_runtime_c__String__assign(
-      &ros_message->teleop,
+      &ros_message->teleop_mode,
       tmp.c_str());
     if (!succeeded) {
-      fprintf(stderr, "failed to assign string into field 'teleop'\n");
+      fprintf(stderr, "failed to assign string into field 'teleop_mode'\n");
       return false;
     }
   }
 
-  // Field name: keyhit
+  // Field name: velocity
   {
-    std::string tmp;
-    cdr >> tmp;
-    if (!ros_message->keyhit.data) {
-      rosidl_runtime_c__String__init(&ros_message->keyhit);
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, ava_msgs, msg, Velocity
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->velocity))
+    {
+      return false;
     }
-    bool succeeded = rosidl_runtime_c__String__assign(
-      &ros_message->keyhit,
-      tmp.c_str());
-    if (!succeeded) {
-      fprintf(stderr, "failed to assign string into field 'keyhit'\n");
+  }
+
+  // Field name: pose
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, ava_msgs, msg, AvaPose
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->pose))
+    {
       return false;
     }
   }
@@ -174,14 +222,18 @@ size_t get_serialized_size_ava_msgs__msg__AvaCommand(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->state_msg.size + 1);
-  // field.name teleop
+  // field.name teleop_mode
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->teleop.size + 1);
-  // field.name keyhit
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->keyhit.size + 1);
+    (ros_message->teleop_mode.size + 1);
+  // field.name velocity
+
+  current_alignment += get_serialized_size_ava_msgs__msg__Velocity(
+    &(ros_message->velocity), current_alignment);
+  // field.name pose
+
+  current_alignment += get_serialized_size_ava_msgs__msg__AvaPose(
+    &(ros_message->pose), current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -217,7 +269,7 @@ size_t max_serialized_size_ava_msgs__msg__AvaCommand(
         1;
     }
   }
-  // member: teleop
+  // member: teleop_mode
   {
     size_t array_size = 1;
 
@@ -228,15 +280,26 @@ size_t max_serialized_size_ava_msgs__msg__AvaCommand(
         1;
     }
   }
-  // member: keyhit
+  // member: velocity
   {
     size_t array_size = 1;
 
-    full_bounded = false;
+
     for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
+      current_alignment +=
+        max_serialized_size_ava_msgs__msg__Velocity(
+        full_bounded, current_alignment);
+    }
+  }
+  // member: pose
+  {
+    size_t array_size = 1;
+
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment +=
+        max_serialized_size_ava_msgs__msg__AvaPose(
+        full_bounded, current_alignment);
     }
   }
 

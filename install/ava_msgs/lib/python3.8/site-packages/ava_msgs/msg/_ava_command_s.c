@@ -19,6 +19,10 @@
 #include "rosidl_runtime_c/string.h"
 #include "rosidl_runtime_c/string_functions.h"
 
+bool ava_msgs__msg__velocity__convert_from_py(PyObject * _pymsg, void * _ros_message);
+PyObject * ava_msgs__msg__velocity__convert_to_py(void * raw_ros_message);
+bool ava_msgs__msg__ava_pose__convert_from_py(PyObject * _pymsg, void * _ros_message);
+PyObject * ava_msgs__msg__ava_pose__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool ava_msgs__msg__ava_command__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -68,8 +72,8 @@ bool ava_msgs__msg__ava_command__convert_from_py(PyObject * _pymsg, void * _ros_
     Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
-  {  // teleop
-    PyObject * field = PyObject_GetAttrString(_pymsg, "teleop");
+  {  // teleop_mode
+    PyObject * field = PyObject_GetAttrString(_pymsg, "teleop_mode");
     if (!field) {
       return false;
     }
@@ -79,23 +83,30 @@ bool ava_msgs__msg__ava_command__convert_from_py(PyObject * _pymsg, void * _ros_
       Py_DECREF(field);
       return false;
     }
-    rosidl_runtime_c__String__assign(&ros_message->teleop, PyBytes_AS_STRING(encoded_field));
+    rosidl_runtime_c__String__assign(&ros_message->teleop_mode, PyBytes_AS_STRING(encoded_field));
     Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
-  {  // keyhit
-    PyObject * field = PyObject_GetAttrString(_pymsg, "keyhit");
+  {  // velocity
+    PyObject * field = PyObject_GetAttrString(_pymsg, "velocity");
     if (!field) {
       return false;
     }
-    assert(PyUnicode_Check(field));
-    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
-    if (!encoded_field) {
+    if (!ava_msgs__msg__velocity__convert_from_py(field, &ros_message->velocity)) {
       Py_DECREF(field);
       return false;
     }
-    rosidl_runtime_c__String__assign(&ros_message->keyhit, PyBytes_AS_STRING(encoded_field));
-    Py_DECREF(encoded_field);
+    Py_DECREF(field);
+  }
+  {  // pose
+    PyObject * field = PyObject_GetAttrString(_pymsg, "pose");
+    if (!field) {
+      return false;
+    }
+    if (!ava_msgs__msg__ava_pose__convert_from_py(field, &ros_message->pose)) {
+      Py_DECREF(field);
+      return false;
+    }
     Py_DECREF(field);
   }
 
@@ -137,34 +148,45 @@ PyObject * ava_msgs__msg__ava_command__convert_to_py(void * raw_ros_message)
       }
     }
   }
-  {  // teleop
+  {  // teleop_mode
     PyObject * field = NULL;
     field = PyUnicode_DecodeUTF8(
-      ros_message->teleop.data,
-      strlen(ros_message->teleop.data),
+      ros_message->teleop_mode.data,
+      strlen(ros_message->teleop_mode.data),
       "strict");
     if (!field) {
       return NULL;
     }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "teleop", field);
+      int rc = PyObject_SetAttrString(_pymessage, "teleop_mode", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // keyhit
+  {  // velocity
     PyObject * field = NULL;
-    field = PyUnicode_DecodeUTF8(
-      ros_message->keyhit.data,
-      strlen(ros_message->keyhit.data),
-      "strict");
+    field = ava_msgs__msg__velocity__convert_to_py(&ros_message->velocity);
     if (!field) {
       return NULL;
     }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "keyhit", field);
+      int rc = PyObject_SetAttrString(_pymessage, "velocity", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // pose
+    PyObject * field = NULL;
+    field = ava_msgs__msg__ava_pose__convert_to_py(&ros_message->pose);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "pose", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

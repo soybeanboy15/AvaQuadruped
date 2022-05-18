@@ -53,6 +53,10 @@ string.h
 -
 rosidl_runtime_c/string_functions.h
 /root/dev_ava/build/ava_msgs/rosidl_generator_c/ava_msgs/msg/detail/rosidl_runtime_c/string_functions.h
+ava_msgs/msg/detail/velocity__functions.h
+/root/dev_ava/build/ava_msgs/rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/velocity__functions.h
+ava_msgs/msg/detail/ava_pose__functions.h
+/root/dev_ava/build/ava_msgs/rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/ava_pose__functions.h
 
 /root/dev_ava/build/ava_msgs/rosidl_generator_c/ava_msgs/msg/detail/ava_info__functions.c
 ava_msgs/msg/detail/ava_info__functions.h
@@ -69,6 +73,8 @@ rosidl_runtime_c/string_functions.h
 /root/dev_ava/build/ava_msgs/rosidl_generator_c/ava_msgs/msg/detail/rosidl_runtime_c/string_functions.h
 ava_msgs/msg/detail/velocity__functions.h
 /root/dev_ava/build/ava_msgs/rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/velocity__functions.h
+ava_msgs/msg/detail/ava_pose__functions.h
+/root/dev_ava/build/ava_msgs/rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/ava_pose__functions.h
 
 /root/dev_ava/build/ava_msgs/rosidl_generator_c/ava_msgs/msg/detail/ava_pose__functions.c
 ava_msgs/msg/detail/ava_pose__functions.h
@@ -129,6 +135,10 @@ stdint.h
 -
 rosidl_runtime_c/string.h
 rosidl_generator_c/ava_msgs/msg/detail/rosidl_runtime_c/string.h
+ava_msgs/msg/detail/velocity__struct.h
+rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/velocity__struct.h
+ava_msgs/msg/detail/ava_pose__struct.h
+rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/ava_pose__struct.h
 
 rosidl_generator_c/ava_msgs/msg/detail/ava_info__functions.h
 stdbool.h
@@ -153,6 +163,8 @@ rosidl_runtime_c/string.h
 rosidl_generator_c/ava_msgs/msg/detail/rosidl_runtime_c/string.h
 ava_msgs/msg/detail/velocity__struct.h
 rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/velocity__struct.h
+ava_msgs/msg/detail/ava_pose__struct.h
+rosidl_generator_c/ava_msgs/msg/detail/ava_msgs/msg/detail/ava_pose__struct.h
 
 rosidl_generator_c/ava_msgs/msg/detail/ava_pose__functions.h
 stdbool.h

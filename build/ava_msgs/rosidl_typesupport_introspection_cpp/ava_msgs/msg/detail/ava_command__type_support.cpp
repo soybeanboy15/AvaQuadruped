@@ -37,7 +37,7 @@ void AvaCommand_fini_function(void * message_memory)
   typed_message->~AvaCommand();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember AvaCommand_message_member_array[3] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember AvaCommand_message_member_array[4] = {
   {
     "state_msg",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
@@ -54,14 +54,14 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember AvaCommand_me
     nullptr  // resize(index) function pointer
   },
   {
-    "teleop",  // name
+    "teleop_mode",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(ava_msgs::msg::AvaCommand, teleop),  // bytes offset in struct
+    offsetof(ava_msgs::msg::AvaCommand, teleop_mode),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -69,14 +69,29 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember AvaCommand_me
     nullptr  // resize(index) function pointer
   },
   {
-    "keyhit",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
+    "velocity",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    nullptr,  // members of sub message
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<ava_msgs::msg::Velocity>(),  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(ava_msgs::msg::AvaCommand, keyhit),  // bytes offset in struct
+    offsetof(ava_msgs::msg::AvaCommand, velocity),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "pose",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<ava_msgs::msg::AvaPose>(),  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(ava_msgs::msg::AvaCommand, pose),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -88,7 +103,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember AvaCommand_me
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers AvaCommand_message_members = {
   "ava_msgs::msg",  // message namespace
   "AvaCommand",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(ava_msgs::msg::AvaCommand),
   AvaCommand_message_member_array,  // message members
   AvaCommand_init_function,  // function to initialize message memory (memory has to be allocated)

@@ -19,6 +19,10 @@
 #include "ava_msgs/msg/velocity.h"
 // Member `velocity`
 #include "ava_msgs/msg/detail/velocity__rosidl_typesupport_introspection_c.h"
+// Member `pose`
+#include "ava_msgs/msg/ava_pose.h"
+// Member `pose`
+#include "ava_msgs/msg/detail/ava_pose__rosidl_typesupport_introspection_c.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -39,7 +43,7 @@ void AvaInfo__rosidl_typesupport_introspection_c__AvaInfo_fini_function(void * m
   ava_msgs__msg__AvaInfo__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember AvaInfo__rosidl_typesupport_introspection_c__AvaInfo_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember AvaInfo__rosidl_typesupport_introspection_c__AvaInfo_message_member_array[3] = {
   {
     "state",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
@@ -69,13 +73,28 @@ static rosidl_typesupport_introspection_c__MessageMember AvaInfo__rosidl_typesup
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "pose",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(ava_msgs__msg__AvaInfo, pose),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers AvaInfo__rosidl_typesupport_introspection_c__AvaInfo_message_members = {
   "ava_msgs__msg",  // message namespace
   "AvaInfo",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(ava_msgs__msg__AvaInfo),
   AvaInfo__rosidl_typesupport_introspection_c__AvaInfo_message_member_array,  // message members
   AvaInfo__rosidl_typesupport_introspection_c__AvaInfo_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -95,6 +114,8 @@ const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, ava_msgs, msg, AvaInfo)() {
   AvaInfo__rosidl_typesupport_introspection_c__AvaInfo_message_member_array[1].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, ava_msgs, msg, Velocity)();
+  AvaInfo__rosidl_typesupport_introspection_c__AvaInfo_message_member_array[2].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, ava_msgs, msg, AvaPose)();
   if (!AvaInfo__rosidl_typesupport_introspection_c__AvaInfo_message_type_support_handle.typesupport_identifier) {
     AvaInfo__rosidl_typesupport_introspection_c__AvaInfo_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;

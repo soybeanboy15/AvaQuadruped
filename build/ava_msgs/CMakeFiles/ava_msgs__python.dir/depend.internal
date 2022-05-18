@@ -108,6 +108,8 @@ CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_command_s.
  /usr/include/python3.8/weakrefobject.h
  rosidl_generator_c/ava_msgs/msg/detail/ava_command__functions.h
  rosidl_generator_c/ava_msgs/msg/detail/ava_command__struct.h
+ rosidl_generator_c/ava_msgs/msg/detail/ava_pose__struct.h
+ rosidl_generator_c/ava_msgs/msg/detail/velocity__struct.h
  rosidl_generator_c/ava_msgs/msg/rosidl_generator_c__visibility_control.h
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_info_s.c.o
  /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
@@ -216,6 +218,7 @@ CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_info_s.c.o
  /usr/include/python3.8/weakrefobject.h
  rosidl_generator_c/ava_msgs/msg/detail/ava_info__functions.h
  rosidl_generator_c/ava_msgs/msg/detail/ava_info__struct.h
+ rosidl_generator_c/ava_msgs/msg/detail/ava_pose__struct.h
  rosidl_generator_c/ava_msgs/msg/detail/velocity__struct.h
  rosidl_generator_c/ava_msgs/msg/rosidl_generator_c__visibility_control.h
 CMakeFiles/ava_msgs__python.dir/rosidl_generator_py/ava_msgs/msg/_ava_pose_s.c.o

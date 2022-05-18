@@ -1,1 +1,1 @@
-/opt/ros/foxy
+/root/dev_ava/install/ava_driver:/root/dev_ava/install/ava_control:/root/dev_ava/install/tf_transformations:/root/dev_ava/install/rplidar_ros2:/root/dev_ava/install/ava_msgs:/root/dev_ava/install/ava_bringup:/opt/ros/foxy

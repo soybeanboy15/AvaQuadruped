@@ -34,11 +34,22 @@ extern "C"
 {
 #endif
 
+#include "ava_msgs/msg/detail/ava_pose__functions.h"  // pose
 #include "ava_msgs/msg/detail/velocity__functions.h"  // velocity
 #include "rosidl_runtime_c/string.h"  // state
 #include "rosidl_runtime_c/string_functions.h"  // state
 
 // forward declare type support functions
+size_t get_serialized_size_ava_msgs__msg__AvaPose(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+size_t max_serialized_size_ava_msgs__msg__AvaPose(
+  bool & full_bounded,
+  size_t current_alignment);
+
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, ava_msgs, msg, AvaPose)();
 size_t get_serialized_size_ava_msgs__msg__Velocity(
   const void * untyped_ros_message,
   size_t current_alignment);
@@ -90,6 +101,20 @@ static bool _AvaInfo__cdr_serialize(
     }
   }
 
+  // Field name: pose
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, ava_msgs, msg, AvaPose
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->pose, cdr))
+    {
+      return false;
+    }
+  }
+
   return true;
 }
 
@@ -132,6 +157,20 @@ static bool _AvaInfo__cdr_deserialize(
     }
   }
 
+  // Field name: pose
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, ava_msgs, msg, AvaPose
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->pose))
+    {
+      return false;
+    }
+  }
+
   return true;
 }
 
@@ -157,6 +196,10 @@ size_t get_serialized_size_ava_msgs__msg__AvaInfo(
 
   current_alignment += get_serialized_size_ava_msgs__msg__Velocity(
     &(ros_message->velocity), current_alignment);
+  // field.name pose
+
+  current_alignment += get_serialized_size_ava_msgs__msg__AvaPose(
+    &(ros_message->pose), current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -200,6 +243,17 @@ size_t max_serialized_size_ava_msgs__msg__AvaInfo(
     for (size_t index = 0; index < array_size; ++index) {
       current_alignment +=
         max_serialized_size_ava_msgs__msg__Velocity(
+        full_bounded, current_alignment);
+    }
+  }
+  // member: pose
+  {
+    size_t array_size = 1;
+
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment +=
+        max_serialized_size_ava_msgs__msg__AvaPose(
         full_bounded, current_alignment);
     }
   }

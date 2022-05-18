@@ -19,16 +19,20 @@ extern "C"
 
 // Include directives for member types
 // Member 'state_msg'
-// Member 'teleop'
-// Member 'keyhit'
+// Member 'teleop_mode'
 #include "rosidl_runtime_c/string.h"
+// Member 'velocity'
+#include "ava_msgs/msg/detail/velocity__struct.h"
+// Member 'pose'
+#include "ava_msgs/msg/detail/ava_pose__struct.h"
 
 // Struct defined in msg/AvaCommand in the package ava_msgs.
 typedef struct ava_msgs__msg__AvaCommand
 {
   rosidl_runtime_c__String state_msg;
-  rosidl_runtime_c__String teleop;
-  rosidl_runtime_c__String keyhit;
+  rosidl_runtime_c__String teleop_mode;
+  ava_msgs__msg__Velocity velocity;
+  ava_msgs__msg__AvaPose pose;
 } ava_msgs__msg__AvaCommand;
 
 // Struct for a sequence of ava_msgs__msg__AvaCommand.

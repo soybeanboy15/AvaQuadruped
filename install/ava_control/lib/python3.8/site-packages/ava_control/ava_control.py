@@ -16,7 +16,7 @@ degree = pi/180.0
 
 # ---- Gait Parameters ----
 x_offset = 0.015
-step_height = 0.017
+step_height = 0.016
 gait_freq = 0.028
 
 # --- Neutral leg position and pose ---
@@ -176,8 +176,7 @@ class AvaControl(Node):
             else:
                 step_x = self.linear_velocity[0] * self.gait_cycle_time/4
                 step_y = self.linear_velocity[1] * self.gait_cycle_time/4
-                step_angle = self.angular_velocity[2] * \
-                    0.117 * self.gait_cycle_time / 4
+                step_angle = self.angular_velocity[2] * 0.117 * 3 * self.gait_cycle_time/4
                 self.publisher_pose.publish(self.ava_pose)
                 if (np.round(self.linear_velocity[0], 2) != 0) or (np.round(self.linear_velocity[1], 2) != 0) or (np.round(self.angular_velocity[2], 2) != 0):
                     ava_leg_position_msg = LegPosition()
@@ -220,80 +219,34 @@ class AvaControl(Node):
         ava_info_msg.velocity.angular_x = np.round(self.angular_velocity[0], 2)
         ava_info_msg.velocity.angular_y = np.round(self.angular_velocity[1], 2)
         ava_info_msg.velocity.angular_z = np.round(self.angular_velocity[2], 2)
+        ava_info_msg.pose = self.ava_pose
         self.publisher_info.publish(ava_info_msg)
 
     def handle_ava_command(self, msg):
         # Handle state from command given.
-        if msg.state_msg == 'Sleep' and self.prev_state != 'Sleep':
-            self.state = 'Sleep'
-        elif msg.state_msg == 'Start' and self.prev_state == 'Sleep':
+        if msg.state_msg == 'Start' and self.prev_state == 'Sleep':
             self.state = 'Start'
 
-        if self.prev_state != 'Sleep':
-            if msg.state_msg == 'Kinematics':
+        elif self.prev_state != 'Sleep':
+            if msg.state_msg == 'Sleep':
+                self.state = 'Sleep'
+            elif msg.state_msg == 'Kinematics':
                 self.state = 'Kinematics'
-                self.ava_kinematics(msg)
-            if msg.state_msg == 'Gait':
+            elif msg.state_msg == 'Gait':
                 self.state = 'Gait'
-                self.ava_vel(msg)
-
-    def ava_kinematics(self, msg):
-        # This function takes in the keyhit from the command msg and changes its pose.
+        
         if self.state == 'Kinematics':
             self.prev_state = 'Kinematics'
-            self.linear_velocity = [0., 0., 0.]
-            self.angular_velocity = [0., 0., 0.]
-            if msg.keyhit == 'i':
-                self.ava_pose.x += 0.002
-            elif msg.keyhit == 'k':
-                self.ava_pose.x -= 0.002
-            elif msg.keyhit == 'j':
-                self.ava_pose.y += 0.002
-            elif msg.keyhit == 'l':
-                self.ava_pose.y -= 0.002
-            elif msg.keyhit == 'u':
-                self.ava_pose.z += 0.002
-            elif msg.keyhit == 'o':
-                self.ava_pose.z -= 0.002
-            elif msg.keyhit == 'w':
-                self.ava_pose.pitch += degree*2
-            elif msg.keyhit == 's':
-                self.ava_pose.pitch -= degree*2
-            elif msg.keyhit == 'a':
-                self.ava_pose.yaw += degree*2
-            elif msg.keyhit == 'd':
-                self.ava_pose.yaw -= degree*2
-            elif msg.keyhit == 'q':
-                self.ava_pose.roll += degree*2
-            elif msg.keyhit == 'e':
-                self.ava_pose.roll -= degree*2
-            elif msg.keyhit == 'r':
-                self.ava_pose.x = 0.
-                self.ava_pose.y = 0.
-                self.ava_pose.z = 0.
-                self.ava_pose.roll = 0.
-                self.ava_pose.pitch = 0.
-                self.ava_pose.yaw = 0.
-            self.publisher_legs.publish(ava_leg_position_neutral)
+            self.ava_pose = msg.pose
             self.publisher_pose.publish(self.ava_pose)
+            self.publisher_legs.publish(ava_leg_position_neutral)
 
-    def ava_vel(self, msg):
-        # Handle keyhit for velocity
-        if msg.keyhit == 'w':
-            self.linear_velocity[0] += 0.01
-        elif msg.keyhit == 's':
-            self.linear_velocity[0] -= 0.01
-        elif msg.keyhit == 'a':
-            self.linear_velocity[1] += 0.01
-        elif msg.keyhit == 'd':
-            self.linear_velocity[1] -= 0.01
-        elif msg.keyhit == 'q':
-            self.angular_velocity[2] += 0.01
-        elif msg.keyhit == 'e':
-            self.angular_velocity[2] -= 0.01
-        elif msg.keyhit == 'r':
-            self.linear_velocity = [0., 0., 0.]
-            self.angular_velocity = [0., 0., 0.]
+        elif self.state == 'Gait':
+            self.linear_velocity[0] = msg.velocity.linear_x
+            self.linear_velocity[1] = msg.velocity.linear_y 
+            self.angular_velocity[2] = msg.velocity.angular_z
+
+
 
 
 def trajectory(step_lengthx, step_lengthy, step_height, offset, index):

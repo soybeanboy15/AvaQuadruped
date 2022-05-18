@@ -1,0 +1,19 @@
+[5.055s] Invoking command in '/root/dev_ava/src/tf_transformations-main': PYTHONPATH=/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /root/dev_ava/build/tf_transformations/build install --prefix /root/dev_ava/install/tf_transformations --record /root/dev_ava/build/tf_transformations/install.log --single-version-externally-managed
+[6.157s] running egg_info
+[6.160s] writing ../../build/tf_transformations/tf_transformations.egg-info/PKG-INFO
+[6.161s] writing dependency_links to ../../build/tf_transformations/tf_transformations.egg-info/dependency_links.txt
+[6.162s] writing requirements to ../../build/tf_transformations/tf_transformations.egg-info/requires.txt
+[6.164s] writing top-level names to ../../build/tf_transformations/tf_transformations.egg-info/top_level.txt
+[6.382s] reading manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[6.389s] writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[6.390s] running build
+[6.391s] running build_py
+[6.392s] running install
+[6.395s] running install_lib
+[6.413s] running install_data
+[6.414s] running install_egg_info
+[6.433s] removing '/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages/tf_transformations-1.0.0-py3.8.egg-info' (and everything under it)
+[6.434s] Copying ../../build/tf_transformations/tf_transformations.egg-info to /root/dev_ava/install/tf_transformations/lib/python3.8/site-packages/tf_transformations-1.0.0-py3.8.egg-info
+[6.450s] running install_scripts
+[6.613s] writing list of installed files to '/root/dev_ava/build/tf_transformations/install.log'
+[6.814s] Invoked command in '/root/dev_ava/src/tf_transformations-main' returned '0': PYTHONPATH=/root/dev_ava/install/tf_transformations/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /root/dev_ava/build/tf_transformations/build install --prefix /root/dev_ava/install/tf_transformations --record /root/dev_ava/build/tf_transformations/install.log --single-version-externally-managed

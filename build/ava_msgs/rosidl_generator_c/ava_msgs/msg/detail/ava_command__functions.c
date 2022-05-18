@@ -11,9 +11,12 @@
 
 // Include directives for member types
 // Member `state_msg`
-// Member `teleop`
-// Member `keyhit`
+// Member `teleop_mode`
 #include "rosidl_runtime_c/string_functions.h"
+// Member `velocity`
+#include "ava_msgs/msg/detail/velocity__functions.h"
+// Member `pose`
+#include "ava_msgs/msg/detail/ava_pose__functions.h"
 
 bool
 ava_msgs__msg__AvaCommand__init(ava_msgs__msg__AvaCommand * msg)
@@ -26,13 +29,18 @@ ava_msgs__msg__AvaCommand__init(ava_msgs__msg__AvaCommand * msg)
     ava_msgs__msg__AvaCommand__fini(msg);
     return false;
   }
-  // teleop
-  if (!rosidl_runtime_c__String__init(&msg->teleop)) {
+  // teleop_mode
+  if (!rosidl_runtime_c__String__init(&msg->teleop_mode)) {
     ava_msgs__msg__AvaCommand__fini(msg);
     return false;
   }
-  // keyhit
-  if (!rosidl_runtime_c__String__init(&msg->keyhit)) {
+  // velocity
+  if (!ava_msgs__msg__Velocity__init(&msg->velocity)) {
+    ava_msgs__msg__AvaCommand__fini(msg);
+    return false;
+  }
+  // pose
+  if (!ava_msgs__msg__AvaPose__init(&msg->pose)) {
     ava_msgs__msg__AvaCommand__fini(msg);
     return false;
   }
@@ -47,10 +55,12 @@ ava_msgs__msg__AvaCommand__fini(ava_msgs__msg__AvaCommand * msg)
   }
   // state_msg
   rosidl_runtime_c__String__fini(&msg->state_msg);
-  // teleop
-  rosidl_runtime_c__String__fini(&msg->teleop);
-  // keyhit
-  rosidl_runtime_c__String__fini(&msg->keyhit);
+  // teleop_mode
+  rosidl_runtime_c__String__fini(&msg->teleop_mode);
+  // velocity
+  ava_msgs__msg__Velocity__fini(&msg->velocity);
+  // pose
+  ava_msgs__msg__AvaPose__fini(&msg->pose);
 }
 
 ava_msgs__msg__AvaCommand *
