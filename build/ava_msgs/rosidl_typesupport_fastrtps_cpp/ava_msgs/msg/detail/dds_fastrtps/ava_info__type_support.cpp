@@ -39,6 +39,29 @@ max_serialized_size_Velocity(
 }  // namespace msg
 }  // namespace ava_msgs
 
+namespace ava_msgs
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const ava_msgs::msg::AvaPose &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  ava_msgs::msg::AvaPose &);
+size_t get_serialized_size(
+  const ava_msgs::msg::AvaPose &,
+  size_t current_alignment);
+size_t
+max_serialized_size_AvaPose(
+  bool & full_bounded,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace ava_msgs
+
 
 namespace ava_msgs
 {
@@ -61,6 +84,10 @@ cdr_serialize(
   ava_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
     ros_message.velocity,
     cdr);
+  // Member: pose
+  ava_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
+    ros_message.pose,
+    cdr);
   return true;
 }
 
@@ -76,6 +103,10 @@ cdr_deserialize(
   // Member: velocity
   ava_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
     cdr, ros_message.velocity);
+
+  // Member: pose
+  ava_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+    cdr, ros_message.pose);
 
   return true;
 }
@@ -102,6 +133,11 @@ get_serialized_size(
   current_alignment +=
     ava_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
     ros_message.velocity, current_alignment);
+  // Member: pose
+
+  current_alignment +=
+    ava_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
+    ros_message.pose, current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -141,6 +177,18 @@ max_serialized_size_AvaInfo(
     for (size_t index = 0; index < array_size; ++index) {
       current_alignment +=
         ava_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Velocity(
+        full_bounded, current_alignment);
+    }
+  }
+
+  // Member: pose
+  {
+    size_t array_size = 1;
+
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment +=
+        ava_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_AvaPose(
         full_bounded, current_alignment);
     }
   }

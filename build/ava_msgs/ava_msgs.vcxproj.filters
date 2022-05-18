@@ -10,6 +10,7 @@
     <None Include="C:\dev_ava\src\ava_msgs\msg\LegPosition.msg" />
     <None Include="C:\dev_ava\src\ava_msgs\msg\AvaPose.msg" />
     <None Include="C:\dev_ava\src\ava_msgs\msg\AvaCommand.msg" />
+    <None Include="C:\dev_ava\src\ava_msgs\msg\AvaInfo.msg" />
     <None Include="C:\dev_ava\src\ava_msgs\msg\Velocity.msg" />
     <None Include="C:\dev_ava\build\ava_msgs\CMakeFiles\ava_msgs" />
   </ItemGroup>

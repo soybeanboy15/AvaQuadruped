@@ -53,6 +53,13 @@ class TeleOpJoy(Node):
         self.command.teleop_mode = 'keyboard'
         self.linear_velocity = [0., 0., 0.]
         self.angular_velocity = [0., 0., 0.]
+        self.pose = AvaPose()
+        self.pose.x = 0.
+        self.pose.y = 0.
+        self.pose.z = 0.
+        self.pose.roll = 0.
+        self.pose.pitch = 0.
+        self.pose.yaw = 0.
         self.state = 'Sleep'
     
     def handle_ava_joy(self, msg):
@@ -75,16 +82,21 @@ class TeleOpJoy(Node):
         
         # Map axes to angles for kinematics and velocity for gait state
         if self.state == 'Kinematics':
-            roll = -msg.axes[3] * 0.16 * pi/180 # Right X-Axis
-            yaw = msg.axes[0] * 0.16 * pi/180 # Left X-Axis
-            pitch = msg.axes[1] * 0.16 * pi /180 # Left Y-Axis
+            self.pose.roll = -msg.axes[3] * 0.35 # Right X-Axis
+            self.pose.yaw = msg.axes[0] * 0.35  # Left X-Axis
+            self.pose.pitch = msg.axes[1] * 0.35 # Left Y-Axis
         elif self.state == 'Gait':
-            self.linear_velocity[0] = msg.axes[0] * 0.025
-            self.linear_velocity[1] = msg.axes[1] * 0.025
-            self.angular_velocity[2] = msg.axes[3] * 0.025
+            self.linear_velocity[0] = msg.axes[1] * 0.25
+            self.linear_velocity[1] = msg.axes[0] * 0.18
+            self.angular_velocity[2] = msg.axes[3] * 0.4
 
         # Intialize command msg and publsih
-        self.command.velocity = [self.linear_velocity[0], self.linear_velocity[1], self.linear_velocity[2], self.angular_velocity[0], self.angular_velocity[1], self.angular_velocity[2]]
+        self.command.velocity.linear_x = self.linear_velocity[0]
+        self.command.velocity.linear_y = self.linear_velocity[1]     
+        self.command.velocity.angular_z = self.angular_velocity[2]
+
+        self.command.pose = self.pose
+
         self.command.state_msg = self.state
         self.publisher_.publish(self.command)
 

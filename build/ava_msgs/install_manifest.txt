@@ -117,10 +117,12 @@ C:/dev_ava/install/bin/ava_msgs__python.dll
 C:/dev_ava/install/share/ava_msgs/msg/LegPosition.idl
 C:/dev_ava/install/share/ava_msgs/msg/AvaPose.idl
 C:/dev_ava/install/share/ava_msgs/msg/AvaCommand.idl
+C:/dev_ava/install/share/ava_msgs/msg/AvaInfo.idl
 C:/dev_ava/install/share/ava_msgs/msg/Velocity.idl
 C:/dev_ava/install/share/ava_msgs/msg/LegPosition.msg
 C:/dev_ava/install/share/ava_msgs/msg/AvaPose.msg
 C:/dev_ava/install/share/ava_msgs/msg/AvaCommand.msg
+C:/dev_ava/install/share/ava_msgs/msg/AvaInfo.msg
 C:/dev_ava/install/share/ava_msgs/msg/Velocity.msg
 C:/dev_ava/install/share/ament_index/resource_index/package_run_dependencies/ava_msgs
 C:/dev_ava/install/share/ament_index/resource_index/parent_prefix_path/ava_msgs

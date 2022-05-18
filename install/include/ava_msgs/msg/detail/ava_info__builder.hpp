@@ -20,16 +20,32 @@ namespace msg
 namespace builder
 {
 
+class Init_AvaInfo_pose
+{
+public:
+  explicit Init_AvaInfo_pose(::ava_msgs::msg::AvaInfo & msg)
+  : msg_(msg)
+  {}
+  ::ava_msgs::msg::AvaInfo pose(::ava_msgs::msg::AvaInfo::_pose_type arg)
+  {
+    msg_.pose = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::ava_msgs::msg::AvaInfo msg_;
+};
+
 class Init_AvaInfo_velocity
 {
 public:
   explicit Init_AvaInfo_velocity(::ava_msgs::msg::AvaInfo & msg)
   : msg_(msg)
   {}
-  ::ava_msgs::msg::AvaInfo velocity(::ava_msgs::msg::AvaInfo::_velocity_type arg)
+  Init_AvaInfo_pose velocity(::ava_msgs::msg::AvaInfo::_velocity_type arg)
   {
     msg_.velocity = std::move(arg);
-    return std::move(msg_);
+    return Init_AvaInfo_pose(msg_);
   }
 
 private:

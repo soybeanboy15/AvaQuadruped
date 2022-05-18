@@ -26,6 +26,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LegPosition.msg"
   "msg/AvaPose.msg"
   "msg/AvaCommand.msg"
+  "msg/AvaInfo.msg"
   "msg/Velocity.msg"
  )
 

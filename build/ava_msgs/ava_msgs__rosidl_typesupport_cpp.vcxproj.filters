@@ -10,6 +10,9 @@
     <ClCompile Include="C:\dev_ava\build\ava_msgs\rosidl_typesupport_cpp\ava_msgs\msg\ava_command__type_support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\ava_msgs\rosidl_typesupport_cpp\ava_msgs\msg\ava_info__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\dev_ava\build\ava_msgs\rosidl_typesupport_cpp\ava_msgs\msg\velocity__type_support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

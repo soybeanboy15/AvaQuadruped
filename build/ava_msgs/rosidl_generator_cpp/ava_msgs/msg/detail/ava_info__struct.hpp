@@ -17,6 +17,8 @@
 // Include directives for member types
 // Member 'velocity'
 #include "ava_msgs/msg/detail/velocity__struct.hpp"
+// Member 'pose'
+#include "ava_msgs/msg/detail/ava_pose__struct.hpp"
 
 #ifndef _WIN32
 # define DEPRECATED__ava_msgs__msg__AvaInfo __attribute__((deprecated))
@@ -37,7 +39,8 @@ struct AvaInfo_
   using Type = AvaInfo_<ContainerAllocator>;
 
   explicit AvaInfo_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : velocity(_init)
+  : velocity(_init),
+    pose(_init)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
@@ -48,7 +51,8 @@ struct AvaInfo_
 
   explicit AvaInfo_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   : state(_alloc),
-    velocity(_alloc, _init)
+    velocity(_alloc, _init),
+    pose(_alloc, _init)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
@@ -64,6 +68,9 @@ struct AvaInfo_
   using _velocity_type =
     ava_msgs::msg::Velocity_<ContainerAllocator>;
   _velocity_type velocity;
+  using _pose_type =
+    ava_msgs::msg::AvaPose_<ContainerAllocator>;
+  _pose_type pose;
 
   // setters for named parameter idiom
   Type & set__state(
@@ -76,6 +83,12 @@ struct AvaInfo_
     const ava_msgs::msg::Velocity_<ContainerAllocator> & _arg)
   {
     this->velocity = _arg;
+    return *this;
+  }
+  Type & set__pose(
+    const ava_msgs::msg::AvaPose_<ContainerAllocator> & _arg)
+  {
+    this->pose = _arg;
     return *this;
   }
 
@@ -125,6 +138,9 @@ struct AvaInfo_
       return false;
     }
     if (this->velocity != other.velocity) {
+      return false;
+    }
+    if (this->pose != other.pose) {
       return false;
     }
     return true;

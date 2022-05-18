@@ -10,19 +10,24 @@ from sensor_msgs.msg import Joy
 
 
 msg = """
-This node takes keypresses from the keyboard and publishes them
-over AvaCommand Topic. 
-q   w   e       u   i   o
-a   s   d       j   k   l
-w/s: Pitch
-a/d: Yaw
-q/e: Roll
+This node uses a joystick to control AVA.
 
-i/k: X translation
-j/l: Y translation
-u/o: Z translation
+A: Start
+B: Sleep
+X: Forward Kinematics Mode
+Y: Walking Mode
 
-z:
+For Kinematics mode:
+
+LX: Yaw
+LY: Pitch
+RX: Roll
+
+For Walking mode:
+
+LX: Left/right translation
+LY: Forward/Backward
+RX: Left/right yaw
 
 CTRL-C to quit
 """
@@ -46,8 +51,15 @@ class TeleOpJoy(Node):
 
         self.command = AvaCommand()
         self.command.teleop_mode = 'keyboard'
-        self.linear_velocity = []
-        self.angular_velocity = []
+        self.linear_velocity = [0., 0., 0.]
+        self.angular_velocity = [0., 0., 0.]
+        self.pose = AvaPose()
+        self.pose.x = 0.
+        self.pose.y = 0.
+        self.pose.z = 0.
+        self.pose.roll = 0.
+        self.pose.pitch = 0.
+        self.pose.yaw = 0.
         self.state = 'Sleep'
     
     def handle_ava_joy(self, msg):
@@ -67,12 +79,26 @@ class TeleOpJoy(Node):
             elif button == 'Y':
                 self.state = 'Gait'
                 print("Gait")
-    
-
         
+        # Map axes to angles for kinematics and velocity for gait state
+        if self.state == 'Kinematics':
+            self.pose.roll = -msg.axes[3] * 0.35 # Right X-Axis
+            self.pose.yaw = msg.axes[0] * 0.35  # Left X-Axis
+            self.pose.pitch = msg.axes[1] * 0.35 # Left Y-Axis
+        elif self.state == 'Gait':
+            self.linear_velocity[0] = msg.axes[1] * 0.24
+            self.linear_velocity[1] = msg.axes[0] * 0.18
+            self.angular_velocity[2] = msg.axes[3] * 0.4
 
+        # Intialize command msg and publsih
+        self.command.velocity.linear_x = self.linear_velocity[0]
+        self.command.velocity.linear_y = self.linear_velocity[1]     
+        self.command.velocity.angular_z = self.angular_velocity[2]
 
+        self.command.pose = self.pose
 
+        self.command.state_msg = self.state
+        self.publisher_.publish(self.command)
 
 def MapXboxButtons(buttons):
     button = ''

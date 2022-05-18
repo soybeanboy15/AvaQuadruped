@@ -14,6 +14,8 @@
 #include "rosidl_runtime_c/string_functions.h"
 // Member `velocity`
 #include "ava_msgs/msg/detail/velocity__functions.h"
+// Member `pose`
+#include "ava_msgs/msg/detail/ava_pose__functions.h"
 
 bool
 ava_msgs__msg__AvaInfo__init(ava_msgs__msg__AvaInfo * msg)
@@ -31,6 +33,11 @@ ava_msgs__msg__AvaInfo__init(ava_msgs__msg__AvaInfo * msg)
     ava_msgs__msg__AvaInfo__fini(msg);
     return false;
   }
+  // pose
+  if (!ava_msgs__msg__AvaPose__init(&msg->pose)) {
+    ava_msgs__msg__AvaInfo__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -44,6 +51,8 @@ ava_msgs__msg__AvaInfo__fini(ava_msgs__msg__AvaInfo * msg)
   rosidl_runtime_c__String__fini(&msg->state);
   // velocity
   ava_msgs__msg__Velocity__fini(&msg->velocity);
+  // pose
+  ava_msgs__msg__AvaPose__fini(&msg->pose);
 }
 
 ava_msgs__msg__AvaInfo *
