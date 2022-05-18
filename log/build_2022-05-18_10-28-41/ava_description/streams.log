@@ -1,0 +1,38 @@
+[1.547s] Invoking command in 'C:\dev_ava\src\ava_description': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\ava_description build --build-base C:\dev_ava\build\ava_description\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\ava_description\install.log --single-version-externally-managed
+[2.625s] running egg_info
+[2.625s] creating C:\dev_ava\build\ava_description\ava_description.egg-info
+[2.625s] writing C:\dev_ava\build\ava_description\ava_description.egg-info\PKG-INFO
+[2.625s] writing dependency_links to C:\dev_ava\build\ava_description\ava_description.egg-info\dependency_links.txt
+[2.625s] writing entry points to C:\dev_ava\build\ava_description\ava_description.egg-info\entry_points.txt
+[2.625s] writing requirements to C:\dev_ava\build\ava_description\ava_description.egg-info\requires.txt
+[2.625s] writing top-level names to C:\dev_ava\build\ava_description\ava_description.egg-info\top_level.txt
+[2.625s] writing manifest file 'C:\dev_ava\build\ava_description\ava_description.egg-info\SOURCES.txt'
+[2.687s] reading manifest file 'C:\dev_ava\build\ava_description\ava_description.egg-info\SOURCES.txt'
+[2.687s] writing manifest file 'C:\dev_ava\build\ava_description\ava_description.egg-info\SOURCES.txt'
+[2.703s] running build
+[2.703s] running build_py
+[2.703s] creating C:\dev_ava\build\ava_description\build
+[2.703s] creating C:\dev_ava\build\ava_description\build\lib
+[2.703s] creating C:\dev_ava\build\ava_description\build\lib\ava_description
+[2.703s] copying ava_description\__init__.py -> C:\dev_ava\build\ava_description\build\lib\ava_description
+[2.703s] running install
+[2.703s] running install_lib
+[2.703s] creating C:\dev_ava\install\Lib\site-packages\ava_description
+[2.703s] copying C:\dev_ava\build\ava_description\build\lib\ava_description\__init__.py -> C:\dev_ava\install\Lib\site-packages\ava_description
+[2.703s] writing byte-compilation script 'C:\Users\matth\AppData\Local\Temp\tmps32mxa09.py'
+[2.703s] c:\opt\ros\foxy\x64\python.exe C:\Users\matth\AppData\Local\Temp\tmps32mxa09.py
+[2.875s] removing C:\Users\matth\AppData\Local\Temp\tmps32mxa09.py
+[2.875s] running install_data
+[2.875s] copying resource\ava_description -> C:\dev_ava\install\share\ament_index\resource_index\packages
+[2.875s] copying package.xml -> C:\dev_ava\install\share\ava_description
+[2.891s] copying launch\display.launch.py -> C:\dev_ava\install\share\ava_description
+[2.891s] copying urdf\ava.urdf -> C:\dev_ava\install\share\ava_description
+[2.891s] copying meshes\Body.stl -> C:\dev_ava\install\share\ava_description
+[2.937s] copying meshes\Lidar.stl -> C:\dev_ava\install\share\ava_description
+[2.953s] running install_egg_info
+[2.969s] Copying C:\dev_ava\build\ava_description\ava_description.egg-info to C:\dev_ava\install\Lib\site-packages\ava_description-0.0.0-py3.8.egg-info
+[3.000s] running install_scripts
+[3.047s] writing list of installed files to 'C:\dev_ava\build\ava_description\install.log'
+[3.109s] Invoked command in 'C:\dev_ava\src\ava_description' returned '0': PUBLIC=%PUBLIC%
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; PYTHONPATH=C:\dev_ava\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base C:\dev_ava\build\ava_description build --build-base C:\dev_ava\build\ava_description\build install --prefix C:\dev_ava\install --record C:\dev_ava\build\ava_description\install.log --single-version-externally-managed

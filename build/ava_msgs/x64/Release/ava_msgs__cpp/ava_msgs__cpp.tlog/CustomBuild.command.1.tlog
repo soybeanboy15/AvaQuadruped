@@ -1,0 +1,28 @@
+^C:\DEV_AVA\BUILD\AVA_MSGS\CMAKEFILES\6653AE689FE9679D234F807BC2CFE561\LEG_POSITION.HPP.RULE
+setlocal
+C:\opt\ros\foxy\x64\python.exe C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file C:/dev_ava/build/ava_msgs/rosidl_generator_cpp__arguments.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV_AVA\BUILD\AVA_MSGS\CMAKEFILES\F046B9F7E3BE92485D2A1E66A2AAE1A8\AVA_MSGS__CPP.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV_AVA\SRC\AVA_MSGS\CMAKELISTS.TXT
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/dev_ava/src/ava_msgs -BC:/dev_ava/build/ava_msgs --check-stamp-file C:/dev_ava/build/ava_msgs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

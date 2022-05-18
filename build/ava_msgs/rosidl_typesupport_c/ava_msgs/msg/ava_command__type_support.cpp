@@ -1,5 +1,5 @@
 // generated from rosidl_typesupport_c/resource/idl__type_support.cpp.em
-// with input from ava_msgs:msg/AvaCommand.idl
+// with input from ava_msgs:msg\AvaCommand.idl
 // generated code does not contain a copyright notice
 
 #include "cstddef"

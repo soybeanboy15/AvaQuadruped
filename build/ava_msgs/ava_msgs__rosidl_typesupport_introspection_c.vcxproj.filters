@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev_ava\build\ava_msgs\rosidl_typesupport_introspection_c\ava_msgs\msg\detail\leg_position__type_support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\ava_msgs\rosidl_typesupport_introspection_c\ava_msgs\msg\detail\ava_pose__type_support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\ava_msgs\rosidl_typesupport_introspection_c\ava_msgs\msg\detail\ava_command__type_support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev_ava\build\ava_msgs\rosidl_typesupport_introspection_c\ava_msgs\msg\detail\velocity__type_support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev_ava\build\ava_msgs\rosidl_typesupport_introspection_c\ava_msgs\msg\detail\leg_position__rosidl_typesupport_introspection_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\ava_msgs\rosidl_typesupport_introspection_c\ava_msgs\msg\detail\ava_pose__rosidl_typesupport_introspection_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\ava_msgs\rosidl_typesupport_introspection_c\ava_msgs\msg\detail\ava_command__rosidl_typesupport_introspection_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev_ava\build\ava_msgs\rosidl_typesupport_introspection_c\ava_msgs\msg\detail\velocity__rosidl_typesupport_introspection_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev_ava\build\ava_msgs\CMakeFiles\f41999850bfc259504e52127d580e0ef\leg_position__rosidl_typesupport_introspection_c.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev_ava\src\ava_msgs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CE6F029D-0A26-38B4-84D3-7A4C00049B57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9C317B2D-81DB-3EC0-B5AC-5762F387CF93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F0659AB8-F796-3427-8137-FD04A76A5BE8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,5 +1,7 @@
 string state_msg
-string teleop
-string keyhit
+string teleop_mode
+Velocity velocity
+AvaPose pose
+
 
 

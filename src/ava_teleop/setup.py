@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'ava_teleop_key = ava_teleop.ava_teleop_key:main',
+            'ava_teleop_joy = ava_teleop.ava_teleop_joy:main',
         ],
     },
 )

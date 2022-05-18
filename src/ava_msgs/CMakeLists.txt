@@ -27,7 +27,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AvaPose.msg"
   "msg/AvaCommand.msg"
   "msg/Velocity.msg"
-  "msg/AvaInfo.msg"
  )
 
 if(BUILD_TESTING)

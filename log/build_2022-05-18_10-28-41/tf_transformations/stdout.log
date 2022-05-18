@@ -1,0 +1,29 @@
+running egg_info
+creating C:\dev_ava\build\tf_transformations\tf_transformations.egg-info
+writing C:\dev_ava\build\tf_transformations\tf_transformations.egg-info\PKG-INFO
+writing dependency_links to C:\dev_ava\build\tf_transformations\tf_transformations.egg-info\dependency_links.txt
+writing requirements to C:\dev_ava\build\tf_transformations\tf_transformations.egg-info\requires.txt
+writing top-level names to C:\dev_ava\build\tf_transformations\tf_transformations.egg-info\top_level.txt
+writing manifest file 'C:\dev_ava\build\tf_transformations\tf_transformations.egg-info\SOURCES.txt'
+reading manifest file 'C:\dev_ava\build\tf_transformations\tf_transformations.egg-info\SOURCES.txt'
+writing manifest file 'C:\dev_ava\build\tf_transformations\tf_transformations.egg-info\SOURCES.txt'
+running build
+running build_py
+creating C:\dev_ava\build\tf_transformations\build
+creating C:\dev_ava\build\tf_transformations\build\lib
+creating C:\dev_ava\build\tf_transformations\build\lib\tf_transformations
+copying tf_transformations\__init__.py -> C:\dev_ava\build\tf_transformations\build\lib\tf_transformations
+running install
+running install_lib
+creating C:\dev_ava\install\Lib\site-packages\tf_transformations
+copying C:\dev_ava\build\tf_transformations\build\lib\tf_transformations\__init__.py -> C:\dev_ava\install\Lib\site-packages\tf_transformations
+writing byte-compilation script 'C:\Users\matth\AppData\Local\Temp\tmpaq3dcn07.py'
+c:\opt\ros\foxy\x64\python.exe C:\Users\matth\AppData\Local\Temp\tmpaq3dcn07.py
+removing C:\Users\matth\AppData\Local\Temp\tmpaq3dcn07.py
+running install_data
+copying resource\tf_transformations -> C:\dev_ava\install\share\ament_index\resource_index\packages
+copying package.xml -> C:\dev_ava\install\share\tf_transformations
+running install_egg_info
+Copying C:\dev_ava\build\tf_transformations\tf_transformations.egg-info to C:\dev_ava\install\Lib\site-packages\tf_transformations-1.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to 'C:\dev_ava\build\tf_transformations\install.log'

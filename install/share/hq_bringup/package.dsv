@@ -1,0 +1,15 @@
+source;share\hq_bringup\hook\cmake_prefix_path.ps1
+source;share\hq_bringup\hook\cmake_prefix_path.bat
+source;share\hq_bringup\hook\cmake_prefix_path.dsv
+source;share\hq_bringup\hook\path_dll.ps1
+source;share\hq_bringup\hook\path_dll.bat
+source;share\hq_bringup\hook\path_dll.dsv
+source;share\hq_bringup\hook\path.ps1
+source;share\hq_bringup\hook\path.bat
+source;share\hq_bringup\hook\path.dsv
+source;share\hq_bringup\hook\pythonpath.ps1
+source;share\hq_bringup\hook\pythonpath.bat
+source;share\hq_bringup\hook\pythonpath.dsv
+source;share\hq_bringup\hook\ament_prefix_path.ps1
+source;share\hq_bringup\hook\ament_prefix_path.bat
+source;share\hq_bringup\hook\ament_prefix_path.dsv
