@@ -5,6 +5,8 @@ This is version 2 of my quadruped robot Ava. The changes from v1:
 - Implementation of LiDAR sensor for SLAM.
 - All software is now implemented in ROS2
 
+Ava is an ongoing project where I designed and built a quadruped robot from scratch. Ava was designed in OnShape and almost all parts are 3D printed. For electronics, twelve hobby servos are used for 12 DOF, a Jetson Nano is used as the 'brains' of the robot and a lidar, accelerometer and gyro are implemented for localization and closed loop feddback.
+
 **For more information about this project please view the wiki tab!**
 
 If you would like to see version 1 which is controlled through python and jupyter notebook you can view the project here! 
