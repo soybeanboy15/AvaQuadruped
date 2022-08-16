@@ -14,7 +14,7 @@ This node uses a joystick to control AVA.
 
 A: Start
 B: Sleep
-X: Forward Kinematics Mode
+X: Kinematics Mode
 Y: Walking Mode
 
 For Kinematics mode:
@@ -86,7 +86,7 @@ class TeleOpJoy(Node):
             self.pose.yaw = msg.axes[0] * 0.35  # Left X-Axis
             self.pose.pitch = msg.axes[1] * 0.35 # Left Y-Axis
         elif self.state == 'Gait':
-            self.linear_velocity[0] = msg.axes[1] * 0.24
+            self.linear_velocity[0] = msg.axes[1] * 0.26
             self.linear_velocity[1] = msg.axes[0] * 0.18
             self.angular_velocity[2] = msg.axes[3] * 0.4
 
