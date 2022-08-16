@@ -16,8 +16,8 @@ degree = pi/180.0
 
 # ---- Gait Parameters ----
 x_offset = 0.015
-step_height = 0.016
-gait_freq = 0.028
+step_height = 0.017
+gait_freq = 0.025
 
 # --- Neutral leg position and pose ---
 ava_leg_position_neutral = LegPosition()
