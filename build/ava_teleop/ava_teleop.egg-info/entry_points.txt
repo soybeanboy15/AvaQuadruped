@@ -1,3 +1,0 @@
-[console_scripts]
-ava_teleop_joy = ava_teleop.ava_teleop_joy:main
-

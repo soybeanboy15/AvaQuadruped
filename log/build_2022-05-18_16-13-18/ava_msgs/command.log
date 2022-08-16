@@ -1,2 +1,0 @@
-Invoking command in 'C:\dev_ava\build\ava_msgs': PUBLIC=%PUBLIC%
-PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin; C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\dev_ava\src\ava_msgs -DCMAKE_INSTALL_PREFIX=C:\dev_ava\install
