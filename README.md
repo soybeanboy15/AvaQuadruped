@@ -9,8 +9,9 @@ Ava is an ongoing project where I designed and built a quadruped robot from scra
 
 **For more information about this project please view the wiki tab!**
 
-If you would like to see version 1 which is controlled through python and jupyter notebook you can view the project here! 
-https://github.com/soybeanboy15/Ava_Jupyter
+# Walking Demo
+
+https://www.youtube.com/watch?v=DkIpW4jh81Y
 
 # Ros2 Demo
 
