@@ -1,5 +1,0 @@
-[console_scripts]
-ava_control = ava_control.ava_control:main
-ava_gait = ava_control.ava_gait:main
-ava_motion = ava_control.ava_motion:main
-

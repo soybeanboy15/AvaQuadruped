@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.002501] (-) JobUnselected: {'identifier': 'ava_bringup'}
-[0.002712] (-) JobUnselected: {'identifier': 'ava_control'}
-[0.002850] (-) JobUnselected: {'identifier': 'ava_driver'}
-[0.003056] (-) JobUnselected: {'identifier': 'ava_kinematics'}
-[0.003434] (-) JobUnselected: {'identifier': 'ava_msgs'}
-[0.003589] (-) JobUnselected: {'identifier': 'rplidar_ros2'}
-[0.003721] (-) JobUnselected: {'identifier': 'tf_transformations'}
-[0.004527] (-) EventReactorShutdown: {}
